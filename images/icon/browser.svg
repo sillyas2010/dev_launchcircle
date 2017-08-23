@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>browser (1)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-382.000000, -2199.000000)">
+            <g id="browser-(1)" transform="translate(382.000000, 2199.000000)">
+                <g id="Layer_1">
+                    <rect id="Rectangle-path" fill="#7F7CDD" x="0.0443037975" y="0.0265822785" width="24.8101266" height="23.1"></rect>
+                    <g id="Group" transform="translate(2.215190, 1.860759)" fill="#FFFFFF">
+                        <rect id="Rectangle-path" x="0" y="3.34936709" width="20.4683544" height="15.7632911"></rect>
+                        <rect id="Rectangle-path" x="0" y="0.00886075949" width="2.56075949" height="1.49746835"></rect>
+                    </g>
+                    <rect id="Rectangle-path" fill="#FFBB5F" x="6.44177215" y="1.86962025" width="2.56075949" height="1.49746835"></rect>
+                    <rect id="Rectangle-path" fill="#54C0EB" x="10.6683544" y="1.86962025" width="2.56075949" height="1.49746835"></rect>
+                    <rect id="Rectangle-path" fill="#FFBB5F" x="3.68607595" y="11.4746835" width="17.5265823" height="3.23417722"></rect>
+                    <rect id="Rectangle-path" fill="#12D4C4" x="3.68607595" y="16.1974684" width="7.9835443" height="3.23417722"></rect>
+                    <g id="Group" transform="translate(3.632911, 6.734177)" fill="#ACB3BA">
+                        <rect id="Rectangle-path" x="9.58734177" y="9.46329114" width="7.9835443" height="3.23417722"></rect>
+                        <rect id="Rectangle-path" x="0.053164557" y="0.017721519" width="7.9835443" height="3.23417722"></rect>
+                    </g>
+                    <rect id="Rectangle-path" fill="#12D4C4" x="13.2202532" y="6.75189873" width="7.9835443" height="3.23417722"></rect>
+                    <path d="M18.6075949,12.4316456 C18.1291139,12.4316456 17.7392405,12.821519 17.7392405,13.3 L17.7392405,27.078481 C17.7392405,27.556962 18.1291139,27.9468354 18.6075949,27.9468354 L27.0873418,27.9468354 C27.5658228,27.9468354 27.9556962,27.556962 27.9556962,27.078481 L27.9556962,13.2911392 C27.9556962,12.8126582 27.5658228,12.4227848 27.0873418,12.4227848 L18.6075949,12.4227848 L18.6075949,12.4316456 Z" id="Shape" fill="#E6E9EE"></path>
+                    <rect id="Rectangle-path" fill="#33FFEE" x="18.9708861" y="14.8949367" width="7.7443038" height="9.60506329"></rect>
+                    <path d="M24.0924051,13.9025316 L21.5936709,13.9025316 C21.5493671,13.9025316 21.5139241,13.8670886 21.5139241,13.8227848 L21.5139241,13.335443 C21.5139241,13.2911392 21.5493671,13.2556962 21.5936709,13.2556962 L24.0924051,13.2556962 C24.1367089,13.2556962 24.1721519,13.2911392 24.1721519,13.335443 L24.1721519,13.8227848 C24.1810127,13.8582278 24.1367089,13.9025316 24.0924051,13.9025316 Z" id="Shape" fill="#2B3B4E"></path>
+                    <ellipse id="Oval" fill="#324A5E" cx="22.843038" cy="26.1481013" rx="1.01012658" ry="1.00126582"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
