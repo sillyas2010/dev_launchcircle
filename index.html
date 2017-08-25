@@ -18,12 +18,12 @@
 </head>
 
 <body>
-
+<div id="top"> </div>
 
 <header>
     <div class="container p-0">
-        <div class="navigation p-0">
-            <nav class="navbar navbar-toggleable-md navbar-light p-0">
+        <div id="thing" class="navigation p-0">
+            <nav class="navbar  navbar-toggleable-md navbar-light p-0">
                 <a href="/" class="logo">
                     <img src="images/logo.svg" alt="Launchcircle" height="43" width="168" class="img-responsive"/>
                 </a>
@@ -75,7 +75,7 @@
 </header>
 
 <main>
-    <div class="container portfolio" id="portfolio">
+    <div class="container costume portfolio" id="portfolio">
         <div class="wrapper d-flex">
 
             <div class="launch-circle-title">
@@ -177,7 +177,7 @@
         </div>
     </div>
 
-    <div class="container our-talent" id="ourtalent">
+    <div class="container costume our-talent" id="ourtalent">
         <div class="wrapper d-flex">
 
             <div class="launch-circle-title">
@@ -281,7 +281,7 @@
         </div>
     </div>
 
-    <div class="container toptalent" id="toptalent">
+    <div class="container costume toptalent" id="toptalent">
         <div class="wrapper d-flex">
 
             <div class="launch-circle-title">
@@ -293,7 +293,7 @@
                     <div class="carousel-item active">
                         <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
 
-                            <img class="d-block img-fluid" src="images/top.svg"
+                            <img class="d-block img-fluid" src="images/toptalent/top.svg"
                                  alt="Top Talent"/>
 
                         </div>
@@ -316,18 +316,63 @@
                     <div class="carousel-item">
                         <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
 
-                            <img class="d-block img-fluid" src="images/top.svg"
-                                 alt="Top Talent"/>
+                            <img class="d-block img-fluid" src="images/toptalent/end-to-end-managment.svg"
+                                 alt="End to End Management"/>
 
                         </div>
                         <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInDown content-block d-flex flex-column justify-content-center align-items-start">
 
-                            <h2>Top Talent 1</h2>
+                            <h2>End to End Management</h2>
                             <p>
-                                We have experience building teams from McKinsey
-                                and Gigster and know how to spot the best performers.
-                                We use our experience to make sure you get the best
-                                team possible
+                                You don’t have to be an IT wiz to work with us. We have a
+                                dedicated product manager on every project that ensures
+                                delivery quality and that the timeline is hit. Concentrate on your
+                                business while we concentrate on JIRA tickets
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
+
+                            <img class="d-block img-fluid" src="images/toptalent/team.svg"
+                                 alt="Launch Partners For Life"/>
+
+                        </div>
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInDown content-block d-flex flex-column justify-content-center align-items-start">
+
+                            <h2>Launch Partners For Life</h2>
+                            <p>
+                                When you work with LaunchCircle, you not only get access to some
+                                of the best engineering, PM, and design talent in the world, you get
+                                a partner for life. This means curated resources, introductions to
+                                pre-vetted partners, and ongoing support ranging from maintenance
+                                packages to recruiting help
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
+
+                            <img class="d-block img-fluid" src="images/toptalent/guaranteed.svg"
+                                 alt="Satisfaction Guaranteed"/>
+
+                        </div>
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInDown content-block d-flex flex-column justify-content-center align-items-start">
+
+                            <h2>Satisfaction Guaranteed</h2>
+                            <p>
+                                We know our developers, designers, and PMs are some of the
+                                best in the world. If you’re not happy, we’ll make things right
                             </p>
                             <p>
                                 <a href="#" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
@@ -382,7 +427,7 @@
 
 </main>
 
-<footer>
+<footer class="d-flex justify-content-center align-items-center">
     <div class="container">
         <div class="copyright">
             <div class="row flex-md-row flex-sm-column">
@@ -390,6 +435,9 @@
                     <a href="#">
                         <img src="images/logo.svg" alt="Launchcircle" height="43" width="168" class="img-responsive"/>
                     </a>
+                    <div class="copyright-info">
+                    &copy; 2017 Launchcircle Inc.
+                    </div>
                 </div>
                 <div class="col-md-8 links col-sm-6 mx-auto">
                     <ul class="bottom-ul">
@@ -406,15 +454,20 @@
     </div>
 </footer>
 
+
+<a href="#top" class="page-scroll">top</a>
+
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-3.1.1.slim.min.js"
-        crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
         crossorigin="anonymous"></script>
+
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 <script src="js/main.js"></script>
