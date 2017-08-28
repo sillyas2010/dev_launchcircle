@@ -17,6 +17,40 @@
     })
 
 
+    // *** init animation offset top = 0
+    var onScrollInit = function (items, trigger) {
+        items.each(function () {
+            var osElement = $(this),
+                osAnimationClass = osElement.attr('data-animation'),
+                osAnimationDelay = osElement.attr('data-animation-delay'),
+                osAnimationOffset = osElement.attr('data-animation-offset');
+
+            var osTrigger = ( trigger ) ? trigger : osElement;
+
+            osElement.css({
+                '-webkit-animation-delay': osAnimationDelay,
+                '-moz-animation-delay': osAnimationDelay,
+                'animation-delay': osAnimationDelay
+            });
+
+            new Waypoint({
+                element: osTrigger.get(0),
+                handler: function (direction) {
+                    if (direction === 'down') {
+                        osElement.addClass('animated').addClass(osAnimationClass);
+                    }
+                    else {
+                        osElement.removeClass('animated').removeClass(osAnimationClass);
+                    }
+                },
+                triggerOnce: true,
+                offset: osAnimationOffset ? osAnimationOffset : '110%'
+            });
+
+        });
+    };
+
+    onScrollInit($('.animate-on'));
 
     $('a.page-scroll').on('click', function (event) {
         var $anchor = $(this);
