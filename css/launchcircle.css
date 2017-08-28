@@ -20,7 +20,7 @@ body {
     footer > .container,
     header > .container {
         width: 995px;
-        left: 4vh;
+        left: 1rem;
     }
 
     .costume.container {
@@ -71,7 +71,7 @@ body {
     }
 
     .costume.container {
-        width: 1280px;
+        width: 1222px;
         max-width: 100%;
         left: -8vh;
     }

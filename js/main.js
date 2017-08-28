@@ -21,7 +21,7 @@
     $('a.page-scroll').on('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').outerHeight() - 60
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
