@@ -23,16 +23,32 @@
     <!-- Custom styles for this template -->
     <link href="css/launchcircle.css" type="text/css" rel="stylesheet">
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({‘gtm.start’:
+            new Date().getTime(),event:‘gtm.js’});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!=‘dataLayer’?‘&l=‘+l:‘’;j.async=true;j.src=
+                ‘https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,‘script’,‘dataLayer’,‘GTM-MVQ9LB5’);
+    </script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src=“https://www.googletagmanager.com/ns.html?id=GTM-MVQ9LB5”
+            height=“0" width=“0” style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div id="top"> </div>
 
 <header>
     <div class="container p-0">
         <div id="thing" class="navigation p-0">
             <nav class="navbar  navbar-toggleable-md navbar-light p-0">
-                <a href="/" class="logo">
+                <a href="./index.html" class="logo">
                     <img src="images/logo.svg" alt="Launchcircle" height="43" width="168" class="img-responsive"/>
                 </a>
                 <button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -48,11 +64,12 @@
                             <li class="nav-item nav-link"><a href="#">Build</a></li>
                             <li class="nav-item nav-link"><a href="./team.html">Team</a></li>
                             <li class="nav-item nav-link"><a href="./about-us.html">About Us</a></li>
-                            <li class="nav-item nav-link"><a href="#" class="btn btn-primary apply">Apply as a
+                            <li class="nav-item nav-link"><a href="#modal-freelancer" data-toggle="modal" data-target="#modal-freelancer" class="btn btn-primary apply">Apply as a
                                 Freelancer</a>
                             </li>
-                            <li class="nav-item nav-link"><a href="#" class="btn btn-secondary start">Start a
-                                Project</a></li>
+                            <li class="nav-item nav-link"><a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-secondary start">Start a
+                                Project</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -155,7 +172,7 @@
                         <h5>VP Business Development</h5>
                     </div>
         </div>
-        <a href="#" class="btn btn-info with-icon animated fadeInUp text-center">Start a Project</a>
+        <a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-info with-icon animated fadeInUp text-center">Start a Project</a>
 
         </div>
     </div>
@@ -180,7 +197,49 @@
         </div>
     </div>
 
+    <div class="modal fade" id="modal-project" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-project-title">Start a Project</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/viewform?c=0&w=1&embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF;">
+                        Loading...
+                    </iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal fade" id="modal-freelancer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-freelancer-title">Apply as a Freelancer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/viewform?c=0&w=1&embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF;">
+                        Loading...
+                    </iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 <footer class="d-flex justify-content-center align-items-center">

@@ -335,6 +335,10 @@ a:active {
     text-decoration: none;
 }
 
+.modal-dialog {
+    min-width: 50%;
+}
+
 /* --------------------------------------
  Button style
 -----------------------------------------*/
@@ -916,6 +920,12 @@ a.link-icon::after {
     background-size: 50% 50%;
     background-position: 50%;
     margin-top: 32px;
+}
+
+@media screen and (min-width: 981px) and (max-width: 1349px) {
+    .card-header .block-container {
+        max-width: 86%;
+    }
 }
 
 /* --------------------------------------
