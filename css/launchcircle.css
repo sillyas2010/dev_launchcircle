@@ -1142,7 +1142,7 @@ a.link-icon::after {
     width: 1px;
     height: 100%;
     position: absolute;
-    top: -7%;
+    top: -13%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -1187,6 +1187,13 @@ a.link-icon::after {
 }
 .timeline-card a {
     margin-left: 20px;
+}
+
+.timeline-card .card-icon {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    background-size: contain;
 }
 
 .timeline-img-header {
