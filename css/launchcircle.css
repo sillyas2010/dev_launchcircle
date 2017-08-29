@@ -1133,6 +1133,84 @@ a.link-icon::after {
     border-right: 1px solid #CBD3DA;
 }
 
+.timeline {
+    position: relative;
+}
+.timeline::before {
+    content: '';
+    background: #CBD3DA;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    width: 100%;
+    margin: 70px 0;
+}
+.timeline-item:nth-child(even) .timeline-content {
+    float: right;
+}
+.timeline-item:nth-child(odd) .timeline-content {
+    text-align: right;
+}
+.timeline-item::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.timeline-dot {
+    width: 1.5em;
+    height: 1.5em;
+    background: #B7B8FF;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #898AEA;
+    border: .35em solid #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,35%);
+}
+
+.timeline-card {
+    padding: 0 !important;
+}
+.timeline-card a {
+    margin-left: 20px;
+}
+
+.timeline-img-header {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .timeline::before {
+        display: none;
+    }
+    .timeline .timeline-dot {
+        left: 50px;
+    }
+    .timeline .timeline-content {
+        max-width: 100%;
+        width: auto;
+        margin-left: 70px;
+    }
+    .timeline .timeline-item:nth-child(even) .timeline-content {
+        float: none;
+    }
+}
+
+
 /* --------------------------------------
     FOOTER
 -----------------------------------------*/

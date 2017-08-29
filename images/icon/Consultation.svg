@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="77px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Consultation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="27.5" cy="27.5" r="27.5"></circle>
+        <filter x="-36.4%" y="-23.6%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.333333333   0 0 0 0 0.525490196   0 0 0 0 0.870588235  0 0 0 0.0871546649 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Learn-Page" transform="translate(-737.000000, -1200.000000)">
+            <g id="Consultation" transform="translate(748.000000, 1204.000000)">
+                <g id="Oval-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="chat-(1)" transform="translate(15.000000, 12.000000)" fill-rule="nonzero">
+                    <path d="M20,0 C14.4769231,0 10,4.02111781 10,8.98188357 C10,10.8098045 10.6097436,12.5092881 11.6538462,13.9282643 C11.5164103,15.5671254 11.1220513,17.875916 10,19 C10,19 13.4287179,18.5181029 15.7507692,17.1129979 C17.0405128,17.6575724 18.48,17.9637671 20,17.9637671 C25.5230769,17.9637671 30,13.9426493 30,8.98188357 C30,4.02111781 25.5230769,0 20,0 Z" id="Shape" fill="#12D4C4"></path>
+                    <path d="M12.7008392,28.7747568 L10.6154431,27.4036757 C10.0977137,27.113027 9.49511056,26.1075676 9.49511056,25.5011081 L9.49511056,23.8373243 C9.49511056,23.8373243 10.933969,22.8590811 11.3763106,20.8784595 C11.7427652,20.6345405 11.9883996,20.2129459 11.9883996,19.7328108 C11.9883996,19.7328108 11.9883996,19.0262162 11.9883996,18.4875405 C10.3872827,19.0118378 8.98586851,19.2157027 8.98586851,19.2157027 C10.0782426,18.0921351 10.4621712,15.7844054 10.5959721,14.1462973 C10.0273184,13.3534324 9.59745823,12.4701892 9.32336618,11.5284054 C8.62690279,11.2074595 7.71026709,11 6.50006833,11 C1.10659589,11 1.50749919,15.1081081 1.50749919,15.1081081 L1.50749919,16.7133514 C1.23790046,16.9639459 1.01173708,17.5118649 1.01173708,17.9124054 L1.01173708,19.7333243 C1.01173708,20.2129459 1.25687222,20.6350541 1.62382605,20.878973 C2.06616768,22.8595946 3.5050261,23.8378378 3.5050261,23.8378378 L3.5050261,25.5016216 C3.5050261,26.1085946 2.90242301,27.1140541 2.38469359,27.4041892 L0.299297459,28.7752703 C-0.244892577,29.1331892 0.0017403386,30 0.647279529,30 L12.3543549,30 C12.9983963,29.9994865 13.24453,29.1326757 12.7008392,28.7747568 Z" id="Shape" fill="#898AEA"></path>
+                    <circle id="Oval" fill="#FFFFFF" cx="14.5" cy="9.5" r="1.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="19.5" cy="9.5" r="1.5"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="25.5" cy="9.5" r="1.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
