@@ -1125,14 +1125,6 @@ a.link-icon::after {
     LEARN PAGE
 -----------------------------------------*/
 
-.timeline-left,.timeline-right {
-
-}
-
-.timeline-left {
-    border-right: 1px solid #CBD3DA;
-}
-
 .timeline {
     position: relative;
 }
@@ -1190,10 +1182,29 @@ a.link-icon::after {
 }
 
 .timeline-card .card-icon {
-    height: 2em;
-    width: 2em;
+    display: inline-block;
+    height: 4em;
+    width: 4em;
     border-radius: 50%;
-    background-size: contain;
+    background: none no-repeat -1em -0.4em;
+    background-size: 150%;
+    box-shadow: 0 .5em .7em 0 rgba(85,134,222,0.09);
+}
+
+.timeline-card.idea-card .card-icon {
+    background-image: url("../images/icon/your-idea.svg");
+}
+.timeline-card.consult-card .card-icon {
+    background-image: url("../images/icon/Consultation.svg");
+}
+.timeline-card.discuss-card .card-icon {
+    background-image: url("../images/icon/second.svg");
+}
+.timeline-card.dev-card .card-icon {
+    background-image: url("../images/icon/developemnt.svg");
+}
+.timeline-card.support-card .card-icon {
+    background-image: url("../images/icon/support.svg");
 }
 
 .timeline-img-header {
