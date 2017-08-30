@@ -108,6 +108,20 @@ body {
     outline: rgba(18, 212, 196, 1) auto 5px;
 }
 
+.get-on-gplay,.get-on-astore {
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 2.5em;
+}
+
+.get-on-astore {
+    background-image: url("../images/icon/get-on-astore.svg");
+}
+
+.get-on-gplay {
+    background-image: url("../images/icon/get-on-gplay.svg");
+}
+
 /*navbar*/
 
 .navbar-toggler {
@@ -714,7 +728,7 @@ main {
 }
 
 a.link-icon::after,
-.carousel-item .item h2 a::after {
+.carousel-item .item h2::after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1276,6 +1290,42 @@ a.link-icon::after {
     .timeline .timeline-item:nth-child(even) .timeline-content {
         float: none;
     }
+}
+
+/* --------------------------------------
+    COMPANY PAGE
+-----------------------------------------*/
+
+#company {
+    margin: 3em 0 5em;
+}
+
+#company img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#company h5.title {
+    font-weight: bold;
+}
+
+#company .company-info-wrapper {
+    margin-bottom: 6em;
+}
+
+#company .company-slide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-link {
+    display: inline-block;
+    font-weight: 500;
+    color: rgba(137,138,234,1);
+    margin: 1.5em 0;
+    text-decoration: underline;
 }
 
 
