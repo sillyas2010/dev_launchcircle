@@ -1,0 +1,75 @@
+/* --------------------------------------
+ MULTI-ITEM CAROUSEL
+-----------------------------------------*/
+
+.carousel-multi .carousel-inner {
+    background: #fff;
+}
+
+@media (min-width: 768px) {
+
+    .carousel-multi .carousel-inner {
+        display: flex;
+    }
+
+    /* show 3 items */
+    .carousel-multi .carousel-inner .active,
+    .carousel-multi .carousel-inner .active + .carousel-item,
+    .carousel-multi .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .carousel-multi .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-multi .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-multi .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+
+    .carousel-multi .carousel-inner .carousel-item-next,
+    .carousel-multi .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-multi .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .carousel-multi .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-multi .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-multi .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-multi .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-multi .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .carousel-multi .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-multi .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-multi .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-multi .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
