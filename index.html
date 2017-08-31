@@ -24,10 +24,10 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <!-- Custom styles for this template -->
     <link href="css/launchcircle.css" type="text/css" rel="stylesheet">
-    <link href="css/multi-items-slider.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,22 +102,22 @@
                 <h2>Our Work</h2>
             </div>
 
-            <div id="launchCircleCarousel" class="carousel carousel-multi slide" data-ride="carousel">
+            <div id="launchCircleCarousel" class="slick-slider">
                 <div class="carousel-control-wraper  animated fadeInUp float-right">
                     <div class=" carousel-control d-flex justify-content-end align-items-center">
-                        <a class="carousel-control-prev" href="#launchCircleCarousel" role="button"
+                        <a class="carousel-control-prev" href="javascript:void(0);" role="button"
                            data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next " href="#launchCircleCarousel" role="button"
+                        <a class="carousel-control-next " href="javascript:void(0);" role="button"
                            data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
                 </div>
-                <div class="carousel-inner" role="listbox">
+                <div class="carousel-inner">
                         <div class="carousel-item carspring active col-lg-4 col-md-6 col-sm-12 col-12">
                             <div class="item">
                                 <a href="./carspring.html">
@@ -151,6 +151,15 @@
                                 <img class="d-block img-fluid" src="images/portfolio/jumia-bot.png"
                                      alt="Jumia - Chat With Us"/>
                                 <h2>Jumia - Chat With Us</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item movinga col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div class="item">
+                                <a href="./movinga.html">
+                                    <img class="d-block img-fluid" src="images/portfolio/Movinga.png"
+                                         alt="Movinga - Get Moving"/>
+                                    <h2>Movinga - Get Moving</h2>
                                 </a>
                             </div>
                         </div>
@@ -323,7 +332,28 @@
                     <div class="carousel-item">
                         <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
 
-                            <img class="d-block img-fluid" src="images/toptalent/team.svg"
+                            <img class="d-block img-fluid" src="images/toptalent/guaranteed.svg"
+                                 alt="Satisfaction Guaranteed"/>
+
+                        </div>
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInDown content-block d-flex flex-column justify-content-center align-items-start">
+
+                            <h2>Satisfaction Guaranteed</h2>
+                            <p>
+                                We know our developers, designers, and PMs are some of the
+                                best in the world. If you’re not happy, we’ll make things right
+                            </p>
+                            <p>
+                                <a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
+
+                            <img class="d-block img-fluid" src="images/toptalent/launch.svg"
                                  alt="Launch Partners For Life"/>
 
                         </div>
@@ -336,27 +366,6 @@
                                 a partner for life. This means curated resources, introductions to
                                 pre-vetted partners, and ongoing support ranging from maintenance
                                 packages to recruiting help
-                            </p>
-                            <p>
-                                <a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
-                            </p>
-
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInUp img-block d-flex justify-content-center align-items-end">
-
-                            <img class="d-block img-fluid" src="images/toptalent/guaranteed.svg"
-                                 alt="Satisfaction Guaranteed"/>
-
-                        </div>
-                        <div class="animated col-lg-6  col-md-6 col-sm-12 col-12 fadeInDown content-block d-flex flex-column justify-content-center align-items-start">
-
-                            <h2>Satisfaction Guaranteed</h2>
-                            <p>
-                                We know our developers, designers, and PMs are some of the
-                                best in the world. If you’re not happy, we’ll make things right
                             </p>
                             <p>
                                 <a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-info with-icon animated fadeInUp">Start a Project</a>
@@ -492,6 +501,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/waypoint.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>

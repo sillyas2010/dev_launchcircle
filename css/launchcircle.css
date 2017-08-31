@@ -641,6 +641,7 @@ main {
     bottom: 30px;
 }
 
+
 .control-next-icon::after,
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -808,14 +809,16 @@ a.link-icon::after {
     Top Talent
 -----------------------------------------*/
 
-.toptalent {
-
-}
-
 #launchCircleToptalent {
     background-color: #F4F8FC;
     min-height: 430px;
     margin-top: 74px;
+}
+
+
+#launchCircleToptalent .carousel-control-wraper {
+    position: absolute;
+    right: 0;
 }
 
 .toptalent .img-block {
