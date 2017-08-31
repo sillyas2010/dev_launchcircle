@@ -717,6 +717,11 @@ main {
 
 }
 
+#launchCircleCarousel .carousel-control-wraper {
+    max-width: 83vw;
+    left:15px;
+}
+
 .portfolio .carousel-control-prev,
 .portfolio .carousel-control-next {
     position: relative;
@@ -725,7 +730,8 @@ main {
 }
 
 a.link-icon::after,
-.carousel-item .item h2::after {
+.carousel-item .item h2::after,
+.company-card .title::after {
     content: '';
     display: inline-block;
     width: 16px;
@@ -1327,6 +1333,25 @@ a.link-icon::after {
     text-decoration: underline;
 }
 
+/* --------------------------------------
+    CASE-STUDIES PAGE
+-----------------------------------------*/
+
+.company-card {
+    display: flex;
+    min-height: 33em;
+    align-items: center;
+}
+
+.company-cards img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.company-card p {
+    font-size: 1em;
+    color: black;
+}
 
 /* --------------------------------------
     FOOTER
