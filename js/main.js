@@ -8,14 +8,21 @@
     $('#launchCircleCarousel').carousel({
         interval: 10000000,
         pause: 'hover'
-    })
+    });
 
 
     $('#launchCircleToptalent').carousel({
         interval: 10000900,
         pause: 'hover'
-    })
+    });
 
+    // Carousel control double-click fix
+    $('a.carousel-control-next').on('click', function (e) {
+        e.preventDefault();
+    });
+    $('a.carousel-control-prev').on('click', function (e) {
+        e.preventDefault();
+    });
 
     // *** init animation offset top = 0
     var onScrollInit = function (items, trigger) {
