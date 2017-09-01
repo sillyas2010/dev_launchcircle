@@ -1340,7 +1340,42 @@ a.link-icon::after {
 .company-card {
     display: flex;
     min-height: 33em;
+    margin: 3em 0;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .company-card {
+        background-size: cover;
+    }
+}
+
+.company-card.lyke {
+    background-image: url("../images/company/lyke-card.png");
+}
+.company-card.foodora {
+    background-image: url("../images/company/foodora-card.png");
+}
+.company-card.carspring {
+    background-image: url("../images/company/carspring-card.png");
+    color: #fff;
+}
+.company-card.jumia {
+    background-image: url("../images/company/jumia-card.png");
+    color: #fff;
+}
+.company-card.movinga {
+    background-image: url("../images/company/movinga-card.png");
+    color: #fff;
+}
+
+.company-card.carspring .company-description p,
+.company-card.jumia .company-description p,
+.company-card.movinga .company-description p {
+    color: #fff;
 }
 
 .company-cards img {
