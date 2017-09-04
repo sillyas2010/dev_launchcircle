@@ -70,6 +70,39 @@
         scrollValue > 600 ? scroll.addClass('active') : scroll.removeClass('active');
     });
 
+    $('form').on('submit', function (e) {
+       e.preventDefault();
+       var url = $(e.target).attr('action'),
+           data = $(e.target).serializeObject();
+
+       $.ajax({
+           type: 'POST',
+           url: url ,
+           dataType: "xml",
+           data: data ,
+           complete: function(xhr) {
+               console.clear();
+           }
+       });
+    });
+
+    $.fn.serializeObject = function()
+    {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+            if (o[this.name]) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+
 })(jQuery);
 
 

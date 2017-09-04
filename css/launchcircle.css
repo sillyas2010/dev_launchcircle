@@ -349,8 +349,63 @@ a:active {
     text-decoration: none;
 }
 
+/* --------------------------------------
+ Modal and Google Forms
+-----------------------------------------*/
+
 .modal-dialog {
     min-width: 50%;
+}
+
+.modal-body form:before {
+    content: '* is required';
+    color: red;
+    position: absolute;
+    right: .5em;
+    top: .2em;
+}
+
+.modal-body form .custom-control{
+    display: block;
+    border: 0;
+}
+
+.modal-body form .form-group .required,
+.modal-body form label .required{
+    font-size: 1.2em;
+    color: red;
+}
+
+.modal-body form .form-group label{
+    display: block;
+}
+
+.modal-body form input {
+    border: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.modal-body form input:hover {
+    border-bottom: 1px solid #12D4C4;
+}
+
+.modal-body form .custom-control-input:checked~.custom-control-indicator {
+    background-color: #12D4C4;
+}
+
+.modal-body form input:focus{
+    transition: border .1s ease-in;
+    border-bottom: 3px solid #12D4C4;
+    outline: none;
+}
+
+.modal-body form .custom-control-input:focus~.custom-control-indicator {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #898AEA;
+}
+
+.modal-body form label .custom-control-description,
+.modal-body form input {
+    color: rgba(41, 43, 44, .77);
 }
 
 /* --------------------------------------
@@ -821,6 +876,10 @@ a.link-icon::after {
 #launchCircleToptalent .carousel-control-wraper {
     position: absolute;
     right: 0;
+}
+
+#launchCircleToptalent .carousel-item {
+    transition: none;
 }
 
 .toptalent .img-block {

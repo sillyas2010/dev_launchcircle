@@ -691,12 +691,62 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/viewform?c=0&w=1&embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF;">
-                        Loading...
-                    </iframe>
+                    <form id="project-form" action="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/formResponse?embedded=true">
+                        <div class="form-group">
+                            <label for="project-name">Name:<span class="required">*</span></label>
+                            <input name="entry.70061164" type="text" id="project-name" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-email">Email:<span class="required">*</span></label>
+                            <input name="entry.1388388449" type="email" id="project-email" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-phone">Phone Number:</label>
+                            <input name="entry.460375574" type="tel" id="project-phone"/>
+                        </div>
+
+
+                        <label class="my-3">I am Interested In:</label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.1155338306"
+                                   id="a1" value="Software Development"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Software Development</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.1155338306"
+                                   id="a2" value="Design"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Design</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.1155338306"
+                                   id="a3" value="Security Services"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Security Services</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.1155338306"
+                                   id="a4" value="Product/Innovation Consulting"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Product/Innovation Consulting</span>
+                        </label>
+
+                        <div class="form-group">
+                            <label for="project-description">Tell us a bit about your project:<span class="required">*</span></label>
+                            <input name="entry.966760029" type="text" id="project-description" required/>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cancel</button>
+                    <button type="submit" form="project-form" class="btn btn-primary">Send</button>
                 </div>
             </div>
         </div>
@@ -712,12 +762,144 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/viewform?c=0&w=1&embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0" style="background: #FFFFFF;">
-                        Loading...
-                    </iframe>
+                    <form id="freelancer-form" action="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/formResponse?embedded=true">
+                        <div class="form-group">
+                            <label for="project-name">Name:<span class="required">*</span></label>
+                            <input name="entry.1145841093" type="text" id="freelancer-name" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-email">Email:<span class="required">*</span></label>
+                            <input name="entry.1302713647" type="email" id="freelancer-email" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="project-phone">Phone Number:</label>
+                            <input name="entry.1199303761" type="tel" id="freelancer-phone"/>
+                        </div>
+
+
+                        <label class="my-3">Position(s) You're Interested In:<span class="required">*</span></label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b1" value="Fullstack Dev"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Fullstack Dev</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b2" value="FE Dev"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">FE Dev</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b3" value="BE Dev"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">BE Dev</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b4" value="Product/Project Manager"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Product/Project Manager</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b5" value="Designer"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Designer</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.2116367898"
+                                   id="b6" value="Cybersecurity Professional"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Cybersecurity Professional</span>
+                        </label>
+
+                        <label class="my-3">Availability for Projects:</label>
+
+                        <label class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" name="entry.1351774644"
+                                   id="c1" value="0-10 hours per week" required/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">0-10 hours per week</span>
+                        </label>
+
+                        <label class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" name="entry.1351774644"
+                                   id="c2" value="10-20 hours per week"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">10-20 hours per week</span>
+                        </label>
+
+                        <label class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" name="entry.1351774644"
+                                   id="c3" value="20-35 hours per week"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">20-35 hours per week</span>
+                        </label>
+
+                        <label class="custom-control custom-radio">
+                            <input class="custom-control-input" type="radio" name="entry.1351774644"
+                                   id="c4" value="45+ hours per week"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">45+ hours per week</span>
+                        </label>
+
+                        <div class="form-group">
+                            <label for="project-description">Please tell us a bit about your background
+                                (professional and personal):</label>
+                            <input name="entry.2061497959" type="text" id="freelancer-description" required/>
+                        </div>
+
+                        <label class="my-3">How'd You Hear About LaunchCircle:</label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.275230364"
+                                   id="d1" value="Press"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Press</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.275230364"
+                                   id="d2" value="Search"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Search</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.275230364"
+                                   id="d3" value="Referral"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Referral</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.275230364"
+                                   id="d4" value="Ads"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Ads</span>
+                        </label>
+
+                        <label class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" name="entry.275230364"
+                                   id="d5" value="Other"/>
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">Other</span>
+                        </label>
+                    </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary mr-auto" data-dismiss="modal">Cancel</button>
+                    <button type="submit" form="freelancer-form" class="btn btn-primary">Send</button>
                 </div>
             </div>
         </div>
