@@ -72,8 +72,9 @@
 
     $('form').on('submit', function (e) {
        e.preventDefault();
-       var url = $(e.target).attr('action'),
-           data = $(e.target).serializeObject();
+       var form = $(e.target),
+           url = form.attr('action'),
+           data = form.serializeObject();
 
        $.ajax({
            type: 'POST',
@@ -81,6 +82,9 @@
            dataType: "xml",
            data: data ,
            complete: function(xhr) {
+               form[0].reset();
+               if(form.closest('.modal.fade'))
+                   form.closest('.modal.fade').modal('toggle');
                console.clear();
            }
        });
