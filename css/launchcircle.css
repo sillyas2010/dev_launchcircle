@@ -824,6 +824,10 @@ a.link-icon::after {
     padding: 2rem 1rem;
 }
 
+.launch-circle-talent-item a {
+    cursor: default;
+}
+
 /* --------------------------------------
     How dose Work
 -----------------------------------------*/
@@ -1428,8 +1432,11 @@ a.link-icon::after {
 }
 
 .company-card.carspring .company-description p,
+.company-card.carspring .company-description .title,
 .company-card.jumia .company-description p,
-.company-card.movinga .company-description p {
+.company-card.jumia .company-description .title,
+.company-card.movinga .company-description p,
+.company-card.movinga .company-description .title {
     color: #fff;
 }
 
@@ -1441,6 +1448,15 @@ a.link-icon::after {
 .company-card p {
     font-size: 1em;
     color: black;
+}
+
+.company-card .company-link:first-child {
+    display: block;
+}
+
+.company-card .title,
+.company-card .company-link:nth-child(2) {
+    display: inline-block;
 }
 
 /* --------------------------------------
