@@ -384,7 +384,7 @@ a:active {
     color: red;
     position: absolute;
     right: 15px;
-    top: 17px;
+    top: 1.06em;
 }
 
 .modal-body form .custom-control{
