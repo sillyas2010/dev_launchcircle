@@ -830,6 +830,83 @@ a.link-icon::after {
 }
 
 /* --------------------------------------
+    404
+-----------------------------------------*/
+
+.not-found-page main {
+    padding: 20px 0 140px;
+    margin: 0;
+    background-color: #f4f8fc;
+}
+
+.not-found-page footer {
+    padding: 30px 0 0;
+    margin: 0;
+}
+
+.not-found-image {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.not-found-description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-found-image,.not-found-description {
+    background-color: #f4f8fc;
+    padding: 1em 1em 0;
+}
+
+.huge-text {
+    font-size: 10em;
+    z-index: 1;
+}
+
+/* --------------------------------------
+    SECURITY PAGE
+-----------------------------------------*/
+
+
+.radial-container {
+    position: relative;
+}
+
+.radial {
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 50%;
+    border: 1px solid #F7F5F5;
+}
+
+.radial.radial-big {
+    top: 0;
+    left: 0;
+}
+
+.radial-big-wrapper {
+    padding-top: 100%;
+}
+
+.radial.radial-small,
+.radial.radial-services {
+    left: 50%;
+}
+
+.radial.radial-small {
+    transform: translate(-50%,-125%);
+}
+
+.radial.radial-services {
+    transform: translate(-50%,-200%);
+}
+
+/* --------------------------------------
     TALENT
 -----------------------------------------*/
 

@@ -2,8 +2,8 @@
 $('#launchCircleCarousel .carousel-inner').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: $('.carousel-control-next'),
-    prevArrow: $('.carousel-control-prev'),
+    nextArrow: $('.slick-slider .carousel-control-next'),
+    prevArrow: $('.slick-slider .carousel-control-prev'),
     responsive: [
         {
             breakpoint: 992,
