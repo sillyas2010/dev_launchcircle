@@ -106,7 +106,7 @@ ol > li:before {
     width: 30px;
     transform: rotate(270deg);
     background-color: rgba(158, 159, 250, 1);
-    background-image: url("../images/arrow-pointing-to-right.svg");
+    background-image: url("/images/arrow-pointing-to-right.svg");
     border-radius: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -136,11 +136,11 @@ ol > li:before {
 }
 
 .get-on-astore {
-    background-image: url("../images/icon/get-on-astore.svg");
+    background-image: url("/images/icon/get-on-astore.svg");
 }
 
 .get-on-gplay {
-    background-image: url("../images/icon/get-on-gplay.svg");
+    background-image: url("/images/icon/get-on-gplay.svg");
 }
 
 /*navbar*/
@@ -504,7 +504,7 @@ a:active {
     width: 30px;
     height: 30px;
     background-color: rgba(158, 159, 250, 1);
-    background-image: url("../images/arrow-pointing-to-right.svg");
+    background-image: url("/images/arrow-pointing-to-right.svg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     border-radius: 100%;
@@ -723,7 +723,7 @@ main {
 .carousel-control-next-icon {
     content: '';
     display: block;
-    background-image: url("../images/arrow-pointing-to-right-color.svg");
+    background-image: url("/images/arrow-pointing-to-right-color.svg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
@@ -812,7 +812,7 @@ a.link-icon::after,
     display: inline-block;
     width: 16px;
     height: 11px;
-    background-image: url("../images/arrow-pointing-to-right-color.svg");
+    background-image: url("/images/arrow-pointing-to-right-color.svg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1014,7 +1014,7 @@ a.link-icon::after {
     display: inline-block;
     border-radius: 100%;
     box-shadow: 0 7px 11px 0 rgba(85, 134, 222, 0.09);
-    background-image: url("../images/arrow-pointing-to-right-color.svg");
+    background-image: url("/images/arrow-pointing-to-right-color.svg");
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: 50%;
@@ -1334,19 +1334,19 @@ a.link-icon::after {
 }
 
 .timeline-card.idea-card .card-icon {
-    background-image: url("../images/icon/your-idea.svg");
+    background-image: url("/images/icon/your-idea.svg");
 }
 .timeline-card.consult-card .card-icon {
-    background-image: url("../images/icon/Consultation.svg");
+    background-image: url("/images/icon/Consultation.svg");
 }
 .timeline-card.discuss-card .card-icon {
-    background-image: url("../images/icon/second.svg");
+    background-image: url("/images/icon/second.svg");
 }
 .timeline-card.dev-card .card-icon {
-    background-image: url("../images/icon/developemnt.svg");
+    background-image: url("/images/icon/developemnt.svg");
 }
 .timeline-card.support-card .card-icon {
-    background-image: url("../images/icon/support.svg");
+    background-image: url("/images/icon/support.svg");
 }
 
 .timeline-img-header {
@@ -1434,21 +1434,21 @@ a.link-icon::after {
 }
 
 .company-card.lyke {
-    background-image: url("../images/company/lyke-card.png");
+    background-image: url("/images/company/lyke-card.png");
 }
 .company-card.foodora {
-    background-image: url("../images/company/foodora-card.png");
+    background-image: url("/images/company/foodora-card.png");
 }
 .company-card.carspring {
-    background-image: url("../images/company/carspring-card.png");
+    background-image: url("/images/company/carspring-card.png");
     color: #fff;
 }
 .company-card.jumia {
-    background-image: url("../images/company/jumia-card.png");
+    background-image: url("/images/company/jumia-card.png");
     color: #fff;
 }
 .company-card.movinga {
-    background-image: url("../images/company/movinga-card.png");
+    background-image: url("/images/company/movinga-card.png");
     color: #fff;
 }
 
@@ -1717,4 +1717,3 @@ footer .copyright-info {
         margin-right: 50px;
     }
 }
-
