@@ -30,6 +30,7 @@ ol > li:before {
     color: #acabaf;
     display: inline-block;
     position: absolute;
+    font-size: .95em;
     top: 0;
     left: -3ch;
     font-weight: 500;
@@ -383,7 +384,7 @@ a:active {
     color: red;
     position: absolute;
     right: 15px;
-    top: calc( 15px - ( 1em / 2 ) );
+    top: 17px;
 }
 
 .modal-body form .custom-control{
@@ -399,6 +400,10 @@ a:active {
 
 .modal-body form .form-group label{
     display: block;
+}
+
+.modal-body form > label.custom-checkbox {
+    line-height: 1.65em;
 }
 
 .modal-body form input {
