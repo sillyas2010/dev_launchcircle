@@ -14,6 +14,27 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+ol {
+    list-style: none;
+}
+
+ol > li {
+    counter-increment: item;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+ol > li:before {
+    margin-right: 10px;
+    content: counter(item);
+    color: #acabaf;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -3ch;
+    font-weight: 500;
+}
+
 @media (min-width: 998px) {
 
     .stuck > .container,
@@ -361,8 +382,8 @@ a:active {
     content: '* is required';
     color: red;
     position: absolute;
-    right: .5em;
-    top: .2em;
+    right: 15px;
+    top: calc( 15px - ( 1em / 2 ) );
 }
 
 .modal-body form .custom-control{
@@ -1433,6 +1454,7 @@ a.link-icon::after {
 
 .company-card.carspring .company-description p,
 .company-card.carspring .company-description .title,
+.company-card.carspring .company-description .site-link,
 .company-card.jumia .company-description p,
 .company-card.jumia .company-description .title,
 .company-card.movinga .company-description p,
