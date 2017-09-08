@@ -949,6 +949,14 @@ a.link-icon::after {
     color: white;
 }
 
+.point-3 {
+    transform: translate(50%,-50%);
+}
+
+.point-4 {
+    transform: translate(-50%,50%);
+}
+
 .point-5 {
     left: 50%;
     bottom: 0;
@@ -970,7 +978,7 @@ a.link-icon::after {
 .point-9 {
     left: 50%;
     bottom: -1.5em;
-    transform: translateX(-50%);
+    transform: translate(-50%,0%);
 }
 
 .point-centerX {
