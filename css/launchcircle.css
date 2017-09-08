@@ -963,7 +963,7 @@ a.link-icon::after {
 }
 
 .p-top {
-    top: 0;
+    top: 50%;
 }
 
 .p-bottom {
