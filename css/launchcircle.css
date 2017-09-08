@@ -945,7 +945,7 @@ a.link-icon::after {
 }
 
 .point.right-top {
-    right: 8%;
+    right: 2.75%;
     top: 15%;
 }
 
@@ -955,13 +955,13 @@ a.link-icon::after {
 }
 
 .point.right-bottom {
-    right: 8%;
+    right: 2.75%;
     bottom: 15%;
 }
 
 .point.center-bottom {
     left: 50%;
-    bottom: -1em;
+    bottom: -1.5em;
 }
 
 /* --------------------------------------
