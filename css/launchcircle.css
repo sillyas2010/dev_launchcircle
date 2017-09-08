@@ -943,14 +943,14 @@ a.link-icon::after {
     margin-right: -3em;
 }
 
-.p-bottom {
+.p-left.p-bottom,
+.p-right.p-bottom {
     margin-bottom: -3em;
 }
 
 .p-bottom.p-center {
     left: 50%;
-    margin-bottom: -1.5em;
-    bottom: 0;
+    bottom: -1.5em;
 }
 
 /* --------------------------------------
