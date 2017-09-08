@@ -948,16 +948,16 @@ a.link-icon::after {
     color: white;
 }
 
-.p-5 {
+.point-5 {
     left: 50%;
     bottom: 0;
     margin-bottom: -3em;
 }
-.p-6 {
+.point-6 {
     left: 0;
     top: 50%;
 }
-.p-7 {
+.point-7 {
     left: 50%;
     right: 0;
     top: 0;
@@ -965,12 +965,12 @@ a.link-icon::after {
     margin-bottom: -3em;
     margin-right: -3em;
 }
-.p-8 {
+.point-8 {
     right: 0;
     top: 50%;
     margin-right: -3em;
 }
-.p-9 {
+.point-9 {
     left: 50%;
     bottom: -1.5em;
     transform: translateX(-50%);
