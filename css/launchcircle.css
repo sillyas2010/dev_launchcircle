@@ -383,6 +383,9 @@ a:active {
     #modal-project .modal-dialog {
         min-width: 30em;
     }
+    #modal-freelancer .modal-dialog {
+        min-width: 40em;
+    }
 }
 
 .modal-body form:before {
