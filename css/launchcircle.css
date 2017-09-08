@@ -379,8 +379,10 @@ a:active {
     min-width: 50%;
 }
 
-#modal-project .modal-dialog {
-    min-width: 35%;
+@media screen and (min-width: 450px){
+    #modal-project .modal-dialog {
+        min-width: 30em;
+    }
 }
 
 .modal-body form:before {
