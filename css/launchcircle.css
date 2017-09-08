@@ -892,6 +892,7 @@ a.link-icon::after {
     top: 0;
     left: 0;
     border: 1px solid #F7F5F5;
+    transform: rotate(45deg);
 }
 
 .radial-big-wrapper {
@@ -954,8 +955,27 @@ a.link-icon::after {
 }
 
 .p-bottom.p-center {
-    left: 50%;
     bottom: -1.5em;
+}
+
+.p-top {
+    top: 50%;
+}
+
+.p-bottom {
+    bottom: 50%;
+}
+
+.p-left {
+    left: 0;
+}
+
+.p-center {
+    left: 50%;
+}
+
+.p-right {
+    right: 0;
 }
 
 /* --------------------------------------
