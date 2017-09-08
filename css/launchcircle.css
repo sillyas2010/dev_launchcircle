@@ -940,7 +940,7 @@ a.link-icon::after {
 .radial-container .point-white {
     background: white;
     color: black;
-    box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15);
 }
 
 .radial-container .point-cyan {
@@ -959,11 +959,7 @@ a.link-icon::after {
 }
 .point-7 {
     left: 50%;
-    right: 0;
     top: 0;
-    bottom: 0;
-    margin-bottom: -3em;
-    margin-right: -3em;
 }
 .point-8 {
     right: 0;
@@ -974,6 +970,30 @@ a.link-icon::after {
     left: 50%;
     bottom: -1.5em;
     transform: translateX(-50%);
+}
+
+.point-centerX {
+    left: 50%;
+}
+
+.point-centerY {
+    top: 50%;
+}
+
+.point-left {
+    left: 0;
+}
+
+.point-right {
+    right: 0;
+}
+
+.point-top {
+    top: 0;
+}
+
+.point-bottom {
+    bottom: 0;
 }
 
 /* --------------------------------------
