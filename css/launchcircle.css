@@ -908,6 +908,10 @@ a.link-icon::after {
     background: #898AEA;
 }
 
+.radial-services .title {
+    color: white;
+}
+
 /* --------------------------------------
     TALENT
 -----------------------------------------*/
