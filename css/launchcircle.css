@@ -925,7 +925,7 @@ a.link-icon::after {
     position: absolute;
     font-weight: 500;
     transform: translate(-50%);
-    padding: 0.3em 0.75em;
+    padding: 0.8em 1.2em;;
 }
 
 .radial .point-white {
@@ -940,28 +940,28 @@ a.link-icon::after {
 }
 
 .point.left-top {
-    left: 15%;
+    left: 12%;
     top: 15%;
 }
 
 .point.right-top {
-    right: 15%;
+    right: 12%;
     top: 15%;
 }
 
 .point.left-bottom {
-    left: 15%;
+    left: 12%;
     bottom: 15%;
 }
 
 .point.right-bottom {
-    right: 15%;
+    right: 12%;
     bottom: 15%;
 }
 
 .point.center-bottom {
     left: 50%;
-    bottom: 15%;
+    bottom: -1em;
 }
 
 /* --------------------------------------
