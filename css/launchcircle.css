@@ -939,29 +939,18 @@ a.link-icon::after {
     color: white;
 }
 
-.point.left-top {
-    left: 12%;
-    top: 15%;
+.p-right {
+    margin-right: -3em;
 }
 
-.point.right-top {
-    right: 2.75%;
-    top: 15%;
+.p-bottom {
+    margin-bottom: -3em;
 }
 
-.point.left-bottom {
-    left: 12%;
-    bottom: 15%;
-}
-
-.point.right-bottom {
-    right: 2.75%;
-    bottom: 15%;
-}
-
-.point.center-bottom {
+.p-bottom.p-center {
     left: 50%;
-    bottom: -1.5em;
+    margin-bottom: -1.5em;
+    bottom: 0;
 }
 
 /* --------------------------------------
