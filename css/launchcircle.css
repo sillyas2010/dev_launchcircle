@@ -933,7 +933,7 @@ a.link-icon::after {
     padding: 0.8em 1.2em;;
 }
 
-.radial-big .point {
+.radial-container .point {
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 
