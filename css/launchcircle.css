@@ -904,6 +904,8 @@ a.link-icon::after {
 
 .radial.radial-services {
     transform: translate(-50%,-200%);
+    border: 0;
+    background: #898AEA;
 }
 
 /* --------------------------------------
