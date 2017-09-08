@@ -938,13 +938,13 @@ a.link-icon::after {
     transform: translate(-50%) rotate(-45deg);
 }
 
-.radial .point-white {
+.radial-container .point-white {
     background: white;
     color: black;
     box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
 }
 
-.radial .point-cyan {
+.radial-container .point-cyan {
     background: #12D4C4;
     color: white;
 }
@@ -963,11 +963,11 @@ a.link-icon::after {
 }
 
 .p-top {
-    top: 50%;
+    top: 0;
 }
 
 .p-bottom {
-    bottom: 50%;
+    bottom: 0;
 }
 
 .p-left {
