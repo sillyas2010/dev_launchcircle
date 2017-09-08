@@ -920,8 +920,8 @@ a.link-icon::after {
 
 .radial .point {
     border-radius: 50%;
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
     position: absolute;
     font-weight: 500;
     transform: translate(-50%);
@@ -945,7 +945,7 @@ a.link-icon::after {
 }
 
 .point.right-top {
-    right: 12%;
+    right: 8%;
     top: 15%;
 }
 
@@ -955,7 +955,7 @@ a.link-icon::after {
 }
 
 .point.right-bottom {
-    right: 12%;
+    right: 8%;
     bottom: 15%;
 }
 
