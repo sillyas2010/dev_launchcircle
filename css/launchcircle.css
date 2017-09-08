@@ -881,12 +881,12 @@ a.link-icon::after {
     width: 100%;
     padding-top: 100%;
     border-radius: 50%;
-    border: 1px solid #F7F5F5;
 }
 
 .radial.radial-big {
     top: 0;
     left: 0;
+    border: 1px solid #F7F5F5;
 }
 
 .radial-big-wrapper {
@@ -900,6 +900,7 @@ a.link-icon::after {
 
 .radial.radial-small {
     transform: translate(-50%,-125%);
+    border: 1px solid #d3d3d3;
 }
 
 .radial.radial-services {
@@ -909,8 +910,56 @@ a.link-icon::after {
 }
 
 .radial-services .title {
+    padding: 0;
     color: white;
     margin-top: -50%;
+    transform: translate(25%,-50%);
+    line-height: 1em;
+}
+
+.radial .point {
+    border-radius: 50%;
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    font-weight: 500;
+    transform: translate(-50%);
+}
+
+.radial .point-white {
+    background: white;
+    color: black;
+    box-shadow: 0 0 10px 1px rgba(221, 221, 221, 1);
+}
+
+.radial .point-cyan {
+    background: #12D4C4;
+    color: white;
+}
+
+.point .left-top {
+    left: 15%;
+    top: 15%;
+}
+
+.point .right-top {
+    right: 15%;
+    top: 15%;
+}
+
+.point .left-bottom {
+    left: 15%;
+    bottom: 15%;
+}
+
+.point .right-bottom {
+    right: 15%;
+    bottom: 15%;
+}
+
+.point .center-bottom {
+    left: 50%;
+    bottom: 15%;
 }
 
 /* --------------------------------------
