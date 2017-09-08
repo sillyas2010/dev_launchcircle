@@ -925,6 +925,7 @@ a.link-icon::after {
     position: absolute;
     font-weight: 500;
     transform: translate(-50%);
+    padding: 0.3em 0.75em;
 }
 
 .radial .point-white {
