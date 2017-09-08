@@ -930,12 +930,11 @@ a.link-icon::after {
     width: 3em;
     position: absolute;
     font-weight: 500;
-    transform: translate(-50%);
     padding: 0.8em 1.2em;;
 }
 
 .radial-big .point {
-    transform: translate(-50%) rotate(-45deg);
+    transform: translate(-50%,-50%) rotate(-45deg);
 }
 
 .radial-container .point-white {
@@ -949,37 +948,32 @@ a.link-icon::after {
     color: white;
 }
 
-.p-right {
-    margin-right: -3em;
-}
-
-.p-left.p-bottom,
-.p-right.p-bottom {
+.p-5 {
+    left: 50%;
+    bottom: 0;
     margin-bottom: -3em;
 }
-
-.p-bottom.p-center {
-    bottom: -1.5em;
-}
-
-.p-top {
+.p-6 {
+    left: 0;
     top: 50%;
 }
-
-.p-bottom {
-    bottom: 0;
-}
-
-.p-left {
-    left: 0;
-}
-
-.p-center {
+.p-7 {
     left: 50%;
-}
-
-.p-right {
     right: 0;
+    top: 0;
+    bottom: 0;
+    margin-bottom: -3em;
+    margin-right: -3em;
+}
+.p-8 {
+    right: 0;
+    top: 50%;
+    margin-right: -3em;
+}
+.p-9 {
+    left: 50%;
+    bottom: -1.5em;
+    transform: translateX(-50%);
 }
 
 /* --------------------------------------
