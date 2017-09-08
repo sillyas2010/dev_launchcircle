@@ -930,10 +930,11 @@ a.link-icon::after {
     width: 3em;
     position: absolute;
     font-weight: 500;
-    padding: 0.8em 1.2em;;
+    padding: 0.8em 1.2em;
+    transform: translate(-50%,-50%);
 }
 
-.radial-container .point {
+.radial-big .point {
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 
