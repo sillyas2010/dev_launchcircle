@@ -949,20 +949,6 @@ a.link-icon::after {
     color: white;
 }
 
-/*.point-3 {
-    margin-right: -3em;
-}*/
-
-/*.point-4 {
-    margin-bottom: -3em;
-}*/
-
-/*.point-5 {
-    left: 50%;
-    bottom: 0;
-    margin-bottom: -3em;
-}*/
-
 .m-right-width {
     margin-right: -3em;
 }
@@ -970,27 +956,6 @@ a.link-icon::after {
 .m-bot-width {
     margin-bottom: -3em;
 }
-
-/*.point-6 {
-    left: 0;
-    top: 50%;
-}*/
-/*.point-7 {
-    left: 50%;
-    top: 0;
-}*/
-/*.point-8 {
-    right: 0;
-    top: 50%;
-    margin-right: -3em;
-}*/
-/*
-.point-9 {
-    left: 50%;
-    bottom: -1.5em;
-    transform: translate(-50%,0%);
-}
-*/
 
 .point-centerX {
     left: 50%;
