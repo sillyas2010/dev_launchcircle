@@ -915,6 +915,7 @@ a.link-icon::after {
     margin-top: -50%;
     transform: translate(25%,-50%);
     line-height: 1em;
+    text-align: center;
 }
 
 .radial .point {
@@ -937,27 +938,27 @@ a.link-icon::after {
     color: white;
 }
 
-.point .left-top {
+.point.left-top {
     left: 15%;
     top: 15%;
 }
 
-.point .right-top {
+.point.right-top {
     right: 15%;
     top: 15%;
 }
 
-.point .left-bottom {
+.point.left-bottom {
     left: 15%;
     bottom: 15%;
 }
 
-.point .right-bottom {
+.point.right-bottom {
     right: 15%;
     bottom: 15%;
 }
 
-.point .center-bottom {
+.point.center-bottom {
     left: 50%;
     bottom: 15%;
 }
