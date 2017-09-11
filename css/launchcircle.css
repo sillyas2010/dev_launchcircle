@@ -1029,6 +1029,22 @@ a.link-icon::after {
     bottom: 0;
 }
 
+.point:after,
+.point:before {
+    font-weight: 100;
+    font-size: 0.9em;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: .5em;
+}
+
+.point-6:before {
+    content: 'Privacy & Data Localization Compliance';
+    width: 20ch;
+    left: -22ch;
+}
+
 
 
 /* --------------------------------------
