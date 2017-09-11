@@ -980,7 +980,7 @@ a.link-icon::after {
         .security .point {
             position: relative !important;
             margin: .5em 0;
-            transform: translate(0,0);
+            transform: translate(0,0) !important;
         }
         .security .point .caption {
             width: auto;
