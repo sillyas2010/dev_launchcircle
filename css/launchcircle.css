@@ -979,7 +979,7 @@ a.link-icon::after {
     @media screen and (max-width: 575px) {
         .security .point {
             position: relative !important;
-            margin: .5em 0;
+            margin: 1em 0;
             transform: translate(0,0) !important;
         }
         .security .point .caption {
