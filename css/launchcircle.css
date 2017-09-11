@@ -1045,6 +1045,10 @@ a.link-icon::after {
     width: 21ch;
 }
 
+.point .caption.caption-med {
+    width: 15ch;
+}
+
 .point .caption.caption-small {
     width: 11ch;
 }
