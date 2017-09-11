@@ -920,6 +920,7 @@ a.link-icon::after {
 
 .radial-container {
     position: relative;
+    margin-bottom: 6em;
 }
 
 .radial {
@@ -1041,6 +1042,11 @@ a.link-icon::after {
     display: inline-block;
     text-align: center;
     color: #363439;
+    width: 21ch;
+}
+
+.point .caption.caption-small {
+    width: 11ch;
 }
 
 .point .caption.caption-left {
