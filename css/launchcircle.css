@@ -977,13 +977,20 @@ a.link-icon::after {
         }
     }
     @media screen and (max-width: 575px) {
-        .security .point {
+        .security .list-view .point-wrapper .point {
             position: relative !important;
             margin: 1em 0;
             transform: translate(0,0) !important;
         }
-        .security .point .caption {
-            width: auto;
+        .security .list-view .point-wrapper .point .caption {
+            right: -1.5em !important;
+            width: 25em;
+            max-width: 65vw;
+        }
+        @media screen and (max-width: 360px) {
+            .point-wrapper {
+                padding: 0;
+            }
         }
     }
 }
