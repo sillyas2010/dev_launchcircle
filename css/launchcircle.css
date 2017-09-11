@@ -413,12 +413,14 @@ a:active {
     line-height: 1.65em;
 }
 
-.modal-body form input {
+.modal-body form input,
+.modal-body form textarea {
     border: 0;
     border-bottom: 2px solid lightgray;
 }
 
-.modal-body form input:hover {
+.modal-body form input:hover,
+.modal-body form textarea:hover {
     border-bottom: 2px solid #12D4C4;
 }
 
@@ -426,7 +428,8 @@ a:active {
     background-color: #12D4C4;
 }
 
-.modal-body form input:focus{
+.modal-body form input:focus,
+.modal-body form textarea:focus {
     border-bottom: 2px solid #12D4C4;
     outline: none;
 }
