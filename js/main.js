@@ -5,7 +5,8 @@
     "use strict";
 
     $('#launchCircleToptalent').carousel({
-        interval: 10000900,
+        ride: "carousel",
+        interval: 10000,
         pause: 'hover'
     });
 
