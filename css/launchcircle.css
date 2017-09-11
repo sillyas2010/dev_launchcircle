@@ -1058,13 +1058,13 @@ a.link-icon::after {
 .point .caption.caption-top {
     top: -.5em;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,-100%);
 }
 
 .point .caption.caption-bottom {
     bottom: -.5em;
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%,100%);
 }
 
 
