@@ -443,6 +443,10 @@ a:active {
     color: rgba(41, 43, 44, .77);
 }
 
+.modal-body form .help-block.with-errors {
+    color: #F63E3E;
+}
+
 /* --------------------------------------
  Button style
 -----------------------------------------*/
