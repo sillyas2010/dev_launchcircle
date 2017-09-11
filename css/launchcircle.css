@@ -978,7 +978,7 @@ a.link-icon::after {
     }
 }
 
-.radial-container .point {
+.security .point {
     border-radius: 50%;
     height: 3em;
     width: 3em;
@@ -992,13 +992,13 @@ a.link-icon::after {
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 
-.radial-container .point-white {
+.security .point-white {
     background: white;
     color: black;
     box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15);
 }
 
-.radial-container .point-cyan {
+.security .point-cyan {
     background: #12D4C4;
     color: white;
 }
@@ -1085,6 +1085,13 @@ a.link-icon::after {
         left: 50%;
         transform: translate(-50%,-100%);
     }
+}
+
+.security .list-view .services-title {
+    height: 3em;
+    background: #898AEA;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
