@@ -941,12 +941,12 @@ a.link-icon::after {
 }
 
 .radial.radial-small {
-    transform: translate(-50%,-125%);
+    transform: translate(-50%,-135%);
     border: 1px solid #d3d3d3;
 }
 
 .radial.radial-services {
-    transform: translate(-50%,-200%);
+    transform: translate(-50%,-250%);
     border: 0;
     background: #898AEA;
 }
@@ -957,7 +957,19 @@ a.link-icon::after {
     margin-top: -50%;
     transform: translate(25%,-50%);
     line-height: 1em;
+    font-size: 1.4em;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .radial-services .title {
+        font-size: 1.3em;
+    }
+    @media screen and (max-width: 768px) {
+        .radial-services .title {
+            font-size: 1em;
+        }
+    }
 }
 
 .radial-container .point {
@@ -1016,6 +1028,8 @@ a.link-icon::after {
 .point-bottom {
     bottom: 0;
 }
+
+
 
 /* --------------------------------------
     TALENT
