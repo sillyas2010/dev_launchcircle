@@ -976,6 +976,12 @@ a.link-icon::after {
             font-size: 1em;
         }
     }
+    @media screen and (max-width: 575px) {
+        .security .point {
+            position: relative;
+            margin: .5em 0;
+        }
+    }
 }
 
 .security .point {
@@ -1088,8 +1094,11 @@ a.link-icon::after {
 }
 
 .security .list-view .services-title {
-    height: 3em;
+    line-height: 2em;
+    font-size: 1.4em;
+    margin-bottom: 1.5em;
     background: #898AEA;
+    color: white;
     text-align: center;
     border-radius: 10px;
 }
