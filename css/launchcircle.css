@@ -1077,6 +1077,14 @@ a.link-icon::after {
     transform: translate(-50%,100%);
 }
 
+@media screen and (max-width:900px) {
+    .point .caption:not(.caption-bottom) {
+        top: -.5em;
+        left: 50%;
+        transform: translate(-50%,-100%);
+    }
+}
+
 
 /* --------------------------------------
     TALENT
