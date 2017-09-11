@@ -1050,15 +1050,15 @@ a.link-icon::after {
 }
 
 .point .caption.caption-left {
-    top: 0;
+    top: 50%;
     left: -.5em;
-    transform: translate(-100%,0);
+    transform: translate(-100%,-50%);
 }
 
 .point .caption.caption-right {
-    top: 0;
+    top: 50%;
     right: -.5em;
-    transform: translate(100%,0);
+    transform: translate(100%,-50%);
 }
 
 .point .caption.caption-top {
