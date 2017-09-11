@@ -197,7 +197,7 @@
             </div>
 
             <div class="block-container">
-                <form id="subscribe-form" action="https://docs.google.com/forms/d/e/1FAIpQLScTgACs9uU_1ZPicHvvh7FoioM7ZkK0d6oCysr14VeGrF-lmQ/formResponse?embedded=true"
+                <form role="form" data-toggle="validator" id="subscribe-form" action="https://docs.google.com/forms/d/e/1FAIpQLScTgACs9uU_1ZPicHvvh7FoioM7ZkK0d6oCysr14VeGrF-lmQ/formResponse?embedded=true"
                       class="col-lg-8 m-auto  animated fadeInUp img-block d-flex justify-content-center align-items-end">
                     <div class="input-group custom-control">
                         <input class="custom-control-inputs" name="entry.105913341" id="email" type="email"
@@ -707,7 +707,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="project-form" action="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/formResponse?embedded=true">
+                    <form role="form" data-toggle="validator" id="project-form" action="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/formResponse?embedded=true">
                         <div class="form-group">
                             <label for="project-name">Name: <span class="required">*</span></label>
                             <input name="entry.70061164" type="text" id="project-name" required/>
@@ -720,7 +720,7 @@
 
                         <div class="form-group">
                             <label for="project-phone">Phone Number:</label>
-                            <input name="entry.460375574" type="tel" id="project-phone"/>
+                            <input name="entry.460375574" type="tel" pattern="(+?d[- .]*){7,13}" title="International, state or local telephone number" id="project-phone"/>
                         </div>
 
 
@@ -778,7 +778,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="freelancer-form" action="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/formResponse?embedded=true">
+                    <form role="form" data-toggle="validator" id="freelancer-form" action="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/formResponse?embedded=true">
                         <div class="form-group">
                             <label for="project-name">Name: <span class="required">*</span></label>
                             <input name="entry.1145841093" type="text" id="freelancer-name" required/>
@@ -791,7 +791,7 @@
 
                         <div class="form-group">
                             <label for="project-phone">Phone Number:</label>
-                            <input name="entry.1199303761" type="tel" id="freelancer-phone"/>
+                            <input name="entry.1199303761" type="tel" pattern="(+?d[- .]*){7,13}" title="International, state or local telephone number" id="freelancer-phone"/>
                         </div>
 
 
