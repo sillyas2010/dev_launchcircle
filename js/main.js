@@ -71,24 +71,25 @@
         scrollValue > 600 ? scroll.addClass('active') : scroll.removeClass('active');
     });
 
-    $('form').on('submit', function (e) {
-       e.preventDefault();
-       var form = $(e.target),
-           url = form.attr('action'),
-           data = form.serializeObject();
+    $('form').validator().on('submit', function (e) {
+        if (!e.isDefaultPrevented()) {
+            var form = $(e.target),
+                url = form.attr('action'),
+                data = form.serializeObject();
 
-       $.ajax({
-           type: 'POST',
-           url: url ,
-           dataType: "xml",
-           data: data ,
-           complete: function(xhr) {
-               form[0].reset();
-               if(form.closest('.modal.fade'))
-                   form.closest('.modal.fade').modal('toggle');
-               console.clear();
-           }
-       });
+            $.ajax({
+                type: 'POST',
+                url: url,
+                dataType: "xml",
+                data: data,
+                complete: function (xhr) {
+                    form[0].reset();
+                    if (form.closest('.modal.fade'))
+                        form.closest('.modal.fade').modal('toggle');
+                    console.clear();
+                }
+            });
+        }
     });
 
     $.fn.serializeObject = function()
