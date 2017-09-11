@@ -986,6 +986,7 @@ a.link-icon::after {
             right: -1.5em !important;
             width: 25em;
             max-width: 65vw;
+            text-align: left;
         }
         @media screen and (max-width: 360px) {
             .point-wrapper {
@@ -1101,7 +1102,6 @@ a.link-icon::after {
         top: -.5em;
         left: 50%;
         transform: translate(-50%,-100%);
-        text-align: left;
     }
 }
 
