@@ -1101,6 +1101,7 @@ a.link-icon::after {
         top: -.5em;
         left: 50%;
         transform: translate(-50%,-100%);
+        text-align: left;
     }
 }
 
@@ -1110,6 +1111,7 @@ a.link-icon::after {
     margin-bottom: 1.5em;
     background: #898AEA;
     color: white;
+    text-align: center;
     border-radius: 10px;
 }
 
