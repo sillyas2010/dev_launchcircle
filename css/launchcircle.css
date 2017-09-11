@@ -462,6 +462,13 @@ a:active {
 
 #subscribe-form .btn-primary.disabled,
 #subscribe-form .btn-primary:disabled {
+    background-color: rgba(18,212,196,1);
+    border-color: rgba(18,212,196,1);
+    color: #fff;
+}
+
+#subscribe-form .btn-primary.disabled:hover,
+#subscribe-form .btn-primary:disabled:hover {
     background-color: rgba(18,212,196,.8);
     border-color: rgba(18,212,196,.8);
     color: #fff;
