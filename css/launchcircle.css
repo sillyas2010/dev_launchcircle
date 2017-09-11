@@ -1078,7 +1078,9 @@ a.link-icon::after {
 }
 
 @media screen and (max-width:900px) {
-    .point .caption:not(.caption-bottom) {
+    .point .caption.caption-left,
+    .point .caption.caption-right {
+        background: white;
         top: -.5em;
         left: 50%;
         transform: translate(-50%,-100%);
