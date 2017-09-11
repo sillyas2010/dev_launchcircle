@@ -978,12 +978,12 @@ a.link-icon::after {
     }
     @media screen and (max-width: 575px) {
         .security .list-view .point-wrapper .point {
-            position: relative !important;
+            position: relative;
             margin: 1em 0;
-            transform: translate(0,0) !important;
+            transform: translate(0,0);
         }
         .security .list-view .point-wrapper .point .caption {
-            right: -1.5em !important;
+            right: -1.5em;
             width: 25em;
             max-width: 65vw;
             text-align: left;
