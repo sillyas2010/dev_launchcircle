@@ -1040,6 +1040,7 @@ a.link-icon::after {
     position: absolute;
     display: inline-block;
     text-align: center;
+    color: #363439;
 }
 
 .point .caption.caption-left {
