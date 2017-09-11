@@ -447,6 +447,18 @@ a:active {
     color: #F63E3E;
 }
 
+.modal-content .btn-primary.disabled,
+.modal-content .btn-primary:disabled {
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+.modal-content .btn-primary.disabled:hover,
+.modal-content .btn-primary:disabled:hover {
+    background-color: darkgray;
+    border-color: darkgray;
+}
+
 /* --------------------------------------
  Button style
 -----------------------------------------*/
