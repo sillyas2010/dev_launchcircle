@@ -445,6 +445,7 @@ a:active {
 
 .modal-body form .help-block.with-errors {
     color: #F63E3E;
+    font-size: .8em;
 }
 
 .modal-content .btn-primary.disabled,
