@@ -443,19 +443,19 @@ a:active {
     color: rgba(41, 43, 44, .77);
 }
 
-.modal-body form .help-block.with-errors {
+form .help-block.with-errors {
     color: #F63E3E;
     font-size: .8em;
 }
 
-.modal-content .btn-primary.disabled,
-.modal-content .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
     background-color: dimgray;
     border-color: dimgray;
 }
 
-.modal-content .btn-primary.disabled:hover,
-.modal-content .btn-primary:disabled:hover {
+.btn-primary.disabled:hover,
+.btn-primary:disabled:hover {
     background-color: darkgray;
     border-color: darkgray;
 }
