@@ -1034,20 +1034,36 @@ a.link-icon::after {
     bottom: 0;
 }
 
-.point:after,
-.point:before {
+.point .caption{
     font-weight: 100;
     font-size: 0.9em;
     position: absolute;
     display: inline-block;
     text-align: center;
-    top: .5em;
 }
 
-.point-6:before {
-    content: 'Privacy & Data Localization Compliance';
-    width: 20ch;
-    left: -22ch;
+.point .caption.caption-left {
+    top: 0;
+    left: -.5em;
+    transform: translate(-100%,0);
+}
+
+.point .caption.caption-right {
+    top: 0;
+    right: -.5em;
+    transform: translate(100%,0);
+}
+
+.point .caption.caption-bottom {
+    bottom: -.5em;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.point .caption.caption-bottom {
+    top: -.5em;
+    left: 50%;
+    transform: translate(-50%,0);
 }
 
 
