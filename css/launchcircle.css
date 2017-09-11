@@ -1055,18 +1055,17 @@ a.link-icon::after {
     transform: translate(100%,0);
 }
 
-.point .caption.caption-bottom {
-    bottom: -.5em;
-    left: 50%;
-    transform: translate(-50%,0);
-}
-
-.point .caption.caption-bottom {
+.point .caption.caption-top {
     top: -.5em;
     left: 50%;
     transform: translate(-50%,0);
 }
 
+.point .caption.caption-bottom {
+    bottom: -.5em;
+    left: 50%;
+    transform: translate(-50%,0);
+}
 
 
 /* --------------------------------------
