@@ -87,14 +87,18 @@
                     if (form.closest('.modal.fade'))
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
-                    $.notify({
-                        title: 'Success',
-                        message: 'Thank you for your submission, it has been received' +
-                                 ' and someone will be reaching out to you shortly.',
-                        position: 'fixed',
-                        type: 'succeed',
-                        offset: { x:20, y:100 }
-                    });
+                    $.notify(
+                        {
+                            title: 'Success',
+                            message: 'Thank you for your submission, it has been received' +
+                                     ' and someone will be reaching out to you shortly.'
+                        },
+                        {
+                            position: 'fixed',
+                            type: 'succeed',
+                            offset: {x: 20, y: 100}
+                        }
+                    );
                 }
             });
         }
