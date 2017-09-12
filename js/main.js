@@ -73,6 +73,8 @@
 
     $('form').validator().on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
+            e.preventDefault();//prevent from redirecting to gforms site
+
             var form = $(e.target),
                 url = form.attr('action'),
                 data = form.serializeObject();
@@ -87,18 +89,9 @@
                     if (form.closest('.modal.fade'))
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
-                    $.notify(
-                        {
-                            title: 'Success',
-                            message: 'Thank you for your submission, it has been received' +
-                                     ' and someone will be reaching out to you shortly.'
-                        },
-                        {
-                            position: 'fixed',
-                            type: 'succeed',
-                            offset: {x: 20, y: 100}
-                        }
-                    );
+
+                    createNotify('Thank you for your submission, it has been received' +
+                        ' and someone will be reaching out to you shortly.','succeed','fixed');
                 }
             });
         }
@@ -120,6 +113,23 @@
         });
         return o;
     };
+
+    window.createNotify = function createNotify(message,type,position) {
+        var offset = {x: 20, y: 100};
+
+        if($('.navigation.stuck').length > 0) offset.y = 70;
+
+        $.notify(
+            {
+                message: message
+            },
+            {
+                position: position,
+                type: type,
+                offset: offset
+            }
+        );
+    }
 
 })(jQuery);
 

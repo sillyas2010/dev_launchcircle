@@ -381,11 +381,12 @@ a:active {
 -----------------------------------------*/
 
 .alert {
-    border-radius: 0 !important;
-    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15) !important;
-    font-family: 'Poppins', sans-serif !important;
+    border-radius: 0;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15);
+    font-family: 'Poppins', sans-serif;
     font-size: .9em;
     font-weight: 500;
+    padding: 1em;
 }
 
 .alert-succeed {
