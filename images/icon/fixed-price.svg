@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>calculator</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Difference" transform="translate(-954.000000, -615.000000)" fill-rule="nonzero">
+            <g id="calculator" transform="translate(954.000000, 615.000000)">
+                <rect id="Rectangle-path" fill="#EBBA16" x="0" y="0" width="28" height="28"></rect>
+                <rect id="Rectangle-path" fill="#898AEA" x="28" y="0" width="28" height="28"></rect>
+                <rect id="Rectangle-path" fill="#898AEA" x="0" y="28" width="28" height="28"></rect>
+                <rect id="Rectangle-path" fill="#12D4C4" x="28" y="28" width="28" height="28"></rect>
+                <path d="M48,46 L36,46 C35.448,46 35,45.553 35,45 C35,44.447 35.448,44 36,44 L48,44 C48.552,44 49,44.447 49,45 C49,45.553 48.552,46 48,46 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M48,40 L36,40 C35.448,40 35,39.553 35,39 C35,38.447 35.448,38 36,38 L48,38 C48.552,38 49,38.447 49,39 C49,39.553 48.552,40 48,40 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M14,43 C13.744,43 13.488,42.902 13.293,42.707 C12.902,42.316 12.902,41.684 13.293,41.293 L18.293,36.293 C18.684,35.902 19.316,35.902 19.707,36.293 C20.098,36.684 20.098,37.316 19.707,37.707 L14.707,42.707 C14.512,42.902 14.256,43 14,43 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M9,48 C8.744,48 8.488,47.902 8.293,47.707 C7.902,47.316 7.902,46.684 8.293,46.293 L13.293,41.293 C13.684,40.902 14.316,40.902 14.707,41.293 C15.098,41.684 15.098,42.316 14.707,42.707 L9.707,47.707 C9.512,47.902 9.256,48 9,48 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M19,48 C18.744,48 18.488,47.902 18.293,47.707 L13.293,42.707 C12.902,42.316 12.902,41.684 13.293,41.293 C13.684,40.902 14.316,40.902 14.707,41.293 L19.707,46.293 C20.098,46.684 20.098,47.316 19.707,47.707 C19.512,47.902 19.256,48 19,48 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M14,43 C13.744,43 13.488,42.902 13.293,42.707 L8.293,37.707 C7.902,37.316 7.902,36.684 8.293,36.293 C8.684,35.902 9.316,35.902 9.707,36.293 L14.707,41.293 C15.098,41.684 15.098,42.316 14.707,42.707 C14.512,42.902 14.256,43 14,43 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M20,15 L8,15 C7.448,15 7,14.553 7,14 C7,13.447 7.448,13 8,13 L20,13 C20.552,13 21,13.447 21,14 C21,14.553 20.552,15 20,15 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M14,21 C13.448,21 13,20.553 13,20 L13,8 C13,7.447 13.448,7 14,7 C14.552,7 15,7.447 15,8 L15,20 C15,20.553 14.552,21 14,21 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M48,15 L36,15 C35.448,15 35,14.553 35,14 C35,13.447 35.448,13 36,13 L48,13 C48.552,13 49,13.447 49,14 C49,14.553 48.552,15 48,15 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>clock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Difference" transform="translate(-131.000000, -616.000000)" fill-rule="nonzero">
+            <g id="clock" transform="translate(131.000000, 616.000000)">
+                <circle id="Oval" fill="#12D4C4" cx="28.5" cy="28.5" r="28.5"></circle>
+                <circle id="Oval" fill="#FCFCFD" cx="28" cy="28" r="23"></circle>
+                <g id="Group" transform="translate(14.000000, 11.000000)" fill="#898AEA">
+                    <path d="M14.9196533,19.8818079 L14.9196533,19.8818079 C13.7668267,19.8818079 12.84452,18.9622599 12.84452,17.8128814 L12.84452,2.10440678 C12.84452,0.955028249 13.7668267,0.035480226 14.9196533,0.035480226 L14.9196533,0.035480226 C16.07248,0.035480226 16.9947867,0.955028249 16.9947867,2.10440678 L16.9947867,17.8128814 C16.9947867,18.9622599 16.07248,19.8818079 14.9196533,19.8818079 Z" id="Shape"></path>
+                    <path d="M16.9947867,17.659548 L16.9947867,18.0044068 C16.9947867,19.0771751 16.14932,19.920113 15.0733333,19.920113 L2.0077,19.920113 C0.931713333,19.920113 0.0862466667,19.0771751 0.0862466667,18.0044068 L0.0862466667,17.659548 C0.0862466667,16.5867797 0.931713333,15.7438418 2.0077,15.7438418 L15.0733333,15.7438418 C16.14932,15.7439548 16.9947867,16.5867797 16.9947867,17.659548 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(6.000000, 6.000000)">
+                    <rect id="Rectangle-path" fill="#898AEA" x="21.1140151" y="0.0692695214" width="1.84146096" height="2.51786398"></rect>
+                    <rect id="Rectangle-path" fill="#898AEA" x="21.1140151" y="41.4446751" width="1.84146096" height="2.51786398"></rect>
+                    <rect id="Rectangle-path" fill="#898AEA" x="41.4446751" y="21.1140151" width="2.51786398" height="1.84146096"></rect>
+                    <rect id="Rectangle-path" fill="#898AEA" x="0.0692695214" y="21.1140151" width="2.51786398" height="1.84146096"></rect>
+                    <circle id="Oval" fill="#646B79" cx="22.0159597" cy="22.0159597" r="4.58475567"></circle>
+                </g>
+                <circle id="Oval" fill="#FFD15C" cx="28" cy="28" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

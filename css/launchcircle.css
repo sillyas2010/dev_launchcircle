@@ -1133,6 +1133,109 @@ a.link-icon::after {
     border-radius: 10px;
 }
 
+/* --------------------------------------
+    Difference-Page
+-----------------------------------------*/
+
+.card-header.card-transparent .card-header-wraper {
+    background: transparent;
+}
+
+section.difference .advantage-list {
+    flex-direction: row;
+}
+
+.advantage-list .advantage-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3.5em;
+}
+
+
+.advantage-item .icon-container img {
+    width: 100%;
+    height: auto;
+    max-height: 60%;
+}
+
+.advantage-item .icon-container {
+    width: 30%;
+    padding: 0 1.5em;
+}
+
+.advantage-item .info-container {
+    width: 70%;
+    padding-top: .3em;
+}
+
+.advantage-item .info-container .title {
+    font-size: 1.125em;
+}
+
+.advantage-item .info-container p {
+    font-size: .8em;
+}
+
+.table-advantages {
+    overflow: visible;
+}
+
+.table-advantages th,
+.table-advantages td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-advantages tr.row-launchcircle {
+    border: 1px solid #eceeef;
+    border-radius: 3px;
+    box-shadow: 0 2px 13px 0 rgba(19,36,68,0.07);
+}
+
+.table-advantages tr.row-launchcircle {
+    font-weight: bold;
+}
+
+.table-advantages thead,
+.table-advantages tbody {
+    width: 100%;
+}
+
+.table-advantages tbody tr:not(:last-child) {
+    border-bottom: 1px solid #eceeef;
+}
+
+.table-advantages th {
+    border-bottom: 0 !important;
+    border-top: 0 !important;
+}
+
+.table-advantages td {
+    padding: 1.2em 1.5em;
+    width: 14.285%;
+}
+
+.table-advantages .tb-icon {
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    background-size: contain;
+}
+
+.table-advantages .tb-logo {
+    width: 100%;
+    background-image: url("/images/logo.svg");
+    background-size: contain;
+}
+
+.tb-icon.icon-accept {
+    background-image: url("/images/icon/icon-accept.svg");
+}
+
+.tb-icon.icon-decline {
+    background-image: url("/images/icon/icon-decline.svg");
+}
 
 /* --------------------------------------
     TALENT
