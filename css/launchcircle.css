@@ -377,6 +377,23 @@ a:active {
 }
 
 /* --------------------------------------
+ Notify
+-----------------------------------------*/
+
+.alert {
+    border-radius: 0 !important;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15) !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.alert-succeed {
+    background: rgba(18, 212, 196, 1);
+    color: white;
+}
+
+/* --------------------------------------
  Modal and Google Forms
 -----------------------------------------*/
 
