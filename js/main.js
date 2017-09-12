@@ -87,7 +87,7 @@
                     if (form.closest('.modal.fade'))
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
-                    $('main').notify(
+                    $.notify(
                         {
                             title: 'Success',
                             message: 'Thank you for your submission, it has been received' +
