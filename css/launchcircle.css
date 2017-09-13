@@ -1219,11 +1219,11 @@ section.difference .advantage-list {
 }
 
 .tb-icon.icon-accept {
-    background: url("/images/icon/icon-accept.svg");
+    background-image: url("/images/icon/icon-accept.svg");
 }
 
 .tb-icon.icon-decline {
-    background: url("/images/icon/icon-decline.svg");
+    background-image: url("/images/icon/icon-decline.svg");
 }
 
 /* --------------------------------------
