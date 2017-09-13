@@ -53,7 +53,14 @@
         event.preventDefault();
     });
 
-
+    $('.locale select').on('change', function (e) {
+        if (this.value === 0) {
+            changeLang('en');
+        }
+        if (this.value === 1) {
+            changeLang('de');
+        }
+    });
 
 
     //Scrollspy offset
@@ -114,7 +121,7 @@
         return o;
     };
 
-    window.createNotify = function createNotify(message,type,position) {
+    function createNotify(message,type,position) {
         var offset = {x: 20, y: 100};
 
         if($('.navigation.stuck').length > 0) offset.y = 70;
@@ -129,6 +136,44 @@
                 offset: offset
             }
         );
+    }
+
+    function changeLang(lang,isInit) {
+        var currPage = document.createElement('a'),
+            lang = lang || getCookie('launchcircle-lang') || undefined;
+
+        if(!isInit || isInit === undefined) {
+            document.cookie = "name=launchcircle-lang; value=" + lang + " path=/; expires=3600";
+            currPage.setAttribute('href',window.location.href);
+            window.location.href = changeHref($(currPage),lang);
+        }
+        else if(lang && lang.length > 0) {
+            $('a').each(function () {
+                if(!$(this).hash) {
+                    $(this).attr('href', changeHref($(this),lang));
+                }
+            });
+        }
+    }
+
+    function changeHref(el,lang) {
+        var extension = '.html',
+            pageHasExtension= window.location.pathname.indexOf('.html') !== -1 ? window.location.pathname.indexOf('.html')
+                                                                               : false;
+
+        if(el.pathname.indexOf(extension) !== -1)
+            return el.pathname = el.pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
+        else if(el.pathname === '/')
+            return el.pathname += 'index-' + lang + extension;
+        else
+            return el.pathname += '-' + lang;
+    }
+
+    function getCookie(name) {
+        var matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
     }
 
 })(jQuery);
