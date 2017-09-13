@@ -14,7 +14,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-label,*:before,*:after {
+label,*:before,*:after,select {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -584,8 +584,12 @@ a:active {
     background-color: rgba(51, 255, 238, 1);
 }
 
-.btn-success {
-
+.locale .custom-select {
+    border-radius: 84px;
+    border: 2px solid rgba(137, 138, 234, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* --------------------------------------
