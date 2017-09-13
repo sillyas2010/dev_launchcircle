@@ -1138,7 +1138,8 @@ a.link-icon::after {
 -----------------------------------------*/
 
 .card-header.card-transparent .card-header-wraper {
-    background: transparent;
+    background: transparent url("/images/map.svg") no-repeat center;
+    background-size: 150%;
 }
 
 section.difference .advantage-list {
