@@ -54,10 +54,10 @@
     });
 
     $('.locale select').on('change', function (e) {
-        if (this.value === 0) {
+        if ($(this).val() === 0) {
             changeLang('en');
         }
-        if (this.value === 1) {
+        if ($(this).val() === 1) {
             changeLang('de');
         }
     });
