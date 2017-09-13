@@ -54,6 +54,7 @@
     });
 
     $('.locale select').on('change', function (e) {
+        debugger;
         if (this.value === 0) {
             changeLang('en');
         }
@@ -149,6 +150,7 @@
         }
         else if(lang && lang.length > 0) {
             $('a').each(function () {
+                debugger;
                 if(!$(this).hash) {
                     $(this).attr('href', changeHref($(this),lang));
                 }
