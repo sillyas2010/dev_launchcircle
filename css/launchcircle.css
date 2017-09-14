@@ -1396,7 +1396,7 @@ section.difference .advantage-list {
 }
 
 .card-header p {
-    height: 42px;
+    min-height: 42px;
     max-width: 665px;
     color: rgba(156, 155, 160, 1);
     font-size: 13px;
