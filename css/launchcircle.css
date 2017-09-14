@@ -419,7 +419,7 @@ a:active {
 }
 
 .modal-body form .custom-control{
-    display: block;
+    display: table;
     border: 0;
 }
 
