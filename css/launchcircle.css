@@ -404,7 +404,8 @@ a:active {
 
 @media screen and (min-width: 450px){
     #modal-project .modal-dialog,
-    #modal-freelancer .modal-dialog {
+    #modal-freelancer .modal-dialog,
+    #modal-consultation .modal-dialog{
         min-width: 30em;
     }
 }
