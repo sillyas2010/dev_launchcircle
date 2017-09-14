@@ -53,11 +53,11 @@
         event.preventDefault();
     });
 
-    $('.locale select').on('change', function (e) {
-        if ($(this).val() === 0) {
+    $('.locale .custom-select').on('change', function (e) {
+        if ($(this).val() === '0') {
             changeLang('en');
         }
-        if ($(this).val() === 1) {
+        if ($(this).val() === '1') {
             changeLang('de');
         }
     });
@@ -156,17 +156,21 @@
         }
     }
 
-    function changeHref(el,lang) {
+    function changeHref($el,lang) {
         var extension = '.html',
             pageHasExtension= window.location.pathname.indexOf('.html') !== -1 ? window.location.pathname.indexOf('.html')
                                                                                : false;
+        if(lang === "en") {
 
-        if(el.pathname.indexOf(extension) !== -1)
-            return el.pathname = el.pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
-        else if(el.pathname === '/')
-            return el.pathname += 'index-' + lang + extension;
-        else
-            return el.pathname += '-' + lang;
+        }
+        else {
+            if($el[0].pathname.indexOf(extension) !== -1)
+                return $el[0].pathname = $el[0].pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
+            else if($el[0].pathname === '/')
+                return $el[0].pathname += 'index-' + lang + extension;
+            else
+                return $el[0].pathname += '-' + lang;
+        }
     }
 
     function getCookie(name) {
@@ -175,6 +179,8 @@
         ));
         return matches ? decodeURIComponent(matches[1]) : undefined;
     }
+
+    changeLang(undefined,true)
 
 })(jQuery);
 
