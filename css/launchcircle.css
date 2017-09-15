@@ -530,7 +530,7 @@ a:active {
 }
 
 @media screen and (max-width: 390px) {
-    .btn{
+    :not(header) .btn{
         max-width: 78.5vw;
         white-space: nowrap;
         overflow: hidden;
