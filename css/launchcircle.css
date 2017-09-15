@@ -492,6 +492,16 @@ a:active {
     color: #fff;
 }
 
+#subscribe-form input[type="email"]::-webkit-input-placeholder,
+#subscribe-form input[type="email"]::-moz-placeholder,
+#subscribe-form input[type="email"]:-moz-placeholder ,
+#subscribe-form input[type="email"]:-ms-input-placeholder,
+#subscribe-form input[type="email"]::placeholder {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 #subscribe-form .btn-primary.disabled:hover,
 #subscribe-form .btn-primary:disabled:hover {
     background-color: rgba(18,212,196,.8);
