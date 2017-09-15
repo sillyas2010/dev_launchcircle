@@ -524,6 +524,15 @@ a:active {
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 390px) {
+    .btn{
+        max-width: 80vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
 .btn-primary {
     background-color: rgba(18, 212, 196, 1);
     border-color: rgba(18, 212, 196, 1);
