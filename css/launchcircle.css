@@ -496,7 +496,8 @@ a:active {
 #subscribe-form input[type="email"]::-moz-placeholder,
 #subscribe-form input[type="email"]:-moz-placeholder ,
 #subscribe-form input[type="email"]:-ms-input-placeholder,
-#subscribe-form input[type="email"]::placeholder {
+#subscribe-form input[type="email"]::placeholder,
+#subscribe-form input[type="email"]:placeholder-shown {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
