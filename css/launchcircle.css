@@ -7,11 +7,15 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
-    overflow-x: hidden;
     padding: 0;
     min-width: 320px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix smooth scrolling on mobile */
+header,main,footer {
+    overflow-x: hidden;
 }
 
 label,*:before,*:after,select {
