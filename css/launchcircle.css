@@ -526,7 +526,7 @@ a:active {
 
 @media screen and (max-width: 390px) {
     .btn{
-        max-width: 80vw;
+        max-width: 78.5vw;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
