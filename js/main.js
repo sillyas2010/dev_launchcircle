@@ -62,6 +62,9 @@
         }
     });
 
+    //fix of scrolling on disabled button click
+    $('.btn.disabled').on('click',function(e) {e.preventDefault();});
+
 
     //Scrollspy offset
     $(window).on('scroll', function(event) {
