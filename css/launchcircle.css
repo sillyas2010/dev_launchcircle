@@ -4,10 +4,6 @@ html {
     height: 100%;
 }
 
-*:focus {
-    outline: none;
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
@@ -135,8 +131,8 @@ ol > li:before {
     color: #fff;
 }
 
-:focus {
-    outline: rgba(18, 212, 196, 1) auto 5px;
+*:focus,*:active,*:link,*:hover {
+    outline: none !important;
 }
 
 .get-on-gplay,.get-on-astore {
