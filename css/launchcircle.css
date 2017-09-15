@@ -16,6 +16,7 @@ body {
 /* Fix smooth scrolling on mobile */
 header,main,footer {
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 label,*:before,*:after,select {
