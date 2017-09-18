@@ -635,11 +635,11 @@ header .header-nav .nav-link {
 }
 
 header .sub-header-navbar {
-    display: none !important;
+    display: none;
 }
 
 header .sub-header-dropdown:hover .sub-header-navbar {
-    display: flex !important;
+    display: flex;
 }
 
 header .sub-header {
