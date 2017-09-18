@@ -623,9 +623,20 @@ a:active {
 @media screen and (min-width: 769px) and (max-width: 991px){
     header .navigation .btn {
         font-weight: 500 !important;
-        color: rgba(87, 85, 89, 1) !important;
-        background: white !important;
-        border: none !important;
+        color: rgba(87, 85, 89, 1);
+        background: white;
+        border: none;
+    }
+    header .navigation .btn:hover {
+        color: rgba(137,138,234,1);
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    header .navigation .btn.btn-secondary {
+        background-color: rgba(18,212,196,1);
+        border-color: rgba(18,212,196,1);
+        color: #fff;
     }
 }
 
