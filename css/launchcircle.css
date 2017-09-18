@@ -620,6 +620,15 @@ a:active {
     color: black;
 }
 
+@media screen and (min-width: 769px) and (max-width: 991px){
+    header .btn {
+        font-weight: 500;
+        color: rgba(87, 85, 89, 1) !important;
+        background: white !important;
+        border: none !important;
+    }
+}
+
 /* --------------------------------------
  Header
 -----------------------------------------*/
@@ -769,20 +778,11 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     border-bottom: 1px solid #e8e8e8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     .sub-header-navbar .w-icon .point {
         display: none;
     }
-}
-
-@media screen and (max-width: 991px) {
-    @media screen and (min-width: 769px) {
-        .sub-header-navbar .nav-link.w-icon {
-            margin-right: auto;
-            margin-left: 40%;
-        }
-    }
-    header .navigation {
+    header #navbarNav.show {
         margin-bottom: 13em;
     }
     header .navigation .sub-header-dropdown {
