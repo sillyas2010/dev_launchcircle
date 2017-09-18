@@ -634,12 +634,12 @@ header .header-nav .nav-link {
     line-height: 37px;
 }
 
-header .sub-header {
-    display: none;
+header .sub-header-navbar {
+    display: none !important;
 }
 
-header .sub-header-dropdown:hover .sub-header {
-    display: block;
+header .sub-header-dropdown:hover .sub-header-navbar {
+    display: flex;
 }
 
 header .sub-header {
