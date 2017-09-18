@@ -1,5 +1,5 @@
 // *** init slider
-$('#launchCircleCarousel .carousel-inner').slick({
+$('.slick-slider.carousel-multi .carousel-inner').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     nextArrow: $('.slick-slider .carousel-control-next'),
