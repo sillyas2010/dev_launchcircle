@@ -27,6 +27,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <!-- Custom styles for this template -->
     <link href="/css/launchcircle.css" type="text/css" rel="stylesheet">
@@ -126,31 +127,141 @@
         </div>
     </div>
 
-    <section id="faq-tabs" class="tabs-section container d-flex flex-wrap">
-        <ul class="nav nav-pills nav-stacked col-md-2 flex-column">
-            <li class="active"><a href="#tab_a" data-toggle="pill">Pill A</a></li>
-            <li><a href="#tab_b" data-toggle="pill">Pill B</a></li>
-            <li><a href="#tab_c" data-toggle="pill">Pill C</a></li>
-            <li><a href="#tab_d" data-toggle="pill">Pill D</a></li>
-        </ul>
-        <div class="tab-content col-md-10">
-            <div class="tab-pane active" id="tab_a">
-                <h4>Pane A</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <div id="launchCircleCarousel" class="slick-slider">
+        <div class="carousel-control-wraper  animated fadeInUp float-right">
+            <div class=" carousel-control d-flex justify-content-end align-items-center">
+                <a class="carousel-control-prev" href="javascript:void(0);" role="button"
+                   data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next " href="javascript:void(0);" role="button"
+                   data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="tab-pane" id="tab_b">
-                <h4>Pane B</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item carspring active col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item">
+                    <a href="/carspring.html">
+                        <img class="d-block img-fluid" src="/images/portfolio/Carspring.png"
+                             alt="Carspring - Online used car dealership"/>
+                        <h2>Carspring - Online used car dealership</h2>
+                    </a>
+                </div>
             </div>
-            <div class="tab-pane" id="tab_c">
-                <h4>Pane C</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <div class="carousel-item lyke col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item">
+                    <a href="/lyke.html">
+                        <img class="d-block img-fluid" src="/images/portfolio/Lyke.png"
+                             alt="Lyke - Indonesia’s leading Fashion application"/>
+                        <h2>Lyke - Indonesia’s leading Fashion application</h2>
+                    </a>
+                </div>
             </div>
-            <div class="tab-pane" id="tab_d">
-                <h4>Pane D</h4>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            <div class="carousel-item foodora col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item">
+                    <a href="/foodora.html">
+                        <img class="d-block img-fluid" src="/images/portfolio/Foodora.png"
+                             alt="Foodora - Local Food Delivery"/>
+                        <h2>Foodora - Local Food Delivery</h2>
+                    </a>
+                </div>
             </div>
-        </div><!-- tab content -->
+            <!--
+            <div class="carousel-item jumia col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item">
+                    <a href="/jumia.html">
+                    <img class="d-block img-fluid" src="/images/portfolio/jumia-bot.png"
+                         alt="Jumia - Chat With Us"/>
+                    <h2>Jumia - Chat With Us</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item movinga col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item">
+                    <a href="/movinga.html">
+                        <img class="d-block img-fluid" src="/images/portfolio/Movinga.png"
+                             alt="Movinga - Get Moving"/>
+                        <h2>Movinga - Leading Removal Company</h2>
+                    </a>
+                </div>
+            </div>
+            -->
+        </div>
+
+    </div>
+
+    <section id="faq-tabs" class="tabs-section container">
+        <h4 class="tabs-title">Table of Contents</h4>
+        <div class="tab-wrapper container d-flex flex-wrap">
+            <ul class="nav nav-pills nav-stacked col-md-2 flex-column">
+                <li class="active"><a href="#tab_gen" data-toggle="pill">General</a></li>
+                <li><a href="#tab_ser" data-toggle="pill">Services</a></li>
+                <li><a href="#tab_pri" data-toggle="pill">Price</a></li>
+                <li><a href="#tab_engin" data-toggle="pill">Engineering</a></li>
+                <li><a href="#tab_qual" data-toggle="pill">Quality</a></li>
+                <li><a href="#tab_des" data-toggle="pill">Design</a></li>
+                <li><a href="#tab_proc" data-toggle="pill">Process</a></li>
+                <li><a href="#tab_hir" data-toggle="pill">Hiring</a></li>
+                <li><a href="#tab_cli" data-toggle="pill">Clients</a></li>
+                <li><a href="#tab_pay" data-toggle="pill">Payment</a></li>
+                <li><a href="#tab_maint" data-toggle="pill">Maintenance</a></li>
+                <li><a href="#tab_conf" data-toggle="pill">Confidentiality</a></li>
+            </ul>
+            <div class="tab-content col-md-10">
+                <div class="tab-pane active" id="tab_gen">
+                    <h4>General</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_ser">
+                    <h4>Services</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_pri">
+                    <h4>Price</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_engin">
+                    <h4>Engineering</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_qual">
+                    <h4>Quality</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_des">
+                    <h4>Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_proc">
+                    <h4>Process</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_hir">
+                    <h4>Hiring</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_cli">
+                    <h4>Clients</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_pay">
+                    <h4>Payment</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_maint">
+                    <h4>Maintenance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+                <div class="tab-pane" id="tab_conf">
+                    <h4>Confidentiality</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                </div>
+            </div><!-- tab content -->
+        </div>
     </section><!-- end of container -->
 
     <div class="container subscribe" id="subscribe">
@@ -934,9 +1045,11 @@
 <script src="/js/jquery.easing.min.js"></script>
 <script src="/js/waypoint.js"></script>
 <script src="/js/validator.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/js/ie10-viewport-bug-workaround.js"></script>
 <script src="/js/main.js"></script>
+<script src="/js/multi-items-slider.js"></script>
 </body>
 </html>
