@@ -648,6 +648,24 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     display: flex;
 }
 
+.sub-header-navbar .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header-navbar .w-icon .point {
+    position: relative;
+    transform: translate(0);
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-header-navbar .w-icon .point {
+        display: none;
+    }
+}
+
 header .header-nav .nav-link a {
     margin: 4px 20px 0 0;
     font-weight: 500;

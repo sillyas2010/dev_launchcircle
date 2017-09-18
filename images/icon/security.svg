@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="62px" viewBox="0 0 61 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Security</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="20.733998" r="20"></circle>
+        <filter x="-50.0%" y="-32.5%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.333333333   0 0 0 0 0.525490196   0 0 0 0 0.870588235  0 0 0 0.0871546649 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-Copy" transform="translate(-654.000000, -103.000000)">
+            <g id="Security" transform="translate(670.000000, 113.000000)">
+                <g id="Oval-4" transform="translate(21.000000, 20.733998) rotate(89.000000) translate(-21.000000, -20.733998) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="layers-(1)" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
+                    <polygon id="Shape" fill="#33FFEE" points="20 5.48331034 10 11 0 5.48331034 10 0"></polygon>
+                    <polygon id="Shape" fill="#12D4C4" points="10 11.605932 3.79321182 8 0 10.1902432 10 16 20 10.1902432 16.2067882 8"></polygon>
+                    <polygon id="Shape" fill="#898AEA" points="10 15.605932 3.79321182 12 0 14.1902432 10 20 20 14.1902432 16.2067882 12"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
