@@ -622,7 +622,7 @@ a:active {
 
 @media screen and (min-width: 769px) and (max-width: 991px){
     header .btn {
-        font-weight: 500;
+        font-weight: 500 !important;
         color: rgba(87, 85, 89, 1) !important;
         background: white !important;
         border: none !important;
@@ -782,7 +782,7 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     .sub-header-navbar .w-icon .point {
         display: none;
     }
-    header #navbarNav.show {
+    header .navigation {
         margin-bottom: 13em;
     }
     header .navigation .sub-header-dropdown {
