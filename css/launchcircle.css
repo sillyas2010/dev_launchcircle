@@ -530,7 +530,7 @@ a:active {
 }
 
 @media screen and (max-width: 390px) {
-    :not(header) .btn{
+    main .btn, footer .btn {
         max-width: 78.5vw;
         white-space: nowrap;
         overflow: hidden;
@@ -716,7 +716,6 @@ header .navbar {
     width: 100%;
     margin: 0;
     padding: 0 30px !important;
-    border-bottom: 1px solid #e8e8e8;
 
 }
 
@@ -766,6 +765,10 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     transform: translate(-53%,-31%);
 }
 
+.navigation.stuck .sub-header-navbar {
+    border-bottom: 1px solid #e8e8e8;
+}
+
 @media screen and (max-width: 768px) {
     .sub-header-navbar .w-icon .point {
         display: none;
@@ -779,15 +782,18 @@ header .sub-header-dropdown:hover .sub-header-navbar {
             margin-left: 40%;
         }
     }
-    header .sub-header-dropdown .dropdown-toggle {
+    header .navigation {
+        margin-bottom: 13em;
+    }
+    header .navigation .sub-header-dropdown {
+        padding: 0;
+    }
+    header .navigation .sub-header-dropdown .dropdown-toggle {
         display: none;
     }
-    header .sub-header-dropdown .sub-header-navbar {
+    header .navigation .sub-header-dropdown .sub-header-navbar {
         display: flex;
-        background: transparent;
-    }
-    header .navigation {
-        margin-bottom: 12em;
+        background: white;
     }
 }
 
