@@ -646,6 +646,12 @@ header .header-nav .nav-link a {
     display: inline-block;
 }
 
+@media screen and (max-width: 991px) {
+    header .header-nav .nav-link a {
+        margin: 0;
+    }
+}
+
 header .header-nav .nav-link a.start {
     font-size: 14px;
     line-height: 21px;
