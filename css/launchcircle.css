@@ -736,12 +736,16 @@ header .stuck .navbar {
     margin-top: 0;
 }
 
+header .header-nav .nav-link {
+    line-height: 37px;
+}
+
 /* --------------------------------------
  Sub-header
 -----------------------------------------*/
 
-header .header-nav .nav-link {
-    line-height: 37px;
+header .header-nav.sub-header .nav-link:first-child {
+    padding-top: 0;
 }
 
 header .sub-header-navbar {
