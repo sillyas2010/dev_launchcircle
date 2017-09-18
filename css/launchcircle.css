@@ -1069,6 +1069,10 @@ header .point {
     transform: translate(-50%,-50%);
 }
 
+header .point {
+    display: inline-block;
+}
+
 .radial-big .point {
     transform: translate(-50%,-50%) rotate(-45deg);
 }
