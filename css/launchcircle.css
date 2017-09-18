@@ -799,7 +799,7 @@ header .sub-header-dropdown:hover .sub-header-navbar {
         padding: 0;
     }
     header .navigation .sub-header-dropdown .dropdown-toggle {
-        display: none;
+        display: none !important;
     }
     header .navigation .sub-header-dropdown .sub-header-navbar {
         display: flex;
