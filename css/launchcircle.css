@@ -673,10 +673,18 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
-    .sub-header-navbar .nav-link.w-icon {
-        margin-right: auto;
-        margin-left: 40%;
+@media screen and (max-width: 991px) {
+    @media screen and (min-width: 769px) {
+        .sub-header-navbar .nav-link.w-icon {
+            margin-right: auto;
+            margin-left: 40%;
+        }
+    }
+    header .sub-header-dropdown .dropdown-toggle {
+        display: none;
+    }
+    header .sub-header-dropdown .sub-header-navbar {
+        display: flex;
     }
 }
 
