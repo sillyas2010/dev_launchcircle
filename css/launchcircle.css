@@ -668,6 +668,16 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     .sub-header-navbar .w-icon .point {
         display: none;
     }
+    header .sub-header-navbar {
+        background-color: transparent;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .sub-header-navbar .nav-link.w-icon {
+        margin-right: auto;
+        margin-left: 40%;
+    }
 }
 
 header .header-nav .nav-link a {
