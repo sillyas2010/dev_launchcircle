@@ -639,7 +639,7 @@ header .sub-header-navbar {
 }
 
 header .sub-header-dropdown:hover .sub-header-navbar {
-    display: flex;
+    display: flex !important;
 }
 
 header .sub-header {
