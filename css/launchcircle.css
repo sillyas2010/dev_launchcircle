@@ -19,7 +19,7 @@ header,main,footer {
     -webkit-overflow-scrolling: touch;
 }
 
-label,*:before,*:after,select {
+label,*:before,*:after,select,a {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -621,7 +621,7 @@ a:active {
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px){
-    header .btn {
+    header .navigation .btn {
         font-weight: 500 !important;
         color: rgba(87, 85, 89, 1) !important;
         background: white !important;
