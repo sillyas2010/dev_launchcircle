@@ -13,11 +13,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/* Fix smooth scrolling on mobile */
-header,main,footer {
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-}
 
 label,*:before,*:after,select,a {
     -webkit-font-smoothing: antialiased;
