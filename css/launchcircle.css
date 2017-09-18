@@ -644,7 +644,7 @@ header .sub-header-navbar {
     right: 0;
 }
 
-header .sub-header-dropdown:hover header .sub-header-navbar {
+header .sub-header-dropdown:hover .sub-header-navbar {
     display: flex;
 }
 
