@@ -660,6 +660,10 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     margin-right: 1em;
 }
 
+.sub-header-navbar .w-icon .point img {
+    transform: translate(-53%,-31%);
+}
+
 @media screen and (max-width: 768px) {
     .sub-header-navbar .w-icon .point {
         display: none;
