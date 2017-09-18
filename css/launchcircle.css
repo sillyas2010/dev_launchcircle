@@ -634,6 +634,18 @@ header .header-nav .nav-link {
     line-height: 37px;
 }
 
+header .sub-header {
+    display: none;
+}
+
+header .sub-header-dropdown:hover .sub-header {
+    display: block;
+}
+
+header .sub-header {
+    background-color: #F4F8FC;
+}
+
 header .header-nav .nav-link a {
     margin: 4px 20px 0 0;
     font-weight: 500;
@@ -1046,7 +1058,8 @@ a.link-icon::after {
     }
 }
 
-.security .point {
+.security .point,
+header .point {
     border-radius: 50%;
     height: 3em;
     width: 3em;
@@ -1060,7 +1073,8 @@ a.link-icon::after {
     transform: translate(-50%,-50%) rotate(-45deg);
 }
 
-.security .point-white {
+.security .point-white,
+header .point-white {
     background: white;
     color: black;
     box-shadow: 0 2px 9px 0 rgba(0,0,0,0.15);
@@ -2053,7 +2067,7 @@ footer .copyright-info {
     }
 
     header {
-        padding: 0 15px;
+        padding: .1em 15px;
     }
 
     .toptalent .img-block {
