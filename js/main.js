@@ -66,7 +66,7 @@
     $('.btn.disabled').on('click',function(e) {e.preventDefault();});
 
     //fix for tabs on faq-page
-    $('a[data-toggle="pill"]').on('click',function () {
+    $('a[data-toggle="pill"]').on('click',function (e) {
         e.preventDefault();
         var tab = $(this).attr('href');
 
