@@ -1415,18 +1415,23 @@ section.difference .advantage-list {
     width: 2.5em;
     height: 2.5em;
     position: absolute;
+    border-radius: 50%;
+    top: 3em;
     left: 0;
-    top: 50%;
     transform: translate(0,-50%);
     box-shadow: 0 7px 11px 0 rgba(85,134,222,0.09);
 }
 
+.tab-content .accordion .card:first-child .card-header:before {
+    top: 1.5em;
+}
+
 .tab-content .card .card-header:before {
-    background: #fff url("/images/icon/plus.svg") center;
+    background: #fff url("/images/icon/plus.svg") center no-repeat;
 }
 
 .tab-content .card.active .card-header:before {
-    background: #fff url("/images/icon/minus.svg") center;
+    background: #fff url("/images/icon/minus.svg") center no-repeat;
 }
 
 .tab-wrapper ul {

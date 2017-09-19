@@ -84,7 +84,7 @@
 
     //Accordion on faq-page
     $('.accordion').on('show.bs.collapse hide.bs.collapse', function (e) {
-        console.log(e.target,e.relatedTarget);
+        changeAccordionIcon(false, e.target);
     });
 
 
@@ -216,7 +216,9 @@
         }
     }
 
-    changeLang(undefined,true)
+    changeLang(undefined,true);
+
+    changeAccordionIcon(true);
 
 })(jQuery);
 
