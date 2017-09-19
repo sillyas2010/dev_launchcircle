@@ -1349,10 +1349,19 @@ section.difference .advantage-list {
     FAQ Page
 -----------------------------------------*/
 
+#faqCarousel {
+    padding-top: 5em;
+}
+
+#faqCarousel .carousel-inner,
+#faqCarousel .slick-slider {
+    overflow: visible;
+}
+
 #faqCarousel .carousel-card {
     border: 1px solid #F1F1F1;
     border-radius: 5px;
-    padding-bottom: 3em;
+    padding: 0 2.4em 3em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1366,9 +1375,9 @@ section.difference .advantage-list {
 }
 
 #faqCarousel .carousel-card .card-icon {
-    width: 42.666%;
-    height: 61.538%;
+    padding-top: 100%;
     border-radius: 50%;
+    overflow: hidden;
     position: absolute;
     left: 50%;
     top: calc( -61.538% / 2 );
