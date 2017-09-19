@@ -83,8 +83,12 @@
     });
 
     //Accordion on faq-page
-    $('.accordion').on('show.bs.collapse hide.bs.collapse', function (e) {
-        changeAccordionIcon(false, e.target);
+    $(document).ready(function () {
+        changeAccordionIcon(true);
+
+        $('.accordion').on('show.bs.collapse hide.bs.collapse', function (e) {
+            changeAccordionIcon(false, e.target);
+        });
     });
 
 
@@ -217,8 +221,6 @@
     }
 
     changeLang(undefined,true);
-
-    changeAccordionIcon(true);
 
 })(jQuery);
 
