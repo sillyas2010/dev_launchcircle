@@ -28,6 +28,7 @@ $(document).ready(function () {
             centerMode: true,
             centerPadding: 0,
             focusOnSelect: true,
+            infinite: false,
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: true,
