@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="82px" viewBox="0 0 56 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Quality</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-655.000000, -513.000000)" fill-rule="nonzero">
+            <g id="Quality" transform="translate(655.000000, 513.000000)">
+                <path d="M12,50.823826 L12,82 L27,74.6782225 L42,82 L42,50 C37.6241561,53.1300032 32.2253162,54.9821935 26.3891835,54.9821935 C21.0851255,54.9821935 16.1422106,53.4520958 12,50.823826 Z" id="Shape" fill="#12D4C4"></path>
+                <path d="M28,0 C12.5607525,0 0,12.3363224 0,27.4999156 C0,37.1397345 5.07735257,45.6355515 12.7423442,50.5471667 C17.1345617,53.3614451 22.3756389,55 27.9998282,55 L27.9998282,0 L28,0 Z" id="Shape" fill="#FFDA44"></path>
+                <path d="M56,27.5 C56,12.3363603 43.4391705,0 28,0 L28,55 C34.1884158,55 39.9131427,53.0167198 44.5531231,49.665189 C51.4893852,44.655019 56,36.5857314 56,27.5 Z" id="Shape" fill="#FFCD00"></path>
+            </g>
+        </g>
+    </g>
+</svg>

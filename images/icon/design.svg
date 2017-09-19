@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="65px" viewBox="0 0 78 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Design</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1022.000000, -528.000000)" fill-rule="nonzero">
+            <g id="Design" transform="translate(1022.000000, 528.000000)">
+                <polygon id="Shape" fill="#FFE182" points="54.8634023 20 39 65 78 20"></polygon>
+                <g id="Group" fill="#FFCD73">
+                    <polygon id="Shape" points="15.9310293 0.108059701 0 19.8713433 22.8399746 19.8713433"></polygon>
+                    <polygon id="Shape" points="54.1600254 19.8713433 77 19.8713433 61.0689707 0.108059701"></polygon>
+                    <polygon id="Shape" points="54.1600254 19.8713433 38.5 0.108059701 22.8399746 19.8713433"></polygon>
+                </g>
+                <polygon id="Shape" fill="#FFAA64" points="39 0 16 0 23.0408945 20"></polygon>
+                <polygon id="Shape" fill="#FFE182" points="62 0 39 0 54.9591055 20"></polygon>
+                <polygon id="Shape" fill="#FFAA64" points="23 20 38.5 65 54 20"></polygon>
+                <polygon id="Shape" fill="#FF8C5A" points="0 20 39 65 23.1365977 20"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
