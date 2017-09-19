@@ -1427,11 +1427,11 @@ section.difference .advantage-list {
 }
 
 .tab-content .card .card-header:before {
-    background: #fff url("/images/icon/plus.svg") center no-repeat;
+    background: #fff url("/images/icon/minus.svg") center no-repeat;
 }
 
 .tab-content .card.active .card-header:before {
-    background: #fff url("/images/icon/minus.svg") center no-repeat;
+    background: #fff url("/images/icon/plus.svg") center no-repeat;
 }
 
 .tab-wrapper ul {
