@@ -46,7 +46,8 @@ $(document).ready(function () {
                         slidesToShow: 1
                     }
                 }
-            ]
+            ],
+            slickGoTo: 1
         });
     }
 });
