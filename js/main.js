@@ -69,8 +69,10 @@
     $('a[data-toogle="pill"]').on('click',function () {
         e.preventDefault();
 
-        $('a[data-toogle="pill"]').removeClass('active')
-                            .removeAttr('aria-expanded');
+        $('a[data-toogle="pill"]').each(function () {
+            $(this).removeClass('active')
+                   .removeAttr('aria-expanded');
+        });
         $(this).addClass('active')
                .attr('aria-expanded','true');
     });
