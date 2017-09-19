@@ -73,10 +73,14 @@
         $('a[data-toggle="pill"]').removeClass('active')
                                   .removeAttr('aria-expanded');
 
+        $('.tab-wrapper .tab-links li').removeClass('active');
+
         $('.tab-wrapper .tab-pane').removeClass('active')
-                                   .removeAttr('aria-expanded');
+            .removeAttr('aria-expanded');
 
         $('.tab-wrapper ' + tab + '.tab-pane').tab('show');
+
+        $('.tab-wrapper .tab-links a[href="' + tab + '"]').closest('li').addClass('active');
 
         $(this).addClass('active')
                .attr('aria-expanded','true');
