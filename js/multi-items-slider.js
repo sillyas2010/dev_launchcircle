@@ -33,13 +33,14 @@ $(document).ready(function () {
                 {
                     breakpoint: 992,
                     settings: {
-                        centerMode:true,
+                        centerMode: false,
                         slidesToShow: 2
                     }
                 },
                 {
                     breakpoint: 768,
                     settings: {
+                        centerMode: true,
                         slidesToShow: 1
                     }
                 }
