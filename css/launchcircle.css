@@ -1355,8 +1355,16 @@ section.difference .advantage-list {
 
 #faqCarousel .slick-list,
 #faqCarousel .slick-slider {
-    overflow-y: visible !important;
-    overflow-x: hidden !important;
+    overflow: visible !important;
+}
+
+#faqCarousel .carousel-item.slick-active {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+#faqCarousel .carousel-item:not(.slick-active) {
+    opacity: 0;
 }
 
 #faqCarousel .carousel-card {
