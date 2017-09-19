@@ -66,11 +66,14 @@
     $('.btn.disabled').on('click',function(e) {e.preventDefault();});
 
     //fix for tabs on faq-page
-    $('a[data-toogle="pill"]').on('click',function () {
+    $('a[data-toggle="pill"]').on('click',function () {
         e.preventDefault();
         var tab = $(this).attr('href');
 
         $('.tab-wrapper ' + tab + '.tab-pane').tab('show');
+
+        $(this).addClass('active')
+               .attr('aria-expanded','true');
     });
 
 
