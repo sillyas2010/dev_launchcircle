@@ -65,18 +65,14 @@
     //fix of scrolling on disabled button click
     $('.btn.disabled').on('click',function(e) {e.preventDefault();});
 
-    //fix for tabs on faq-page
+    //Tabs on faq-page
     $('a[data-toggle="pill"]').on('click',function (e) {
         e.preventDefault();
         var tab = $(this).attr('href');
 
-        $('a[data-toggle="pill"]').removeClass('active')
-                                  .removeAttr('aria-expanded');
+        $('a[data-toggle="pill"], .tab-wrapper .tab-links li, .tab-wrapper .tab-pane').removeClass('active');
 
-        $('.tab-wrapper .tab-links li').removeClass('active');
-
-        $('.tab-wrapper .tab-pane').removeClass('active')
-            .removeAttr('aria-expanded');
+        $('a[data-toggle="pill"], .tab-wrapper .tab-pane').removeAttr('aria-expanded');
 
         $('.tab-wrapper ' + tab + '.tab-pane').tab('show');
 
@@ -84,6 +80,11 @@
 
         $(this).addClass('active')
                .attr('aria-expanded','true');
+    });
+
+    //Accordion on faq-page
+    $('.accordion').on('show.bs.collapse hide.bs.collapse', function (e) {
+        console.log(e.target,e.relatedTarget);
     });
 
 
@@ -202,6 +203,17 @@
             "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
         ));
         return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+    
+    function changeAccordionIcon(isInit,el) {
+        if(el  && !isInit) {
+            $(el).closest('.card').toggleClass('active');
+        }
+        else if(isInit) {
+            $('.accordion div[role="tabpanel"]').each(function () {
+                if($(this).hasClass('active')) $(this).closest('card').addClass('active');
+            });
+        }
     }
 
     changeLang(undefined,true)

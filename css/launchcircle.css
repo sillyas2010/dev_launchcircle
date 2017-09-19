@@ -1405,6 +1405,34 @@ section.difference .advantage-list {
     transform: translate(-50%,-50%);
 }
 
+.tab-content .card-header {
+    padding-left: 3em;
+}
+
+.tab-content .card.active .card-header:before,
+.tab-content .card .card-header:before {
+    content: '';
+    width: 2.5em;
+    height: 2.5em;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    box-shadow: 0 7px 11px 0 rgba(85,134,222,0.09);
+}
+
+.tab-content .card .card-header:before {
+    background: #fff url("/images/icon/plus.svg") center;
+}
+
+.tab-content .card.active .card-header:before {
+    background: #fff url("/images/icon/minus.svg") center;
+}
+
+.tab-wrapper ul {
+    max-height: 26em;
+}
+
 .tab-wrapper li {
     padding-bottom: 1em;
 }
