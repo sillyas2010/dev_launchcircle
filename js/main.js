@@ -68,13 +68,9 @@
     //fix for tabs on faq-page
     $('a[data-toogle="pill"]').on('click',function () {
         e.preventDefault();
+        var tab = $(this).attr('href');
 
-        $('a[data-toogle="pill"]').each(function () {
-            $(this).removeClass('active')
-                   .removeAttr('aria-expanded');
-        });
-        $(this).addClass('active')
-               .attr('aria-expanded','true');
+        $('.tab-wrapper ' + tab + '.tab-pane').tab('show');
     });
 
 
