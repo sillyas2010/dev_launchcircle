@@ -1346,6 +1346,40 @@ section.difference .advantage-list {
 }
 
 /* --------------------------------------
+    FAQ Page
+-----------------------------------------*/
+
+#faqCarousel .carousel-card {
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#faqCarousel .carousel-card .card-number {
+    font-size: 4em;
+    color: #ECF0F7;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#faqCarousel .carousel-card .card-icon {
+    width: 42.666%;
+    height: 61.538%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: calc( -61.538% / 2 );
+}
+
+#faqCarousel .carousel-card .card-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+/* --------------------------------------
     TALENT
 -----------------------------------------*/
 
