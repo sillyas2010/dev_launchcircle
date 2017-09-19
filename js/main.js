@@ -65,6 +65,16 @@
     //fix of scrolling on disabled button click
     $('.btn.disabled').on('click',function(e) {e.preventDefault();});
 
+    //fix for tabs on faq-page
+    $('a[data-toogle="pill"]').on('click',function () {
+        e.preventDefault();
+
+        $('a[data-toogle="pill"]').removeClass('active')
+                            .removeAttr('aria-expanded');
+        $(this).addClass('active')
+               .attr('aria-expanded','true');
+    });
+
 
     //Scrollspy offset
     $(window).on('scroll', function(event) {
