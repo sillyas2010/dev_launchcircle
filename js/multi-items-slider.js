@@ -52,5 +52,6 @@ $(document).ready(function () {
                 }
             ]
         });
+        $('.carousel-center .carousel-inner').slick('slickGoTo','1');
     }
 });
