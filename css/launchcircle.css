@@ -1350,12 +1350,12 @@ section.difference .advantage-list {
 -----------------------------------------*/
 
 #faqCarousel {
-    padding-top: 5em;
+    padding: 5em 0 2em;
 }
 
-#faqCarousel .carousel-inner,
+#faqCarousel .slick-list,
 #faqCarousel .slick-slider {
-    overflow: visible;
+    overflow: visible !important;
 }
 
 #faqCarousel .carousel-card {
