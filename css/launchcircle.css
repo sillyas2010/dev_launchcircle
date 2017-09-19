@@ -1386,8 +1386,10 @@ section.difference .advantage-list {
 
 #faqCarousel .carousel-card .card-icon {
     box-shadow: 0 7px 17px 0 rgba(196,206,217,0.29);
+    background: white;
     border-radius: 50%;
-    padding: 0;
+    padding: 40% 0 0;
+    width: 40%;
     overflow: hidden;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -1397,6 +1399,10 @@ section.difference .advantage-list {
 
 #faqCarousel .carousel-card .card-icon img {
     max-width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /* --------------------------------------
