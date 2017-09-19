@@ -26,6 +26,8 @@ $(document).ready(function () {
     else {
         $('.carousel-center .carousel-inner').slick({
             centerMode: true,
+            centerPadding: 0,
+            focusOnSelect: true,
             slidesToShow: 3,
             slidesToScroll: 1,
             arrows: true,
@@ -43,6 +45,7 @@ $(document).ready(function () {
                     breakpoint: 768,
                     settings: {
                         centerMode: true,
+                        centerPadding: 0,
                         slidesToShow: 1
                     }
                 }
