@@ -1432,10 +1432,24 @@ section.difference .advantage-list {
 .tab-wrapper .tab-content .card {
     border-bottom: 1px solid lightgray;
     padding: 1.5em 0;
+    margin: 0;
 }
 
 .tab-wrapper .tab-content .card:first-child {
     padding: 0 0 1.5em;
+}
+
+.tab-wrapper .tab-content .card .card-block {
+    padding: 0;
+}
+
+.tab-wrapper .tab-content .card p {
+    color: #9c9ba0;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    padding: 0;
+    text-align: left;
 }
 
 /* --------------------------------------
