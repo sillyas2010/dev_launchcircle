@@ -1405,6 +1405,22 @@ section.difference .advantage-list {
     transform: translate(-50%,-50%);
 }
 
+.tab-wrapper li {
+    padding-bottom: 1.7em;
+}
+
+.tab-wrapper li a[data-toggle="pill"] {
+    font-weight: bold;
+    font-size: 1.12em;
+    color: #363439;
+}
+
+.tab-wrapper .tab-content .tab-title {
+    color: #898aea;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 /* --------------------------------------
     TALENT
 -----------------------------------------*/
