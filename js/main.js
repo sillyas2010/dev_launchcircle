@@ -215,7 +215,8 @@
         }
         else if(isInit) {
             $('.accordion div[role="tabpanel"]').each(function () {
-                if($(this).hasClass('show')) $(this).parent().addClass('active');
+                debugger;
+                if($(this).hasClass('show')) $(this).closest('card').addClass('active');
             });
         }
     }
