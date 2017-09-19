@@ -4,6 +4,7 @@ $(document).ready(function () {
         $('.slick-slider.carousel-multi .carousel-inner').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
+            arrows: true,
             nextArrow: $('.slick-slider .carousel-control-next'),
             prevArrow: $('.slick-slider .carousel-control-prev'),
             responsive: [
@@ -27,6 +28,7 @@ $(document).ready(function () {
             centerMode: true,
             slidesToShow: 3,
             slidesToScroll: 1,
+            arrows: true,
             nextArrow: $('.slick-slider .carousel-control-next'),
             prevArrow: $('.slick-slider .carousel-control-prev'),
             responsive: [
