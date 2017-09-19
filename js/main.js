@@ -70,12 +70,12 @@
         e.preventDefault();
         var tab = $(this).attr('href');
 
-        $('a[data-toggle="pill"]').each(function () {
-            $(this).removeClass('active')
-                .removeAttr('aria-expanded');
-        });
+        $('a[data-toggle="pill"]').removeClass('active')
+                                  .removeAttr('aria-expanded');
 
-        $('.tab-wrapper .tab-pane').tab('hide');
+        $('.tab-wrapper .tab-pane').removeClass('active')
+                                   .removeAttr('aria-expanded');
+
         $('.tab-wrapper ' + tab + '.tab-pane').tab('show');
 
         $(this).addClass('active')
