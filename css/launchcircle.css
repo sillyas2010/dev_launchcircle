@@ -1407,10 +1407,15 @@ section.difference .advantage-list {
 
 #faqCarousel .carousel-control-wraper {
     position: absolute;
-    right: 25%;
     justify-content: center;
     bottom: 0;
     display: flex;
+}
+
+@media screen and (min-width: 992px) {
+    #faqCarousel .carousel-control-wraper {
+        right: 25%;
+    }
 }
 
 #faqCarousel .carousel-control-wraper .slick-arrow {
