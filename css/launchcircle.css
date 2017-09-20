@@ -1354,6 +1354,10 @@ section.difference .advantage-list {
     overflow-x: hidden;
 }
 
+#faqCarousel .slick-list {
+    overflow: visible;
+}
+
 #faqCarousel .carousel-card {
     border: 1px solid #F1F1F1;
     background-color: #fff;
