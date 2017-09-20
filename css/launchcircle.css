@@ -1444,25 +1444,6 @@ section.difference .advantage-list {
     height: 31em;
 }
 
-@media screen and (max-width: 767px) {
-    .tabs-title {
-        text-align: center;
-    }
-
-    .tab-wrapper .tab-links {
-        flex-direction: row !important;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        height: 13em;
-    }
-
-    .tab-wrapper .tab-links li {
-        text-align: center;
-        min-width: 20%;
-        height: 4em;
-    }
-}
-
 .tab-wrapper .tab-links li {
     padding-bottom: 1em;
 }
@@ -1509,6 +1490,36 @@ section.difference .advantage-list {
     font-weight: 300;
     padding: 0;
     text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    #faqCarousel .carousel-card .card-icon {
+        left: 65%;
+    }
+    @media screen and (max-width: 767px) {
+        #faqCarousel .carousel-card .card-icon {
+            padding: 30% 0 0;
+            width: 30%;
+            left: 50%;
+        }
+
+        .tabs-title {
+            text-align: center;
+        }
+
+        .tab-wrapper .tab-links {
+            flex-direction: row !important;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: 13em;
+        }
+
+        .tab-wrapper .tab-links li {
+            text-align: center;
+            min-width: 20%;
+            height: 4em;
+        }
+    }
 }
 
 /* --------------------------------------
