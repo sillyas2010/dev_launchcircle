@@ -1405,6 +1405,14 @@ section.difference .advantage-list {
     transform: translate(-50%,-50%);
 }
 
+#faqCarousel .carousel-control-wraper {
+    right: 45%;
+}
+
+#faqCarousel .carousel-control-wraper .slick-arrow {
+    background-color: #F4F8FC;
+}
+
 .tab-content {
     padding-left: 30px;
     padding-right: 0;
