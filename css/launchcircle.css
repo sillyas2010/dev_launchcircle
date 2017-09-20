@@ -1417,10 +1417,14 @@ section.difference .advantage-list {
     height: 2.5em;
     position: absolute;
     border-radius: 50%;
-    top: 0;
-    left: -3em;
+    top: 2.3em;
+    left: -.5em;
     transform: translate(0,-50%);
     box-shadow: 0 7px 11px 0 rgba(85,134,222,0.09);
+}
+
+.tab-content .accordion .card:first-child .card-header a[data-toggle="collapse"]:before {
+    top: 1.5em;
 }
 
 .tab-content .card .card-header a[data-toggle="collapse"]:before {
