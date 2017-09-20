@@ -1405,32 +1405,29 @@ section.difference .advantage-list {
     transform: translate(-50%,-50%);
 }
 
-.tab-content .card-header {
+.tab-content .card-header,
+.tab-content .card div[role="tabpanel"] {
     padding-left: 3em;
 }
 
-.tab-content .card.active .card-header:before,
-.tab-content .card .card-header:before {
+.tab-content .card.active .card-header a[data-toggle="collapse"]:before,
+.tab-content .card .card-header a[data-toggle="collapse"]:before {
     content: '';
     width: 2.5em;
     height: 2.5em;
     position: absolute;
     border-radius: 50%;
-    top: 3em;
-    left: 0;
+    top: 0;
+    left: -3em;
     transform: translate(0,-50%);
     box-shadow: 0 7px 11px 0 rgba(85,134,222,0.09);
 }
 
-.tab-content .accordion .card:first-child .card-header:before {
-    top: 1.5em;
-}
-
-.tab-content .card .card-header:before {
+.tab-content .card .card-header a[data-toggle="collapse"]:before {
     background: #fff url("/images/icon/plus.svg") center no-repeat;
 }
 
-.tab-content .card.active .card-header:before {
+.tab-content .card.active .card-header a[data-toggle="collapse"]:before {
     background: #fff url("/images/icon/minus.svg") center no-repeat;
 }
 
