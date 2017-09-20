@@ -1441,26 +1441,26 @@ section.difference .advantage-list {
     background: #fff url("/images/icon/minus.svg") center no-repeat;
 }
 
-.tab-wrapper ul {
-    max-height: 26em;
+.tab-wrapper .tab-links {
+    height: 31em;
 }
 
-.tab-wrapper li {
+.tab-wrapper .tab-links li {
     padding-bottom: 1em;
 }
 
-.tab-wrapper li a[data-toggle="pill"],
+.tab-wrapper .tab-links li a[data-toggle="pill"],
 .tab-content .card-header a {
     font-weight: bold;
     color: #363439;
 }
 
-.tab-wrapper li a[data-toggle="pill"] {
+.tab-wrapper .tab-links li a[data-toggle="pill"] {
     font-size: 1.12em;
 }
 
-.tab-wrapper li a[data-toggle="pill"]:hover,
-.tab-wrapper li.active a {
+.tab-wrapper .tab-links li a[data-toggle="pill"]:hover,
+.tab-wrapper .tab-links li.active a {
     color: rgba(137, 138, 234, 1);
 }
 
