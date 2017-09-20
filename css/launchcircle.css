@@ -1349,14 +1349,9 @@ section.difference .advantage-list {
     FAQ Page
 -----------------------------------------*/
 
-#faqCarousel {
+#faqCarousel .slick-slider {
     padding: 5em 0 2em;
     overflow-x: hidden;
-}
-
-#faqCarousel .slick-list,
-#faqCarousel .slick-slider {
-    overflow: visible !important;
 }
 
 #faqCarousel .carousel-card {
@@ -1452,11 +1447,13 @@ section.difference .advantage-list {
 
     .tab-wrapper .tab-links {
         flex-direction: row !important;
+        flex-wrap: wrap;
         justify-content: space-around;
         height: 13em;
     }
 
     .tab-wrapper .tab-links li {
+        text-align: center;
         min-width: 20%;
         height: 4em;
     }
