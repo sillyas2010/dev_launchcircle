@@ -1430,7 +1430,7 @@ section.difference .advantage-list {
 }
 
 .tab-content .accordion .card:first-child .card-header a[data-toggle="collapse"]:before {
-    top: 1.5em;
+    top: 1em;
 }
 
 .tab-content .card .card-header a[data-toggle="collapse"]:before {
@@ -1443,6 +1443,23 @@ section.difference .advantage-list {
 
 .tab-wrapper .tab-links {
     height: 31em;
+}
+
+@media screen and (max-width: 767px) {
+    .tabs-title {
+        text-align: center;
+    }
+
+    .tab-wrapper .tab-links {
+        flex-direction: row !important;
+        justify-content: space-around;
+        height: 13em;
+    }
+
+    .tab-wrapper .tab-links li {
+        min-width: 20%;
+        height: 4em;
+    }
 }
 
 .tab-wrapper .tab-links li {
