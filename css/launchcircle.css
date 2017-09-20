@@ -1406,10 +1406,15 @@ section.difference .advantage-list {
 }
 
 #faqCarousel .carousel-control-wraper {
-    right: 45%;
+    position: absolute;
+    right: 25%;
+    justify-content: center;
+    bottom: 0;
+    display: flex;
 }
 
 #faqCarousel .carousel-control-wraper .slick-arrow {
+    opacity: 0.85;
     background-color: #F4F8FC;
 }
 
