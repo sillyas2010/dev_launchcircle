@@ -1351,6 +1351,7 @@ section.difference .advantage-list {
 
 #faqCarousel {
     padding: 5em 0 2em;
+    overflow-x: hidden;
 }
 
 #faqCarousel .slick-list,
@@ -1403,6 +1404,11 @@ section.difference .advantage-list {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+.tab-content {
+    padding-left: 30px;
+    padding-right: 0;
 }
 
 .tab-content .card-header,
