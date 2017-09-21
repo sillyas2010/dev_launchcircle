@@ -168,18 +168,16 @@
     }
 
     function changeLang(lang,isInit) {
-        var currPage = document.createElement('a'),
+        var currPage = window.location.href,
             langExists = /[\-][a-z]{2}(\.html)?$/,
             lang = lang || undefined;
 
         if(!isInit && ifLangChanged() && lang === 'en') {
-            debugger;
-            var startsFrom = $(currPage).attr('href').matches(langExists).index,
-                newPage = $(currPage).attr('href').matches(langExists).input.substring(0,startsFrom);
+            var startsFrom = currPage.matches(langExists).index,
+                newPage = currPage.matches(langExists).input.substring(0,startsFrom);
             window.location.href = newPage;
         }
         else if(!isInit) {
-            currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
         else if(isInit && ifLangChanged()) {
