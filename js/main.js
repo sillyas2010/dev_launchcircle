@@ -180,7 +180,7 @@
             debugger;
             if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('lauchcircle-lang')) {
                 $('.locale .custom-select option').removeAttr('selected')
-                    .filter(function () { return $(this).text() === getCookie('lauchcircle-lang'); })
+                    .filter(function () { console.log($(this).text() + " " + $(this).text() === getCookie('lauchcircle-lang')); return $(this).text() === getCookie('lauchcircle-lang'); })
                     .attr('selected','selected');
             }
         }
