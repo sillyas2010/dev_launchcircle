@@ -171,21 +171,16 @@
 
     function changeLang(lang,isInit) {
         var currPage = document.createElement('a'),
-            lang = lang || getCookie('launchcircle-lang') || undefined;
+            lang = lang || ifLangChanged() || undefined;
 
         if(!isInit || isInit === undefined) {
-            document.cookie = "launchcircle-lang=" + lang + "; path=/; expires=3600";
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
-        else if(isInit && ifLangChanged() !== false) {
-            if($('.locale .custom-select option:selected').text().toLowerCase() !== ifLangChanged()) {
-                $('.locale .custom-select option').removeAttr('selected')
-                    .filter(function () { return $(this).text().toLowerCase() === ifLangChanged(); })
-                    .attr('selected','selected');
-            }
-        }
-        else if(lang && lang.length > 0) {
+        else if(isInit && ifLangChanged()) {
+            $('.locale .custom-select option').removeAttr('selected')
+                .filter(function () { return $(this).text().toLowerCase() === ifLangChanged(); })
+                .attr('selected','selected');
             $('a').each(function () {
                 if(!$(this).hash) {
                     $(this).attr('href', changeHref($(this),lang));
@@ -195,8 +190,7 @@
     }
 
     function changeHref($el,lang) {
-        var extension = '.html',
-            pageHasExtension= /[\\.html]/.test(window.location.pathname) ? window.location.pathname.indexOf('.html') : false;
+        var extension = '.html';
 
         if(lang !== "en") {
             if($el[0].pathname.indexOf(extension) !== -1)
@@ -218,8 +212,6 @@
             return false;
         }
     }
-
-    ifLangChanged();
 
     function getCookie(name)
     {
