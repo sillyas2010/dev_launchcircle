@@ -181,11 +181,6 @@
             $('.locale .custom-select option').removeAttr('selected')
                 .filter(function () { return $(this).text().toLowerCase() === ifLangChanged(); })
                 .attr('selected','selected');
-            $('a').each(function () {
-                if(!$(this).hash) {
-                    $(this).attr('href', changeHref($(this),lang));
-                }
-            });
         }
     }
 
