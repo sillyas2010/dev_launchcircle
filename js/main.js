@@ -168,7 +168,7 @@
     }
 
     function changeLang(lang,isInit) {
-        var currPage = window.location.href,
+        var currPage = window.location.pathname,
             langExists = /[\-][a-z]{2}(\.html)?$/,
             lang = lang || undefined;
 
