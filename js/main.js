@@ -223,7 +223,7 @@
                 return c.substring(name.length, c.length);
             }
         }
-        return false;
+        return '';
     }
     
     function changeAccordionIcon(isInit,el) {
