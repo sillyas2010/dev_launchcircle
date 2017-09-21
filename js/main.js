@@ -172,8 +172,9 @@
             langExists = /[\-][a-z]{2}(\.html)?$/,
             lang = lang || undefined;
 
+        currPage.setAttribute('href',window.location.href);
+
         if(!isInit && ifLangChanged() && lang === 'en') {
-            currPage.setAttribute('href',window.location.href);
 
             var startsFrom = currPage.pathname.match(langExists).index,
                 newPage = currPage.pathname.match(langExists).input.substring(0,startsFrom) || '/';
@@ -181,7 +182,6 @@
             window.location.href = newPage;
         }
         else if(!isInit) {
-            currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
         else if(isInit && ifLangChanged()) {
@@ -194,6 +194,7 @@
     function changeHref($el,lang) {
         var extension = '.html';
 
+        debugger;
         if(lang !== "en") {
             if($el[0].pathname.indexOf(extension) !== -1)
                 return $el[0].pathname = $el[0].pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
