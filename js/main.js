@@ -58,7 +58,7 @@
             changeLang('en');
         }
         if ($(this).val() === '1') {
-            changeLang('de');
+            changeLang('ge');
         }
     });
 
@@ -172,7 +172,7 @@
             lang = lang || getCookie('launchcircle-lang') || undefined;
 
         if(!isInit || isInit === undefined) {
-            document.cookie = "launchcircle-lang=" + lang + " path=/; expires=3600";
+            document.cookie = "launchcircle-lang=" + lang + "; path=/; expires=3600";
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
@@ -182,6 +182,13 @@
                     $(this).attr('href', changeHref($(this),lang));
                 }
             });
+        }
+        else if(isInit && getCookie('launchcircle-lang')) {
+            if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('lauchcircle-lang')) {
+                $('.locale .custom-select option').removeAttr('selected')
+                    .filter(function () { return $(this).text() === getCookie('lauchcircle-lang'); })
+                    .attr('selected','selected');
+            }
         }
     }
 
@@ -202,11 +209,20 @@
         }
     }
 
-    function getCookie(name) {
-        var matches = document.cookie.match(new RegExp(
-            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-        ));
-        return matches ? decodeURIComponent(matches[1]) : undefined;
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return false;
     }
     
     function changeAccordionIcon(isInit,el) {
