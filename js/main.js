@@ -194,7 +194,6 @@
     function changeHref($el,lang) {
         var extension = '.html';
 
-        debugger;
         if(lang !== "en") {
             if($el[0].pathname.indexOf(extension) !== -1)
                 return $el[0].pathname = $el[0].pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
