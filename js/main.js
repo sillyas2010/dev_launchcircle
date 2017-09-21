@@ -178,10 +178,10 @@
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
-        else if(isInit && getCookie('launchcircle-lang')) {
-            if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('launchcircle-lang')) {
+        else if(isInit && ifLangChanged()) {
+            if($('.locale .custom-select option:selected').text().toLowerCase() !== ifLangChanged()) {
                 $('.locale .custom-select option').removeAttr('selected')
-                    .filter(function () { return $(this).text().toLowerCase() === getCookie('launchcircle-lang'); })
+                    .filter(function () { return $(this).text().toLowerCase() === ifLangChanged(); })
                     .attr('selected','selected');
             }
         }
@@ -209,12 +209,13 @@
     }
 
     function ifLangChanged() {
-        debugger;
         var currPage = window.location.pathname,
             langExists = /[\-][a-z]{2}[\\.html]?$/;
         if(langExists.test(currPage)) {
-            var lang = currPage.match(langExists);
-            return lang;
+            return currPage.match(langExists)[0].match(/[a-z]{2}/)[0];
+        }
+        else {
+            return false;
         }
     }
 
