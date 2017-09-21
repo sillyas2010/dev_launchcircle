@@ -211,9 +211,9 @@
     function ifLangChanged() {
         debugger;
         var currPage = window.location.pathname,
-            langExists = /[\\-][a-z]{2}[?\\.html]/;
+            langExists = /[\-][a-z]{2}[\\.html]?$/;
         if(langExists.test(currPage)) {
-            var lang = currPage.match(/[\\-][a-z]{2}[?\\.html]/);
+            var lang = currPage.match(langExists);
             return lang;
         }
     }
