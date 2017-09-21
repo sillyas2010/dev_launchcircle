@@ -652,6 +652,11 @@ header .header-nav .nav-link a {
     display: inline-block;
 }
 
+header .header-nav .nav-link a.dropdown-toggle:after {
+    position: absolute;
+    top: 50%;
+}
+
 @media screen and (max-width: 991px) {
     header .header-nav .nav-link a {
         margin: 0;
