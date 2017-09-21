@@ -172,7 +172,7 @@
             lang = lang || getCookie('launchcircle-lang') || undefined;
 
         if(!isInit || isInit === undefined) {
-            document.cookie = "name=launchcircle-lang; value=" + lang + " path=/; expires=3600";
+            document.cookie = "launchcircle-lang=" + lang + " path=/; expires=3600";
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
