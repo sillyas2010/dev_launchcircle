@@ -209,10 +209,9 @@
         }
     }
 
-    window.ifLangChanged = function() {
-        debugger;
+    function ifLangChanged() {
         var currPage = window.location.pathname,
-            langExists = /[\-][a-z]{2}[\\.html]?$/;
+            langExists = /[\-][a-z]{2}(\.html)?$/;
         if(langExists.test(currPage)) {
             return currPage.match(langExists)[0].match(/[a-z]{2}/)[0];
         }
