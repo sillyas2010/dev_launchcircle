@@ -173,7 +173,9 @@
             lang = lang || undefined;
 
         if(!isInit && ifLangChanged() && lang === 'en') {
-            var newPage = currPage.matches(langExists).input.substring(0,currPage.matches(langExists).index);
+            debugger;
+            var startsFrom = currPage.matches(langExists).index,
+                newPage = currPage.matches(langExists).input.substring(0,startsFrom);
             window.location.href = newPage;
         }
         else if(!isInit) {
