@@ -4,6 +4,8 @@
 
     "use strict";
 
+    var languages = ['en','ge'];
+
     $('#launchCircleToptalent').carousel({
         ride: "carousel",
         interval: 10000,
@@ -194,12 +196,9 @@
 
     function changeHref($el,lang) {
         var extension = '.html',
-            pageHasExtension= window.location.pathname.indexOf('.html') !== -1 ? window.location.pathname.indexOf('.html')
-                                                                               : false;
-        if(lang === "en") {
-            document.cookie = "launchcircle-lang=" + lang + "; path=/; expires=3600";
-        }
-        else {
+            pageHasExtension= /[\\.html]/.test(window.location.pathname) ? window.location.pathname.indexOf('.html') : false;
+
+        if(lang !== "en") {
             if($el[0].pathname.indexOf(extension) !== -1)
                 return $el[0].pathname = $el[0].pathname.replace(new RegExp(extension, 'g'), '-' + lang + extension);
             else if($el[0].pathname === '/')
@@ -208,6 +207,18 @@
                 return $el[0].pathname += '-' + lang;
         }
     }
+
+    function ifLangChanged() {
+        debugger;
+        var currPage = window.location.pathname,
+            langExists = /[\\-][a-z]{2}[?\\.html]/;
+        if(langExists.test(currPage)) {
+            var lang = currPage.match(/[\\-][a-z]{2}[?\\.html]/);
+            return lang;
+        }
+    }
+
+    ifLangChanged();
 
     function getCookie(name)
     {
