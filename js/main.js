@@ -4,8 +4,6 @@
 
     "use strict";
 
-    var languages = ['en','ge'];
-
     $('#launchCircleToptalent').carousel({
         ride: "carousel",
         interval: 10000,
