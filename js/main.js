@@ -178,9 +178,9 @@
         }
         else if(isInit && getCookie('launchcircle-lang')) {
             debugger;
-            if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('lauchcircle-lang')) {
+            if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('launchcircle-lang')) {
                 $('.locale .custom-select option').removeAttr('selected')
-                    .filter(function () { console.log($(this).text() + " " + $(this).text() === getCookie('lauchcircle-lang')); return $(this).text() === getCookie('lauchcircle-lang'); })
+                    .filter(function () { console.log($(this).text() + " " + $(this).text() === getCookie('launchcircle-lang')); return $(this).text() === getCookie('lauchcircle-lang'); })
                     .attr('selected','selected');
             }
         }
