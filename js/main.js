@@ -176,13 +176,6 @@
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
-        else if(lang && lang.length > 0) {
-            $('a').each(function () {
-                if(!$(this).hash) {
-                    $(this).attr('href', changeHref($(this),lang));
-                }
-            });
-        }
         else if(isInit && getCookie('launchcircle-lang')) {
             debugger;
             if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('lauchcircle-lang')) {
@@ -190,6 +183,13 @@
                     .filter(function () { return $(this).text() === getCookie('lauchcircle-lang'); })
                     .attr('selected','selected');
             }
+        }
+        else if(lang && lang.length > 0) {
+            $('a').each(function () {
+                if(!$(this).hash) {
+                    $(this).attr('href', changeHref($(this),lang));
+                }
+            });
         }
     }
 
