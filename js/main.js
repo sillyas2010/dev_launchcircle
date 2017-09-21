@@ -210,21 +210,11 @@
         }
     }
 
-    function getCookie(name) {
-        var dc = document.cookie;
-        var prefix = name +"=";
-        var begin = dc.indexOf("; " + prefix);
-        if (begin === -1) {
-            begin = dc.indexOf(prefix);
-            if (begin !== 0)return null;
-        } else {
-            begin += 2;
-        }
-        var end = document.cookie.indexOf(";", begin);
-        if (end === -1) {
-            end = dc.length;
-        }
-        return decodeURI(dc.substring(begin + prefix.length, end));
+    function getCookie(name)
+    {
+        var re = new RegExp(name + "=([^;]+)");
+        var value = re.exec(document.cookie);
+        return (value !== null) ? decodeURI(value[1]) : null;
     }
     
     function changeAccordionIcon(isInit,el) {
