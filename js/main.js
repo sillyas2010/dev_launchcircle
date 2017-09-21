@@ -210,6 +210,7 @@
     }
 
     window.ifLangChanged = function() {
+        debugger;
         var currPage = window.location.pathname,
             langExists = /[\-][a-z]{2}[\\.html]?$/;
         if(langExists.test(currPage)) {
