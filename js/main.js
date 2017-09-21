@@ -173,6 +173,7 @@
             lang = lang || undefined;
 
         if(!isInit && ifLangChanged() && lang === 'en') {
+            debugger;
             var startsFrom = currPage.matches(langExists).index,
                 newPage = currPage.matches(langExists).input.substring(0,startsFrom);
             window.location.href = newPage;
