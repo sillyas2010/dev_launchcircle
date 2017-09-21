@@ -184,6 +184,7 @@
             });
         }
         else if(isInit && getCookie('launchcircle-lang')) {
+            debugger;
             if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('lauchcircle-lang')) {
                 $('.locale .custom-select option').removeAttr('selected')
                     .filter(function () { return $(this).text() === getCookie('lauchcircle-lang'); })
