@@ -178,7 +178,8 @@
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
-        else if(isInit && ifLangChanged()) {
+        else if(isInit && ifLangChanged() !== false) {
+            debugger;
             if($('.locale .custom-select option:selected').text().toLowerCase() !== ifLangChanged()) {
                 $('.locale .custom-select option').removeAttr('selected')
                     .filter(function () { return $(this).text().toLowerCase() === ifLangChanged(); })
