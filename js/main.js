@@ -177,7 +177,6 @@
             window.location.href = changeHref($(currPage),lang);
         }
         else if(isInit && getCookie('launchcircle-lang')) {
-            debugger;
             if($('.locale .custom-select option:selected').text().toLowerCase() !== getCookie('launchcircle-lang')) {
                 $('.locale .custom-select option').removeAttr('selected')
                     .filter(function () { return $(this).text().toLowerCase() === getCookie('launchcircle-lang'); })
@@ -198,7 +197,7 @@
             pageHasExtension= window.location.pathname.indexOf('.html') !== -1 ? window.location.pathname.indexOf('.html')
                                                                                : false;
         if(lang === "en") {
-
+            document.cookie = "launchcircle-lang=" + lang + "; path=/; expires=3600";
         }
         else {
             if($el[0].pathname.indexOf(extension) !== -1)
