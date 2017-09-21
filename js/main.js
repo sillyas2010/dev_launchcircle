@@ -171,9 +171,14 @@
 
     function changeLang(lang,isInit) {
         var currPage = document.createElement('a'),
-            lang = lang || ifLangChanged() || undefined;
+            langExists = /[\-][a-z]{2}(\.html)?$/,
+            lang = lang || undefined;
 
-        if(!isInit || isInit === undefined) {
+        if(!isInit && ifLangChanged() && lang === 'en') {
+            var newPage = currPage.matches(langExists).input.substring(0,currPage.matches(langExists).index);
+            window.location.href = newPage;
+        }
+        else if(!isInit) {
             currPage.setAttribute('href',window.location.href);
             window.location.href = changeHref($(currPage),lang);
         }
