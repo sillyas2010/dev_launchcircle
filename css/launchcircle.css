@@ -803,9 +803,6 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     .sub-header-navbar .w-icon .point {
         display: none;
     }
-    header .navigation {
-        margin-bottom: 13em;
-    }
     header .navigation .sub-header-dropdown {
         padding: 0;
     }
@@ -815,6 +812,8 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     header .navigation .sub-header-dropdown .sub-header-navbar {
         display: flex;
         background: white;
+        position: relative;
+        transform: translateY(0);
     }
 }
 
