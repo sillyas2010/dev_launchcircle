@@ -2255,20 +2255,19 @@ footer .copyright-info {
     color: rgba(137, 138, 234, 1);
 }
 
-
-
-@media (max-width: 980px) {
-
+@media screen and (max-width: 991px) {
     #launchCircleCarousel,
     .our-talent .launch-circle-talent,
     .launch-circle-title, .wrapper{
-        max-width: none;
         flex-wrap: wrap !important;
     }
 
     .wrapper {
         justify-content: center;
     }
+}
+
+@media (max-width: 980px) {
 
     .launch-circle-title h2 {
         -webkit-transform: rotate(0deg);

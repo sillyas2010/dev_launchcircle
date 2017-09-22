@@ -4,6 +4,12 @@
 
     "use strict";
 
+    var live = true;
+
+    if(live) {
+        $('.locale').hide();
+    }
+
     $('#launchCircleToptalent').carousel({
         ride: "carousel",
         interval: 10000,
