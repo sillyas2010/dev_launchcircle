@@ -2261,8 +2261,7 @@ footer .copyright-info {
 
     #launchCircleCarousel,
     .our-talent .launch-circle-talent,
-    .wrapper,
-    .launch-circle-title {
+    .wrapper {
         max-width: inherit;
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: normal !important;
@@ -2271,6 +2270,10 @@ footer .copyright-info {
         flex-direction: column !important;
         -webkit-flex-wrap: wrap !important;
         -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    }
+
+    .launch-circle-title {
         flex-wrap: wrap !important;
     }
 
