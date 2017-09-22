@@ -2259,8 +2259,6 @@ footer .copyright-info {
 
 @media (max-width: 980px) {
 
-    #launchCircleCarousel,
-    .our-talent .launch-circle-talent,
     .wrapper {
         max-width: inherit;
         -webkit-box-orient: vertical !important;
@@ -2273,7 +2271,10 @@ footer .copyright-info {
         flex-wrap: wrap !important;
     }
 
+    #launchCircleCarousel,
+    .our-talent .launch-circle-talent,
     .launch-circle-title {
+        max-width: inherit;
         flex-wrap: wrap !important;
     }
 
