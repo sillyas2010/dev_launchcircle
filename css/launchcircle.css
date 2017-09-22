@@ -795,11 +795,11 @@ header .sub-header-dropdown:hover .sub-header-navbar {
     transform: translate(-53%,-31%);
 }
 
-.navigation.stuck .sub-header-navbar {
-    border-bottom: 1px solid #e8e8e8;
-}
-
 @media screen and (max-width: 991px) {
+    .navigation.stuck {
+        border-bottom: 1px solid rgb(232, 232, 232);
+        box-shadow: 0 1px 10px 1px rgba(204,204,204,1);
+    }
     .sub-header-navbar .w-icon .point {
         display: none;
     }
@@ -813,6 +813,7 @@ header .sub-header-dropdown:hover .sub-header-navbar {
         display: flex;
         background: white;
         position: relative;
+        margin: 0;
         transform: translateY(0);
     }
 }
@@ -2364,7 +2365,6 @@ footer .copyright-info {
 
     .navigation.stuck {
         padding: 0 10px !important;
-
     }
 
     .navbar-light .navbar-toggler {
