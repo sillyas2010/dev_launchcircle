@@ -2259,22 +2259,10 @@ footer .copyright-info {
 
 @media (max-width: 980px) {
 
-    .wrapper {
-        max-width: inherit;
-        -webkit-box-orient: vertical !important;
-        -webkit-box-direction: normal !important;
-        -webkit-flex-direction: column !important;
-        -ms-flex-direction: column !important;
-        flex-direction: column !important;
-        -webkit-flex-wrap: wrap !important;
-        -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
-    }
-
     #launchCircleCarousel,
     .our-talent .launch-circle-talent,
-    .launch-circle-title {
-        max-width: inherit;
+    .launch-circle-title, .wrapper{
+        max-width: none;
         flex-wrap: wrap !important;
     }
 
