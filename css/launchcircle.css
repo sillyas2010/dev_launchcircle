@@ -2262,6 +2262,10 @@ footer .copyright-info {
         flex-wrap: wrap !important;
     }
 
+    .launch-circle-title {
+        max-width: none;
+    }
+
     .wrapper {
         justify-content: center;
     }
