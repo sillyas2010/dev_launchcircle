@@ -2369,6 +2369,7 @@ footer .copyright-info {
 
     .navbar-light .navbar-toggler {
         margin: 3px 0;
+        top: 0;
     }
 
     header .header-nav .nav-link a:not(.btn) {
