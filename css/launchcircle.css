@@ -1829,7 +1829,7 @@ section.difference .advantage-list {
 }
 
 .team img {
-    height: 100%;
+    max-width: 100%;
 }
 
 /* --------------------------------------
