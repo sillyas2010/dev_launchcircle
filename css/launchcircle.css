@@ -633,7 +633,8 @@ body.ge .modal-body form:before {
     }
 }
 @media screen and (max-width: 768px) {
-    header .navigation .btn.btn-secondary {
+    header .navigation .btn.btn-secondary,
+    header .locale .custom-select {
         background-color: rgba(18,212,196,1);
         border-color: rgba(18,212,196,1);
         color: #fff;
@@ -2397,7 +2398,8 @@ footer .copyright-info {
     }
 
     header .header-nav .nav-link a.apply,
-    header .header-nav .nav-link a.start {
+    header .header-nav .nav-link a.start,
+    header .locale .custom-select{
         width: 100%;
     }
 
