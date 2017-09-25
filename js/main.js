@@ -4,7 +4,7 @@
 
     "use strict";
 
-    var live = true;
+    var live = false;
 
     if(live) {
         $('.locale').hide();
