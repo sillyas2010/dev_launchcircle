@@ -133,8 +133,13 @@
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
 
-                    createNotify('Thank you for your submission, it has been received' +
-                        ' and someone will be reaching out to you shortly.','succeed','fixed');
+                    if(!ifLangChanged())
+                        createNotify('Thank you for your submission, it has been received' +
+                            ' and someone will be reaching out to you shortly.','succeed','fixed');
+                    else if(ifLangChanged() === "ge") {
+                        createNotify('Danke für deine Einreichung, es ist empfangen worden' +
+                            ' und jemand wird dich bald erreichen.','succeed','fixed')
+                    }
                 }
             });
         }
