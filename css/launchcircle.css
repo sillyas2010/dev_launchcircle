@@ -419,6 +419,10 @@ a:active {
     top: 1.06em;
 }
 
+body.ge .modal-body form:before {
+    content: '* ist erforderlich';
+}
+
 .modal-body form .custom-control{
     display: table;
     border: 0;
