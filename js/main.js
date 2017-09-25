@@ -52,11 +52,12 @@
     onScrollInit($('.animate-on'));
 
     $('a.page-scroll').on('click', function (event) {
+        event.preventDefault();
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').outerHeight() - 60
         }, 1500, 'easeInOutExpo');
-        event.preventDefault();
+        window.location.hash = $anchor.attr('href');
     });
 
     $('.locale .custom-select').on('change', function (e) {
