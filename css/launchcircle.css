@@ -1894,29 +1894,33 @@ section.difference .advantage-list {
     padding: 2rem 1rem;
 }
 
-.list {
+#team .list {
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.list .list-item {
+#team .list .list-item {
     width: 50%;
 }
 
-.list .list-item .item-title {
+#team .list .list-item .item-title {
     font-size: 1.3em;
     margin-left: 1.5em;
     position: relative;
 }
 
 @media screen and (max-width: 520px) {
-    .list .list-item .item-title {
+    #team .list .list-item {
+        width: 100%;
+    }
+
+    #team .list .list-item .item-title {
         margin-left: 0;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
-    .list .list-item .item-title:before {
+    #team .list .list-item .item-title:before {
         display: none;
     }
 
@@ -1925,11 +1929,11 @@ section.difference .advantage-list {
     }
 }
 
-.list .list-item .item-description {
+#team .list .list-item .item-description {
     max-width: 90%;
 }
 
-.list .list-item .item-title:before {
+#team .list .list-item .item-title:before {
     content: '';
     position: absolute;
     top: 50%;
