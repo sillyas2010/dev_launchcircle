@@ -311,6 +311,16 @@ ol > li:before {
     opacity: 1;
 }
 
+/*---------------------------------------
+    Flex element with min-height not
+         centering in IE fix
+-----------------------------------------*/
+
+.ie-center-fix {
+    display: flex;
+    flex-direction: column;
+}
+
 /* --------------------------------------
  TYPOGRAPHY
 -----------------------------------------*/
