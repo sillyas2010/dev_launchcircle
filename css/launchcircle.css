@@ -112,6 +112,7 @@ ol > li:before {
     height: 30px;
     width: 30px;
     transform: translate(0%,-75%) rotate(270deg);
+    -webkit-transform: translate(0%,-75%) rotate(270deg);
     background-color: rgba(158, 159, 250, 1);
     background-image: url("/images/arrow-pointing-to-right.svg");
     border-radius: 100%;
