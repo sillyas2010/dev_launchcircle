@@ -2207,11 +2207,18 @@ section.difference .advantage-list {
 
 .company-card .company-link:first-child {
     display: block;
+    max-width: 20%;
 }
 
 .company-card .title,
 .company-card .company-link:nth-child(2) {
     display: inline-block;
+}
+
+@media screen and (max-width: 550px) {
+    .company-card .company-link:first-child {
+        max-width: 40%;
+    }
 }
 
 /* --------------------------------------
