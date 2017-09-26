@@ -52,7 +52,6 @@
     onScrollInit($('.animate-on'));
 
     $('a.page-scroll').on('click', function (event) {
-        debugger;
         event.preventDefault();
         var $anchor = $(this);
         $('body').stop().animate({
