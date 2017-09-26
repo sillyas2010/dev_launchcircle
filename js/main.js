@@ -133,6 +133,10 @@
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
 
+                    if($(window).width < 992) {
+                        $('#navbarNav').collapse('toggle');
+                    }
+
                     if(!ifLangChanged())
                         createNotify('Thank you for your submission, it has been received' +
                             ' and someone will be reaching out to you shortly.','succeed','fixed');
