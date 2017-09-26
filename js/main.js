@@ -56,7 +56,7 @@
         var $anchor = $(this);
         $('body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').outerHeight() - 60
-        }, 1500, 'easeInOutExpo');
+        }, 1500, 'linear');
         window.location.hash = $anchor.attr('href');
     });
 
