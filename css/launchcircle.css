@@ -2422,6 +2422,10 @@ footer .copyright-info {
         padding: 0.375rem calc( 50% - 1em );
     }
 
+    header .locale .custom-select:hover {
+        cursor: pointer;
+    }
+
     .carousel-control {
         max-width: 432px;
         margin: 0 auto;
