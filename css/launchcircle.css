@@ -479,6 +479,10 @@ body.ge .modal-body form:before {
     font-size: .8em;
 }
 
+.modal-content .modal-footer {
+    justify-content: flex-start !important;
+}
+
 .modal-content .btn-primary.disabled,
 .modal-content .btn-primary:disabled {
     background-color: dimgray;
