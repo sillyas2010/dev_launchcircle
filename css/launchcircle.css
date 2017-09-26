@@ -620,6 +620,10 @@ body.ge .modal-body form:before {
     color: black;
 }
 
+header .locale .custom-select:hover {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 769px) and (max-width: 991px){
     header .navigation .btn {
         font-weight: 500 !important;
@@ -2420,10 +2424,6 @@ footer .copyright-info {
 
     header .locale .custom-select {
         padding: 0.375rem calc( 50% - 1em );
-    }
-
-    header .locale .custom-select:hover {
-        cursor: pointer;
     }
 
     .carousel-control {
