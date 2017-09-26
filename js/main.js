@@ -133,7 +133,7 @@
                         form.closest('.modal.fade').modal('toggle');
                     console.clear();
 
-                    if($(window).width < 992) {
+                    if($(window).width() < 992) {
                         $('#navbarNav').collapse('toggle');
                     }
 
