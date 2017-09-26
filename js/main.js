@@ -52,12 +52,14 @@
     onScrollInit($('.animate-on'));
 
     $('a.page-scroll').on('click', function (event) {
-        event.preventDefault();
-        var $anchor = $(this);
-        $('body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').outerHeight() - 60
-        }, 1500, 'linear');
-        window.location.hash = $anchor.attr('href');
+        if( !(/Mobi/i.test(navigator.userAgent)) && !(/Android/i.test(navigator.userAgent)) ) {
+            event.preventDefault();
+            var $anchor = $(this);
+            $('body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').outerHeight() - 60
+            }, 1500, 'linear');
+            window.location.hash = $anchor.attr('href');
+        }
     });
 
     $('.locale .custom-select').on('change', function (e) {
