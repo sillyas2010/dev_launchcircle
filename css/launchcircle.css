@@ -440,7 +440,7 @@ body.ge .modal-body form:before {
 }
 
 .modal-body form .form-group .required,
-.modal-body form label .required{
+.modal-body form .field-description .required{
     font-size: 1.2em;
     color: red;
 }
