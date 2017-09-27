@@ -1128,7 +1128,7 @@ a.link-icon::after {
     text-align: center;
 }
 /*Responsive + Firefox Fix*/
-@media screen and (max-width: 1000px), all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) {
+@media screen and (max-width: 1000px), all and (-moz-images-in-menus:0) {
     .security .list-view {
         display: block !important;
     }
@@ -1136,12 +1136,12 @@ a.link-icon::after {
     .radial-services .title {
         font-size: 1.3em;
     }
-    @media screen and (max-width: 768px), all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) and (max-width: 768px) {
+    @media screen and (max-width: 768px), all and (-moz-images-in-menus:0) and (max-width: 768px) {
         .radial-services .title {
             font-size: 1em;
         }
     }
-    @media screen and (max-width: 575px), all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) {
+    @media screen and (max-width: 575px), all and (-moz-images-in-menus:0) {
         .security .list-view .point-wrapper .point {
             position: relative;
             margin: 1em 0;
