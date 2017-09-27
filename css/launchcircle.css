@@ -1079,8 +1079,9 @@ a.link-icon::after {
 -----------------------------------------*/
 
 
-.radial-container {
-    position: relative;
+.radial-container,.radial-wrapper {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .radial-wrap {
@@ -1110,12 +1111,12 @@ a.link-icon::after {
 }
 
 .radial.radial-small {
-    transform: translate(35%,-135%);
+    transform: translate(35.5%,-135.5%);
     border: 1px solid #d3d3d3;
 }
 
 .radial.radial-services {
-    transform: translate(0,-275%);
+    transform: translate(0,-250%);
     border: 0;
     background: #898AEA;
 }
@@ -1137,7 +1138,7 @@ a.link-icon::after {
     }
     @media screen and (max-width: 768px) {
         .radial-services .title {
-            font-size: 1em;
+            font-size: 1.2em;
         }
     }
     @media screen and (max-width: 575px) {
