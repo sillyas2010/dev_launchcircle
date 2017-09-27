@@ -1127,25 +1127,17 @@ a.link-icon::after {
     text-align: center;
 }
 /*Responsive + Firefox Fix*/
-@media screen and (min--moz-device-pixel-ratio:0), screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .radial-services .title {
         font-size: 1.3em;
     }
-    @media screen and (min--moz-device-pixel-ratio:0) {
-        .security .list-view {
-            display: block !important;
-        }
-        #our-services {
-            display: none !important;
-        }
-    }
-    @media  screen and (min--moz-device-pixel-ratio:0) and (max-width: 768px), screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .radial-services .title {
             font-size: 1em;
         }
     }
-    @media screen and (min--moz-device-pixel-ratio:0), screen and (max-width: 575px) {
+    @media screen and (max-width: 575px) {
         .security .list-view .point-wrapper .point {
             position: relative;
             margin: 1em 0;
