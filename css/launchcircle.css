@@ -493,9 +493,13 @@ body.ge .modal-body form:before {
     justify-content: flex-start !important;
 }
 
-.modal-footer .btn:not(:disabled),
-.modal-footer .btn:not(.disabled) {
+.modal-footer .btn {
     cursor: pointer;
+}
+
+.modal-footer .btn.disabled,
+.modal-footer .btn:disabled {
+    cursor: not-allowed;
 }
 
 .modal-content .btn-primary.disabled,
