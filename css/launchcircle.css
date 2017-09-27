@@ -1129,6 +1129,9 @@ a.link-icon::after {
 }
 /*Responsive + Firefox Fix*/
 @media screen and (max-width: 1000px), all and (-moz-images-in-menus:0) and (min-resolution: .001dpcm) {
+    .security .list-view {
+        display: block !important;
+    }
 
     .radial-services .title {
         font-size: 1.3em;
