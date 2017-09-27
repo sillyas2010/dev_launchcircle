@@ -1128,22 +1128,22 @@ a.link-icon::after {
     text-align: center;
 }
 /*Responsive + Firefox Fix*/
-@media screen and (max-width: 1000px), (-moz-images-in-menus:0) {
+@media screen and (max-width: 1000px), screen and (-moz-images-in-menus:0) {
 
     .radial-services .title {
         font-size: 1.3em;
     }
-    @media (-moz-images-in-menus:0) {
+    @media screen and (-moz-images-in-menus:0) {
         .security .list-view {
             display: block !important;
         }
     }
-    @media screen and (max-width: 768px), (-moz-images-in-menus:0) and (max-width: 768px) {
+    @media screen and (max-width: 768px), screen and (-moz-images-in-menus:0) and (max-width: 768px) {
         .radial-services .title {
             font-size: 1em;
         }
     }
-    @media screen and (max-width: 575px), (-moz-images-in-menus:0) {
+    @media screen and (max-width: 575px), screen and (-moz-images-in-menus:0) {
         .security .list-view .point-wrapper .point {
             position: relative;
             margin: 1em 0;
