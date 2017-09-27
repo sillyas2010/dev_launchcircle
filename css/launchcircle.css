@@ -1136,7 +1136,7 @@ a.link-icon::after {
     .radial-services .title {
         font-size: 1.3em;
     }
-    @media screen and (max-width: 768px), all and (-moz-images-in-menus:0) and (max-width: 768px) {
+    @media screen and (max-width: 768px), all and (-moz-images-in-menus:0) {
         .radial-services .title {
             font-size: 1em;
         }
