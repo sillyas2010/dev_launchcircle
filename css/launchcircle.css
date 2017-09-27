@@ -1227,7 +1227,7 @@ header .point-white {
     display: inline-block;
     text-align: center;
     color: #363439;
-    width: 21ch;
+    width: auto;
 }
 
 .point .caption.caption-med {
@@ -1236,13 +1236,6 @@ header .point-white {
 
 .point .caption.caption-small {
     width: 11ch;
-}
-
-/*-----------------------------
-            IE10+ fix
--------------------------------*/
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .point .caption {width:auto !important;}
 }
 
 .point .caption.caption-left {
