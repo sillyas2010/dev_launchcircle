@@ -1081,7 +1081,10 @@ a.link-icon::after {
 
 .radial-container {
     position: relative;
-    margin-bottom: 6em;
+}
+
+.radial-wrap {
+    flex: 1 1 100%;
 }
 
 .radial {
@@ -1112,7 +1115,7 @@ a.link-icon::after {
 }
 
 .radial.radial-services {
-    transform: translate(125%,-275%);
+    transform: translate(0,-275%);
     border: 0;
     background: #898AEA;
 }
@@ -1126,7 +1129,7 @@ a.link-icon::after {
     font-size: 1.4em;
     text-align: center;
 }
-/*Responsive + Firefox Fix*/
+
 @media screen and (max-width: 1000px) {
 
     .radial-services .title {
