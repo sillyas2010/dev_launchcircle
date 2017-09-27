@@ -1085,7 +1085,6 @@ a.link-icon::after {
 }
 
 .radial {
-    position: absolute;
     width: 100%;
     padding-top: 100%;
     border-radius: 50%;
@@ -1098,22 +1097,22 @@ a.link-icon::after {
     transform: rotate(45deg);
 }
 
-.radial-big-wrapper {
-    padding-top: 100%;
-}
-
 .radial.radial-small,
 .radial.radial-services {
     left: 50%;
 }
 
+.radial-wrapper.radial-small-wrapper {
+    position: absolute;
+}
+
 .radial.radial-small {
-    transform: translate(-50%,-135%);
+    transform: translate(35%,-135%);
     border: 1px solid #d3d3d3;
 }
 
 .radial.radial-services {
-    transform: translate(-50%,-250%);
+    transform: translate(125%,-275%);
     border: 0;
     background: #898AEA;
 }
@@ -1183,6 +1182,10 @@ header .point {
 
 .radial-big .point {
     transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+.radial-big-wrapper > .point {
+    transform: translate(-50%, 50%);
 }
 
 .security .point-white,
