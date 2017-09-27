@@ -493,15 +493,6 @@ body.ge .modal-body form:before {
     justify-content: flex-start !important;
 }
 
-.modal-footer .btn {
-    cursor: pointer;
-}
-
-.modal-footer .btn.disabled,
-.modal-footer .btn:disabled {
-    cursor: not-allowed;
-}
-
 .modal-content .btn-primary.disabled,
 .modal-content .btn-primary:disabled {
     background-color: dimgray;
@@ -551,6 +542,7 @@ body.ge .modal-body form:before {
     background-color: rgb(255, 255, 255);
     font-weight: bold;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 450px) {
