@@ -1238,6 +1238,13 @@ header .point-white {
     width: 11ch;
 }
 
+/*-----------------------------
+            IE10+ fix
+-------------------------------*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .point .caption {width:auto !important;}
+}
+
 .point .caption.caption-left {
     top: 50%;
     left: -.5em;
