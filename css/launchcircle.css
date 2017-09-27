@@ -1129,12 +1129,14 @@ a.link-icon::after {
 }
 /*Responsive + Firefox Fix*/
 @media screen and (max-width: 1000px), (-moz-images-in-menus:0) {
-    .security .list-view {
-        display: block !important;
-    }
 
     .radial-services .title {
         font-size: 1.3em;
+    }
+    @media (-moz-images-in-menus:0) {
+        .security .list-view {
+            display: block !important;
+        }
     }
     @media screen and (max-width: 768px), (-moz-images-in-menus:0) and (max-width: 768px) {
         .radial-services .title {
