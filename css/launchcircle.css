@@ -493,6 +493,11 @@ body.ge .modal-body form:before {
     justify-content: flex-start !important;
 }
 
+.modal-footer .btn:not(:disabled),
+.modal-footer .btn:not(.disabled) {
+    cursor: pointer;
+}
+
 .modal-content .btn-primary.disabled,
 .modal-content .btn-primary:disabled {
     background-color: dimgray;
