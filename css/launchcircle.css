@@ -1137,6 +1137,9 @@ a.link-icon::after {
         .security .list-view {
             display: block !important;
         }
+        #our-services {
+            display: none !important;
+        }
     }
     @media  screen and (min--moz-device-pixel-ratio:0) and (max-width: 768px), screen and (max-width: 768px) {
         .radial-services .title {
