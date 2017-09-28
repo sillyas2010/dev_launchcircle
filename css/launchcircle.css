@@ -105,7 +105,8 @@ ol > li:before {
     }
 }
 
-.page-scroll {
+.card-header .page-scroll,
+.page-scroll.top {
     text-indent: -99999px;
 }
 
