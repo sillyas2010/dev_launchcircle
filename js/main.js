@@ -67,7 +67,7 @@
             changeLang('en');
         }
         if ($(this).val() === '1') {
-            changeLang('ge');
+            changeLang('de');
         }
     });
 
