@@ -106,7 +106,8 @@ ol > li:before {
 }
 
 .card-header .page-scroll,
-.page-scroll.top {
+.page-scroll.top,
+.get-on-astore, .get-on-gplay {
     text-indent: -99999px;
 }
 
