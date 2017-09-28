@@ -105,6 +105,10 @@ ol > li:before {
     }
 }
 
+.page-scroll {
+    text-indent: -99999px;
+}
+
 .page-scroll.top {
     position: fixed;
     right: 30px;
@@ -118,7 +122,6 @@ ol > li:before {
     border-radius: 100%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    text-indent: -99999px;
     opacity: 0;
     transition: opacity .55s ease-in;
 }
