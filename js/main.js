@@ -65,7 +65,7 @@
         }
         //Temporary action, while faq page still haven't german translations
         else if(!/(faq)/g.test(window.location.pathname)) {
-            $(this).val(0).change();
+            $(this).val(0);
         }
     });
 
