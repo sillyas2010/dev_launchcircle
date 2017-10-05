@@ -65,7 +65,7 @@
         }
         //Temporary action, while faq page still haven't german translations
         else if(!/(faq)/g.test(window.location.pathname)) {
-            $(this).find('option').removeAttr('selected').filter(':first-child').attr('selected','selected');
+            $(this).find('option').removeAttr('selected').first().attr('selected','selected');
         }
     });
 
