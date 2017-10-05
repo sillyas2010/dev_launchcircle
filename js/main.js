@@ -65,6 +65,7 @@
         }
         else if(!/(faq)/g.test(window.location.pathname)) {
             $(this).val('0');
+
         }
     });
 
