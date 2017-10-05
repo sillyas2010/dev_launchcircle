@@ -63,6 +63,9 @@
         if ($(this).val() === '1' && !/(faq)/g.test(window.location.pathname)) {
             changeLang('de');
         }
+        else if(!/(faq)/g.test(window.location.pathname)) {
+            $(this).val('1');
+        }
     });
 
     //fix of scrolling on disabled button click
