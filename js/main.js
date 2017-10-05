@@ -63,8 +63,9 @@
         if ($(this).val() === '1' && !/(faq)/g.test(window.location.pathname)) {
             changeLang('de');
         }
+        //Temporary action, while faq page still haven't german translations
         else if(!/(faq)/g.test(window.location.pathname)) {
-            $(this).val('0').change();
+            $(this).find('option').removeAttr('selected').filter(':first-child').attr('selected','selected');
         }
     });
 
