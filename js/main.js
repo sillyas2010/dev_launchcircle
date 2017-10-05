@@ -65,7 +65,7 @@
         }
         //Temporary action, while faq page still haven't german translations
         else if(!/(faq)/g.test(window.location.pathname)) {
-            setTimeout($('.locale .custom-select').val(0),50);
+            e.preventDefault();
         }
     });
 
