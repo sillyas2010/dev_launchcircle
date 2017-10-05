@@ -65,7 +65,12 @@
         }
         //Temporary action, while faq page still haven't german translations
         else if(!/(faq)/g.test(window.location.pathname)) {
-            $(this).find('option').attr('selected',false).first().attr('selected',true);
+            $(this).find('option')
+                .attr('selected',false)
+                .prop('selected',false)
+                    .first()
+                    .attr('selected',true)
+                    .prop('selected',true);
         }
     });
 
