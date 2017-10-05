@@ -68,7 +68,8 @@
             $(this).find('option')
                 .prop('selected',false)
                     .first()
-                    .prop('selected',true);
+                    .prop('selected',true)
+                    .trigger('change');
         }
     });
 
