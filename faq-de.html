@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="title" content="Carspring | launchcircle">
-    <meta name="description" content="Get a team of experienced developers & designers to build your project ✓ Fixed price ✓ Germany-based engineers - Get a quote now from our project managers">
+    <meta name="title" content="Häufig gestellte Fragen | launchcircle">
+    <meta name="description" content="Erhalten Sie Antworten auf Ihre Fragen über launchCircle. Technologien, Talente, Gründer, Unterstützer, Prozesse und mehr">
     <meta name="author" content="launchcircle">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
@@ -22,11 +22,12 @@
     })(window,document,'script','dataLayer','GTM-MVQ9LB5');</script>
     <!-- End Google Tag Manager -->
 
-    <title>Carspring | launchcircle</title>
+    <title>Häufig gestellte Fragen | launchcircle</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <!-- Custom styles for this template -->
     <link href="/css/launchcircle.css" type="text/css" rel="stylesheet">
@@ -112,81 +113,817 @@
         <div class="wrapper d-flex">
 
             <div class="launch-circle-title animate-on" data-animation="fadeInLeftBig" data-animation-delay="0.5">
-                <h2>Carspring</h2>
+                <h2>FAQ</h2>
             </div>
 
             <div class="block-container">
                 <div class="ie-center-fix">
                     <div class="d-flex flex-column  justify-content-center align-items-center  card-header-wraper">
-                        <h2><b>No Hassle, No Worries</b></h2>
+                        <h2><b>FAQ</b></h2>
                         <p>
-                            Carspring is a fast growing online used car dealership that allows customers to come to the site,
-                            see hundreds of pre-inspected used cars, and purchase them (with financing options) right from the website.
+                            Answers to the most common questions about launchcircle
                         </p>
-                        <p><a href="#company" class="round page-scroll">company</a></p>
+                        <p><a href="#faq-tabs" class="round page-scroll">tabs</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <section id="company" class="carspring container col-sm-10 p-0 mx-auto">
-        <div class="d-flex flex-wrap company-info-wrapper">
-            <div class="col-md-6 col-sm-12 company-description">
-                <div class="company-logo col-sm-3 p-0 my-4">
-                    <img src="/images/company/carspring-logo.svg" alt="carspring-logo">
+    <div id="faqCarousel" class="slick-slider carousel-center carousel-multi">
+        <ul class="carousel-inner nav nav-pills nav-stacked container col-sm-11 px-2">
+            <li class="carousel-item general-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_gen" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">1.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/general.svg"
+                                 alt="General"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">General</h4>
+                            <p class="card-description">What is launchcircle?
+                                How does it work and why is it better than alternatives?</p>
+                        </div>
+                    </a>
                 </div>
-                <h5 class="title">Carspring</h5>
-                <p class="m-0">
-                    Raised over $9.5m in funding despite launching just in 2015 and is
-                    Europe’s fastest growing online used car dealership
-                </p>
-                <a href="https://www.carspring.co.uk/" class="site-link">Live Site</a>
-                <p class="mb-5">
-                    launchcircle partnered with Carspring to serve as their founding technical team,
-                    creating the website and backend infrastructure, including integrations
-                    with several financial institutions and other related technologies.
-                    <br/><br/>
-                    launchcircle also developed an internally used native mobile application
-                    for the Carspring team to use during vehicle inspections.
-                </p>
-                <h5 class="title">Services</h5>
-                <p>
-                    - Company Strategy<br/>
-                    - UX/UI Design & Prototyping<br/>
-                    - Responsive Web Development<br/>
-                    - API Integration<br/>
-                    - Financial Transaction & Data Security Development<br/>
-                    - QA Testing & Ongoing Support<br/>
-                </p>
-            </div>
-            <div class="col-md-6 col-sm-12 company-image image-wrapper">
-                    <img src="/images/company/carspring-image.png" alt="carspring">
+            </li>
+            <li class="carousel-item services-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card slick-current slick-center">
+                    <a href="#tab_ser" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">2.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/services.svg"
+                                 alt="Services"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Services</h4>
+                            <p class="card-description">What can I have
+                                built? What do you provide?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item price-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_pri" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">3.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/price.svg"
+                                 alt="Price"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Price</h4>
+                            <p class="card-description">How much will my project cost?
+                                Do you do fixed or hourly pricing?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_engin" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">4.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/engineering.svg"
+                                 alt="Engineering"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Engineering</h4>
+                            <p class="card-description">How do you build my team?
+                                How good are your engineers really?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_qual" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">5.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/quality.svg"
+                                 alt="Quality"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Quality</h4>
+                            <p class="card-description">How do you ensure quality work on your projects?
+                                Does your speed compromise quality?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_des" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">6.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/design.svg"
+                                 alt="Design"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Design</h4>
+                            <p class="card-description">Can launchcircle work off of existing designs?
+                                Can you create designs from scratch?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_proc" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">7.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/process.svg"
+                                 alt="Process"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Process</h4>
+                            <p class="card-description">How do I get started with launchcircle?
+                                What do you need from me to start?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_quo" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">8.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/quoting.svg"
+                                 alt="Quoting"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Quoting</h4>
+                            <p class="card-description">How are you able to come up with an estimate so quickly?
+                                Are your quotes real? What happens if you misquote a project?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_cli" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">9.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/clients.svg"
+                                 alt="Clients"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Clients</h4>
+                            <p class="card-description">What type of clients do you work with?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_pay" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">10.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/payment.svg"
+                                 alt="Payment"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Payment</h4>
+                            <p class="card-description">What forms of payment are accepted?
+                                I'm not in Europe, can I use the payment methods above?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_maint" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">11.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/maintenace.svg"
+                                 alt="Maintenance"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Maintenance</h4>
+                            <p class="card-description">What support is provided after project completion?
+                                How does the handover work?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+            <li class="carousel-item engineering-card col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="item carousel-card">
+                    <a href="#tab_conf" data-toggle="pill" class="page-scroll">
+                        <span class="card-number">12.</span>
+                        <div class="card-icon">
+                            <img class="d-block img-fluid" src="/images/icon/confidentiality.svg"
+                                 alt="Confidentiality"/>
+                        </div>
+                        <div class="card-info">
+                            <h4 class="card-title">Confidentiality</h4>
+                            <p class="card-description">How do you keep my idea safe?
+                                Do you sign NDAs?</p>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="carousel-control-wraper col-lg-6 animated fadeInUp">
+            <div class=" carousel-control d-flex justify-content-md-start justify-content-end align-items-center">
+                <a class="carousel-control-prev control" href="javascript:void(0);" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next control" href="javascript:void(0);" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-        <div class="d-flex flex-wrap company-slides">
-            <div class="col-md-6 col-sm-12 company-slide text-sm-center">
-                <div class="image-wrapper"><img src="/images/company/carspring-slide1.png" alt="slide1"></div>
-                <div class="slide-info pt-5">
-                    <h6 class="title">Browse Anywhere:</h6>
-                    <p>
-                        Easily find the right car for you with dozens of filters, a mobile friendly interface,
-                        and an easy to navigate site
-                    </p>
+
+    </div>
+
+    <section id="faq-tabs" class="tabs-section container">
+        <h4 class="tabs-title">Table of Contents</h4>
+        <div class="tab-wrapper container d-flex flex-wrap p-0">
+            <ul class="nav nav-pills nav-stacked col-md-2 flex-column tab-links hidden-sm-down">
+                <li class="active"><a href="#tab_gen" data-toggle="pill">General</a></li>
+                <li><a href="#tab_ser" data-toggle="pill">Services</a></li>
+                <li><a href="#tab_pri" data-toggle="pill">Price</a></li>
+                <li><a href="#tab_engin" data-toggle="pill">Engineering</a></li>
+                <li><a href="#tab_qual" data-toggle="pill">Quality</a></li>
+                <li><a href="#tab_des" data-toggle="pill">Design</a></li>
+                <li><a href="#tab_proc" data-toggle="pill">Process</a></li>
+                <li><a href="#tab_quo" data-toggle="pill">Quoting</a></li>
+                <li><a href="#tab_cli" data-toggle="pill">Clients</a></li>
+                <li><a href="#tab_pay" data-toggle="pill">Payment</a></li>
+                <li><a href="#tab_maint" data-toggle="pill">Maintenance</a></li>
+                <li><a href="#tab_conf" data-toggle="pill">Confidentiality</a></li>
+            </ul>
+            <div class="tab-content col-md-10">
+                <div class="tab-pane active" id="tab_gen">
+                    <h4 class="tab-title">General</h4>
+                    <div class="accordion" id="accordion-general" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-gen-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-general" href="#col-gen-one" aria-expanded="true" aria-controls="col-gen-one">
+                                        What is LaunchCircle? How does it work and why is it better than alternatives?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-gen-one" class="collapse show" role="tabpanel" aria-labelledby="acc-gen-heading-one">
+                                <div class="card-block">
+                                    <p><b>LaunchCircle</b> is a software development service where a Product Manager with project related domain expertise leads
+                                    a team of top contract engineering and design talent to help build your applications, from web to mobile to AI, and more.
+
+                                    Our Engineers, PMs, and Designers come from some of the best institutions including Stanford, Harvard, Google, and
+                                        McKinsey, and have worked on hundreds of projects.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-gen-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-general" href="#col-gen-two" aria-expanded="false" aria-controls="col-gen-two">
+                                        Is launchcircle right for me?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-gen-two" class="collapse" role="tabpanel" aria-labelledby="acc-gen-heading-two">
+                                <div class="card-block">
+                                    <p>Do you have a great idea for an app, website, or algorithm that you'd like help building? If so, then yes!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-gen-heading-three">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-general" href="#col-gen-three" aria-expanded="false" aria-controls="col-gen-three">
+                                        What is your process?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-gen-three" class="collapse" role="tabpanel" aria-labelledby="acc-gen-heading-three">
+                                <div class="card-block">
+                                    <p>We outline our process in detail <a href="/learn.html">here</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12 company-slide text-sm-center">
-                <div class="image-wrapper"><img src="/images/company/carspring-slide2.png" alt="slide2"></div>
-                <div class="slide-info pt-5">
-                    <h6 class="title">The Easy Way:</h6>
-                    <p>
-                        With a few clicks, you could have a car on its way to your home with financing
-                        approved and a 14 day money back guarantee. No muss, no fuss
-                    </p>
+                <div class="tab-pane" id="tab_ser">
+                    <h4 class="tab-title">Services</h4>
+                    <div class="accordion" id="accordion-services" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-ser-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-services" href="#col-ser-one" aria-expanded="true" aria-controls="col-ser-one">
+                                        What can I have built? What do you provide?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-ser-one" class="collapse show" role="tabpanel" aria-labelledby="acc-ser-heading-one">
+                                <div class="card-block">
+                                    <p>launchcircle has a diverse network of experts providing everything from security services to
+                                        mobile development to innovation consulting. If its a digital product, we can probably help you out. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="tab-pane" id="tab_pri">
+                    <h4 class="tab-title">Price</h4>
+                    <div class="accordion" id="accordion-price" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-pri-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-price" href="#col-pri-one" aria-expanded="true" aria-controls="col-pri-one">
+                                        How much will my project cost?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-pri-one" class="collapse show" role="tabpanel" aria-labelledby="acc-pri-heading-one">
+                                <div class="card-block">
+                                    <p>Different projects have different requirements. By filling out a simple form under "Get a quote",
+                                        we can give you a personalized price estimation for your project. This is free and requires no commitment.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-pri-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-price" href="#col-pri-two" aria-expanded="false" aria-controls="col-pri-two">
+                                        Do you do fixed or hourly pricing?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-pri-two" class="collapse" role="tabpanel" aria-labelledby="acc-pri-heading-two">
+                                <div class="card-block">
+                                    <p>All pricing through launchcircle is fixed. We believe that fixed price development better aligns
+                                        interests between the project teams, launchcircle, and with you</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_engin">
+                    <h4 class="tab-title">Engineering</h4>
+                    <div class="accordion" id="accordion-engineering" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-engin-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-engineering" href="#col-engin-one" aria-expanded="true" aria-controls="col-engin-one">
+                                        How do you build my team?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-engin-one" class="collapse show" role="tabpanel" aria-labelledby="acc-engin-heading-one">
+                                <div class="card-block">
+                                    <p>Based on your product requirements, we put together a dynamic team from our network
+                                        that we believe will be best suited to building your product</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-engin-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-engineering" href="#col-engin-two" aria-expanded="false" aria-controls="col-engin-two">
+                                        Who are the PMs?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-engin-two" class="collapse" role="tabpanel" aria-labelledby="acc-engin-heading-two">
+                                <div class="card-block">
+                                    <p>Our PMs are technical experts with expertise in a variety of areas and are matched based on project scope and their background</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-engin-heading-three">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-engineering" href="#col-engin-three" aria-expanded="false" aria-controls="col-engin-three">
+                                        Who are the engineers?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-engin-three" class="collapse" role="tabpanel" aria-labelledby="acc-engin-heading-three">
+                                <div class="card-block">
+                                    <p>Our engineers come from places like Oracle, Rocket Internet, Google, and more and are handpicked by us for each project</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-engin-heading-four">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-engineering" href="#col-engin-four" aria-expanded="false" aria-controls="col-engin-four">
+                                        Who are the engineers?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-engin-four" class="collapse" role="tabpanel" aria-labelledby="acc-engin-heading-four">
+                                <div class="card-block">
+                                    <p>Our engineers come from places like Oracle, Rocket Internet, Google, and more and are handpicked by us for each project</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_qual">
+                    <h4 class="tab-title">Quality</h4>
+                    <div class="accordion" id="accordion-quality" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-qual-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-quality" href="#col-qual-one" aria-expanded="true" aria-controls="col-qual-one">
+                                        How do you ensure quality work on your projects?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-qual-one" class="collapse show" role="tabpanel" aria-labelledby="acc-qual-heading-one">
+                                <div class="card-block">
+                                    <p>We ensure quality work by only working with high quality talent, making sure that
+                                        we're aligned on project goals, and by listening to your feedback as much as possible</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-qual-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-quality" href="#col-qual-two" aria-expanded="false" aria-controls="col-qual-two">
+                                        Does your speed compromise quality?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-qual-two" class="collapse" role="tabpanel" aria-labelledby="acc-qual-heading-two">
+                                <div class="card-block">
+                                    <p>The expertise of our engineers guided by our PMs means that our teams can quickly assess and engage in the best approach to developing your product</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_des">
+                    <h4 class="tab-title">Design</h4>
+                    <div class="accordion" id="accordion-design" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-des-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-design" href="#col-des-one" aria-expanded="true" aria-controls="col-des-one">
+                                        Can launchcircle work off of existing designs?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-des-one" class="collapse show" role="tabpanel" aria-labelledby="acc-des-heading-one">
+                                <div class="card-block">
+                                    <p>Yes, this is often actually very helpful for us to understand your product vision</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-des-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-design" href="#col-des-two" aria-expanded="false" aria-controls="col-des-two">
+                                        Can you create designs from scratch?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-des-two" class="collapse" role="tabpanel" aria-labelledby="acc-des-heading-two">
+                                <div class="card-block">
+                                    <p>Yes, we have extremely talented designers and follow the human centered design approach pioneered by IDEO to create great products</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_proc">
+                    <h4 class="tab-title">Process</h4>
+                    <div class="accordion" id="accordion-process" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-one" aria-expanded="true" aria-controls="col-proc-one">
+                                        How do I get started with launchcircle?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-one" class="collapse show" role="tabpanel" aria-labelledby="acc-proc-heading-one">
+                                <div class="card-block">
+                                    <p>Just click the 'start a project' button, fill in some short details about your project,
+                                        and one of our team members will be in touch within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-two" aria-expanded="false" aria-controls="col-proc-two">
+                                        What do you need from me to start?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-two" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-two">
+                                <div class="card-block">
+                                    <p>The more information you have, the more optimal the team we assemble will be, but we've worked
+                                        on projects that are nothing more than an idea or back of the napkin sketch</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-three">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-three" aria-expanded="false" aria-controls="col-proc-three">
+                                        When does my project start?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-three" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-three">
+                                <div class="card-block">
+                                    <p>After you work with your PM to define requirements, we'll schedule a kickoff call and ask you to pay your deposit.
+                                        By the time your kickoff call is scheduled, your team will be ready to go</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-four">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-four" aria-expanded="false" aria-controls="col-proc-four">
+                                        Why do I have to communicate with the team through a project manager?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-four" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-four">
+                                <div class="card-block">
+                                    <p>Our project managers are able to advise you on any unforseen questions and present your feedback in a way that is most easily recieived
+                                        by our engineers. Our experiences have shown that this system faciliates the greatest success all around!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-five">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-five" aria-expanded="false" aria-controls="col-proc-five">
+                                        What if I change my mind on specifications or come up with new features during the process?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-five" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-five">
+                                <div class="card-block">
+                                    <p>Waiting for approval before beginning on the next steps allows us to remain on the same page and address a change in specifications
+                                        before creation. While we will try our best to accomodate your vision as much as possible, large changes to the project may be
+                                        reflected in a change in quote. We believe in being fair not just to our client, but also our engineers.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-six">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-six" aria-expanded="false" aria-controls="col-proc-six">
+                                        At what stages can launchcircle be incorporated into my project?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-six" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-six">
+                                <div class="card-block">
+                                    <p>We help you bring your idea to life, whether that means defining features or simply building features.
+                                        As long as you have a product concept, we can offer our expertise to help shape the rest.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-seven">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-seven" aria-expanded="false" aria-controls="col-proc-seven">
+                                        I want to make sure I am informed throughout the process. How will my voice be heard?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-seven" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-seven">
+                                <div class="card-block">
+                                    <p>After your project kicks off, you will receive regular progress updates through your project manager.
+                                        We do not begin the next step until we have your feedback and approval.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-proc-heading-eight">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-process" href="#col-proc-eight" aria-expanded="false" aria-controls="col-proc-eight">
+                                        How involved is the PM in the process?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-proc-eight" class="collapse" role="tabpanel" aria-labelledby="acc-proc-heading-eight">
+                                <div class="card-block">
+                                    <p>Your PM is the interface between you and the team. We use in house PMs who have years of product experience and know how to
+                                        translate your requirements into the launchcircle process </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_quo">
+                    <h4 class="tab-title">Quoting</h4>
+                    <div class="accordion" id="accordion-quoting" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-quo-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-quoting" href="#col-quo-one" aria-expanded="true" aria-controls="col-quo-one">
+                                        How are you able to come up with an estimate so quickly?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-quo-one" class="collapse show" role="tabpanel" aria-labelledby="acc-quo-heading-one">
+                                <div class="card-block">
+                                    <p>We've seen thousands of projects and have used our knowledge combined with proprietary algorithms and machine learning tools
+                                        to create a system that allows us to come up with estimates for most applications very quickly and with a high degree of accuracy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-quo-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-quoting" href="#col-quo-two" aria-expanded="false" aria-controls="col-quo-two">
+                                        Are your quotes real? What happens if you misquote a project?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-quo-two" class="collapse" role="tabpanel" aria-labelledby="acc-quo-heading-two">
+                                <div class="card-block">
+                                    <p>Yes, if it's in the contract, then that's the price you'll pay for your project</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_cli">
+                    <h4 class="tab-title">Clients</h4>
+                    <div class="accordion" id="accordion-clients" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-cli-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-clients" href="#col-cli-one" aria-expanded="true" aria-controls="col-cli-one">
+                                        How are you able to come up with an estimate so quickly?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-cli-one" class="collapse show" role="tabpanel" aria-labelledby="acc-cli-heading-one">
+                                <div class="card-block">
+                                    <p>We've seen thousands of projects and have used our knowledge combined with proprietary algorithms and machine learning tools
+                                        to create a system that allows us to come up with estimates for most applications very quickly and with a high degree of accuracy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_pay">
+                    <h4 class="tab-title">Payment</h4>
+                    <div class="accordion" id="accordion-payment" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-pay-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-payment" href="#col-pay-one" aria-expanded="true" aria-controls="col-pay-one">
+                                        What forms of payment are accepted?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-pay-one" class="collapse show" role="tabpanel" aria-labelledby="acc-pay-heading-one">
+                                <div class="card-block">
+                                    <p>We accept Paypal, Wire Transfers, BTC/Ethereum, checks, and diamonds</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-pay-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-payment" href="#col-pay-two" aria-expanded="false" aria-controls="col-pay-two">
+                                        I'm not in Europe, can I use the payment methods above?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-pay-two" class="collapse" role="tabpanel" aria-labelledby="acc-pay-heading-two">
+                                <div class="card-block">
+                                    <p>Yes, please use any of the above payment methods that are available in your country and most convenient for you</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_maint">
+                    <h4 class="tab-title">Maintenance</h4>
+                    <div class="accordion" id="accordion-maintenance" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-maint-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-maintenance" href="#col-maint-one" aria-expanded="true" aria-controls="col-maint-one">
+                                        What support is provided after project completion?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-maint-one" class="collapse show" role="tabpanel" aria-labelledby="acc-maint-heading-one">
+                                <div class="card-block">
+                                    <p>Depending on whether you want launchcircle to continue maintaining your product or handing it off to your team, we have various
+                                        packages for support ranging from maintenance and hosting to ongoing product development</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-maint-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-maintenance" href="#col-maint-two" aria-expanded="false" aria-controls="col-maint-two">
+                                        How does the handover work?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-maint-two" class="collapse" role="tabpanel" aria-labelledby="acc-maint-heading-two">
+                                <div class="card-block">
+                                    <p>When the project is completed according to the project plan, your team will be transferred all source code.
+                                        We will answer questions until your team feels comfortable with the product. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="tab_conf">
+                    <h4 class="tab-title">Confidentiality</h4>
+                    <div class="accordion" id="accordion-confidentiality" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-conf-heading-one">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-confidentiality" href="#col-conf-one" aria-expanded="true" aria-controls="col-conf-one">
+                                        How do you keep my idea safe?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-conf-one" class="collapse show" role="tabpanel" aria-labelledby="acc-conf-heading-one">
+                                <div class="card-block">
+                                    <p>Our confidentiality agreement gives you full legal rights to your own ideas so that you feel
+                                        comfortable elaborating as much as necessary to best bring your idea to life</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-conf-heading-two">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-confidentiality" href="#col-conf-two" aria-expanded="false" aria-controls="col-conf-two">
+                                        Do you sign NDAs?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-conf-two" class="collapse" role="tabpanel" aria-labelledby="acc-conf-heading-two">
+                                <div class="card-block">
+                                    <p>Yes, we have a standard NDA available upon request</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="acc-conf-heading-three">
+                                <h5 class="mb-0">
+                                    <a data-toggle="collapse" data-parent="accordion-confidentiality" href="#col-conf-three" aria-expanded="false" aria-controls="col-conf-three">
+                                        Do I own the rights to the tech you build for me?
+                                    </a>
+                                </h5>
+                            </div>
+
+                            <div id="col-conf-three" class="collapse" role="tabpanel" aria-labelledby="acc-conf-heading-three">
+                                <div class="card-block">
+                                    <p>Yes, all tech launchcircle builds is the property of the client unless another agreement has been formally arranged with you</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- tab content -->
         </div>
-    </section>
+    </section><!-- end of container -->
+
     <p class="text-center">
         <a href="javascript:void(0);" data-toggle="modal" data-target="#modal-project" class="btn btn-info with-icon animated my-5 fadeInUp">Start a Project</a>
     </p>
@@ -719,7 +1456,6 @@
                         <div class="form-group">
                             <label for="project-email">Email: <span class="required">*</span></label>
                             <input name="entry.1388388449" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="project-email" required/>
-                            <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
@@ -973,10 +1709,12 @@
 <script src="/js/jquery.easing.min.js"></script>
 <script src="/js/waypoint.js"></script>
 <script src="/js/validator.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="/js/ie10-viewport-bug-workaround.js"></script>
 <script src="/js/main.js"></script>
+<script src="/js/multi-items-slider.js"></script>
 <script type="text/javascript"> _linkedin_data_partner_id = "89180"; </script>
 <script type="text/javascript">    (function () {
     var s = document.getElementsByTagName("script")[0];

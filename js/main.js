@@ -4,12 +4,6 @@
 
     "use strict";
 
-    var live = false;
-
-    if(live) {
-        $('.locale').hide();
-    }
-
     $('#launchCircleToptalent').carousel({
         ride: "carousel",
         interval: 10000,
@@ -66,7 +60,7 @@
         if ($(this).val() === '0') {
             changeLang('en');
         }
-        if ($(this).val() === '1') {
+        if ($(this).val() === '1' && !/(faq)/g.test(window.location.pathname)) {
             changeLang('de');
         }
     });
