@@ -63,10 +63,6 @@
         if ($(this).val() === '1' && !/(faq)/g.test(window.location.pathname)) {
             changeLang('de');
         }
-        //Temporary action, while faq page still haven't german translations
-        else if(!/(faq)/g.test(window.location.pathname)) {
-            e.preventDefault();
-        }
     });
 
     //fix of scrolling on disabled button click
