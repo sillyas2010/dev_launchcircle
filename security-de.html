@@ -21,9 +21,10 @@
                 ifHasExtension = /(\.html)$/;
             if(ifHomepage.test(currPage))
                 window.location.pathname = "/";
-            else if(ifHasExtension.test(currPage))
+            else if(ifHasExtension.test(currPage)) {
                 currPage = currPage.replace(ifHasExtension,"");
                 window.location.pathname = currPage;
+            }
         }
         redirect();
     </script>
