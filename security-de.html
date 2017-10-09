@@ -14,6 +14,20 @@
     <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <script>
+        function redirect() {
+            var currPage = window.location.pathname,
+                ifHomepage = /(index)(\.html)?$/,
+                ifHasExtension = /(\.html)$/;
+            if(ifHomepage.test(currPage))
+                window.location.pathname = "/";
+            else if(ifHasExtension.test(currPage))
+                currPage = currPage.replace(ifHasExtension,"");
+                window.location.pathname = currPage;
+        }
+        redirect();
+    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,7 +57,7 @@
     <div class="container p-0">
         <div id="thing" class="navigation p-0">
             <nav class="navbar  navbar-toggleable-md navbar-light p-0">
-                <a href="/index-de.html" class="logo">
+                <a href="/index-de" class="logo">
                     <img src="/images/logo.svg" alt="launchcircle" height="43" width="168" class="img-responsive"/>
                 </a>
                 <button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -55,9 +69,9 @@
                 <div id="navbarNav" class="collapse navbar-collapse navbar-toggleable-md">
                     <div class="header-nav ml-auto">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item nav-link"><a href="/talent-de.html">Talent</a></li>
-                            <li class="nav-item nav-link"><a href="/portfolio-de.html">Klienten</a></li>
-                            <li class="nav-item nav-link"><a href="/learn-de.html">Lernen</a></li>
+                            <li class="nav-item nav-link"><a href="/talent-de">Talent</a></li>
+                            <li class="nav-item nav-link"><a href="/portfolio-de">Klienten</a></li>
+                            <li class="nav-item nav-link"><a href="/learn-de">Lernen</a></li>
                             <li class="nav-item nav-link sub-header-dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle">Company</a>
                                 <nav class="navbar sub-header-navbar navbar-toggleable-md navbar-light p-0">
@@ -68,19 +82,19 @@
                                                     <div class="point point-white">
                                                         <img src="/images/icon/difference.svg" alt="Unterschied" class="img-responsive">
                                                     </div>
-                                                    <a href="/difference-de.html">Unterschied</a>
+                                                    <a href="/difference-de">Unterschied</a>
                                                 </li>
                                                 <li class="nav-item nav-link w-icon">
                                                     <div class="point point-white">
                                                         <img src="/images/icon/security.svg" alt="Sicherheit" class="img-responsive">
                                                     </div>
-                                                    <a href="/security-de.html">Sicherheit</a>
+                                                    <a href="/security-de">Sicherheit</a>
                                                 </li>
                                                 <li class="nav-item nav-link w-icon">
                                                     <div class="point point-white">
                                                         <img src="/images/icon/about-us.svg" alt="Über uns" class="img-responsive">
                                                     </div>
-                                                    <a href="/about-us-de.html">Über uns</a>
+                                                    <a href="/about-us-de">Über uns</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1038,7 +1052,7 @@
         <div class="copyright">
             <div class="row flex-md-row flex-sm-column">
                 <div class="col-md-4 logo col-sm-6 mx-auto">
-                    <a href="/index-de.html">
+                    <a href="/index-de">
                         <img src="/images/logo.svg" alt="launchcircle" height="43" width="168" class="img-responsive"/>
                     </a>
                 </div>
@@ -1050,7 +1064,7 @@
                         <li><a href="mailto:press@launchcircle.com?subject=Media">Media</a></li>
                         <li><a href="mailto:support@launchcircle.com?subject=Support">Support</a></li>
                         <li><a href="mailto:info@launchcircle.com?subject=Kontakt">Kontakt</a></li>
-                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
             </div>

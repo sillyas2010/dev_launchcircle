@@ -14,6 +14,20 @@
     <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <script>
+        function redirect() {
+            var currPage = window.location.pathname,
+                ifHomepage = /(index)(\.html)?$/,
+                ifHasExtension = /(\.html)$/;
+            if(ifHomepage.test(currPage))
+                window.location.pathname = "/";
+            else if(ifHasExtension.test(currPage))
+                currPage = currPage.replace(ifHasExtension,"");
+                window.location.pathname = currPage;
+        }
+        redirect();
+    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -44,7 +58,7 @@
     <div class="container p-0">
         <div id="thing" class="navigation p-0">
             <nav class="navbar  navbar-toggleable-md navbar-light p-0">
-                <a href="/index.html" class="logo">
+                <a href="/" class="logo">
                     <img src="/images/logo.svg" alt="launchcircle" height="43" width="168" class="img-responsive"/>
                 </a>
                 <button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -56,9 +70,9 @@
                 <div id="navbarNav" class="collapse navbar-collapse navbar-toggleable-md">
                     <div class="header-nav ml-auto">
                         <ul class="nav navbar-nav">
-                            <li class="nav-item nav-link"><a href="/talent.html">Talent</a></li>
-                            <li class="nav-item nav-link"><a href="/portfolio.html">Clients</a></li>
-                            <li class="nav-item nav-link"><a href="/learn.html">Learn</a></li>
+                            <li class="nav-item nav-link"><a href="/talent">Talent</a></li>
+                            <li class="nav-item nav-link"><a href="/portfolio">Clients</a></li>
+                            <li class="nav-item nav-link"><a href="/learn">Learn</a></li>
                             <li class="nav-item nav-link sub-header-dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle">Company</a>
                                 <nav class="navbar sub-header-navbar navbar-toggleable-md navbar-light p-0">
@@ -69,19 +83,19 @@
                                                     <div class="point point-white">
                                                         <img src="/images/icon/difference.svg" alt="Difference" class="img-responsive">
                                                     </div>
-                                                    <a href="/difference.html">Difference</a>
+                                                    <a href="/difference">Difference</a>
                                                 </li>
                                                 <li class="nav-item nav-link w-icon">
                                                     <div class="point point-white">
                                                         <img src="/images/icon/security.svg" alt="Security" class="img-responsive">
                                                     </div>
-                                                    <a href="/security.html">Security</a>
+                                                    <a href="/security">Security</a>
                                                 </li>
                                                 <li class="nav-item nav-link w-icon">
                                                     <div class="point point-white">
                                                         <img src="/images/icon/about-us.svg" alt="About-us" class="img-responsive">
                                                     </div>
-                                                    <a href="/about-us.html">About us</a>
+                                                    <a href="/about-us">About us</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -405,7 +419,7 @@
 
                             <div id="col-gen-three" class="collapse" role="tabpanel" aria-labelledby="acc-gen-heading-three">
                                 <div class="card-block">
-                                    <p>We outline our process in detail <a href="/learn.html">here</a></p>
+                                    <p>We outline our process in detail <a href="/learn">here</a></p>
                                 </div>
                             </div>
                         </div>
@@ -1673,7 +1687,7 @@
         <div class="copyright">
             <div class="row flex-md-row flex-sm-column">
                 <div class="col-md-4 logo col-sm-6 mx-auto">
-                    <a href="/index.html">
+                    <a href="/">
                         <img src="/images/logo.svg" alt="launchcircle" height="43" width="168" class="img-responsive"/>
                     </a>
                 </div>
@@ -1685,7 +1699,7 @@
                         <li><a href="mailto:press@launchcircle.com?subject=Media">Media</a></li>
                         <li><a href="mailto:support@launchcircle.com?subject=Support">Support</a></li>
                         <li><a href="mailto:info@launchcircle.com?subject=Contact">Contact</a></li>
-                        <li><a href="/faq.html">FAQ</a></li>
+                        <li><a href="/faq">FAQ</a></li>
                     </ul>
                 </div>
             </div>
