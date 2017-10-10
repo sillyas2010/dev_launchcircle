@@ -955,7 +955,7 @@
                       class="col-lg-8 m-auto  animated fadeInUp img-block d-flex justify-content-center align-items-end">
                     <div class="input-group custom-control">
                         <input class="custom-control-inputs" name="entry.105913341" id="email" type="email" title="Subscription email" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
-                               placeholder="Your Email" required>
+                               placeholder="Your Email" data-required-error="Bitte füllen Sie dieses Feld aus." required>
                         <button class="btn btn-primary with-icon green" type="submit">Submit</button>
                     </div>
                 </form>
@@ -1432,7 +1432,7 @@
                         Deutschland<br>
                         E-Mail: info@launchcircle.com<br>
                         Website: https://www.launchcircle.com<br>
-                        Geschäftsführer: Dörte Hirschberg, Ronny Rentner<br>
+                        Geschäftsführer: Ronny Rentner<br>
                         Amtsgericht Charlottenburg (Berlin), HRB 178940 B<br>
                         USt-IdNr.: DE308908153<br><br>
                         <span class="centered-small">
@@ -1464,13 +1464,13 @@
                     <form role="form" data-toggle="validator" id="project-form" title="Project form" action="https://docs.google.com/forms/d/e/1FAIpQLScwlk5rSyNrK3-1lkU4l_d0vzGQMc8G0PPu8PItbYy3WyX7kw/formResponse?embedded=true">
                         <div class="form-group">
                             <label for="project-name">Name: <span class="required">*</span></label>
-                            <input name="entry.70061164" type="text" pattern="^[A-Za-z\s]{2,50}$" data-error="Please type at least 2 and less 50 letters" id="project-name" required/>
+                            <input name="entry.70061164" type="text" pattern="^[A-Za-z\s]{2,50}$" data-error="Please type at least 2 and less 50 letters" id="project-name" data-required-error="Bitte füllen Sie dieses Feld aus." required/>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
                             <label for="project-email">Email: <span class="required">*</span></label>
-                            <input name="entry.1388388449" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="project-email" required/>
+                            <input name="entry.1388388449" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="project-email" data-required-error="Bitte füllen Sie dieses Feld aus." required/>
                         </div>
 
                         <div class="form-group">
@@ -1512,7 +1512,7 @@
 
                         <div class="form-group">
                             <label for="project-description">Tell us a bit about your project: <span class="required">*</span></label>
-                            <textarea rows="3" cols="19" name="entry.966760029" id="project-description" required></textarea>
+                            <textarea rows="3" cols="19" name="entry.966760029" id="project-description" data-required-error="Bitte füllen Sie dieses Feld aus." required></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
                     </form>
@@ -1538,18 +1538,18 @@
                     <form role="form" data-toggle="validator" id="freelancer-form" title="Freelancer form" action="https://docs.google.com/forms/d/e/1FAIpQLScoK7sWfsSqqRrpHB13pclRVhfS8MxE9onlfSBZyxRHiX1hAg/formResponse?embedded=true">
                         <div class="form-group">
                             <label for="freelancer-name">Name: <span class="required">*</span></label>
-                            <input name="entry.1145841093" type="text" pattern="^[A-Za-z\s]{2,50}$" data-error="Please type at least 2 and less 50 letters" id="freelancer-name" required/>
+                            <input name="entry.1145841093" type="text" pattern="^[A-Za-z\s]{2,50}$" data-error="Please type at least 2 and less 50 letters" id="freelancer-name" data-required-error="Bitte füllen Sie dieses Feld aus." required/>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
                             <label for="freelancer-email">Email: <span class="required">*</span></label>
-                            <input name="entry.1302713647" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="freelancer-email" required/>
+                            <input name="entry.1302713647" data-pattern-error="Email is missing an '@', '.' or domain name like 'com,uk, etc.' , please type a valid email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" id="freelancer-email" data-required-error="Bitte füllen Sie dieses Feld aus." required/>
                             <div class="help-block with-errors"></div>
                         </div>
 
                         <div class="form-group">
-                            <label for="project-phone">Phone Number (please provide country code) :</label>
+                            <label for="freelancer-phone">Phone Number (please provide country code) :</label>
                             <input name="entry.1199303761" type="tel" data-pattern-error="Please match the requested format." pattern="^([0-9]{1,15}[ ]*){1,10}$" title="International telephone number" id="freelancer-phone"/>
                             <div class="help-block with-errors"></div>
                         </div>
@@ -1603,7 +1603,7 @@
 
                         <label class="custom-control custom-radio">
                             <input class="custom-control-input" type="radio" name="entry.1351774644"
-                                   id="c1" value="0-10 hours per week" required/>
+                                   id="c1" value="0-10 hours per week" data-required-error="Bitte füllen Sie dieses Feld aus." required/>
                             <span class="custom-control-indicator"></span>
                             <span class="custom-control-description">0-10 hours per week</span>
                         </label>
@@ -1632,7 +1632,7 @@
                         <div class="form-group">
                             <label for="freelancer-description">Please tell us a bit about your background
                                 (professional and personal): <span class="required">*</span></label>
-                            <textarea rows="3" cols="19" name="entry.2061497959" id="freelancer-description" required></textarea>
+                            <textarea rows="3" cols="19" name="entry.2061497959" id="freelancer-description" data-required-error="Bitte füllen Sie dieses Feld aus." required></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
 

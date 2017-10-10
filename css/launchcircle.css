@@ -435,7 +435,7 @@ a:active {
     top: 1.06em;
 }
 
-body.ge .modal-body form:before {
+body.de .modal-body form:before {
     content: '* ist erforderlich';
 }
 
