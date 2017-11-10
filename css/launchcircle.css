@@ -2210,7 +2210,7 @@ section.salesforce .salesforce-list {
         border-right: 0;
     }
 
-    .salesforce-list .salesforce-item:after {
+    .salesforce-list .salesforce-item:nth-child(-n+9):after {
         content: '';
         position: absolute;
         bottom: -1.7em;
@@ -2226,7 +2226,7 @@ section.salesforce .salesforce-list {
         border-right: 0;
     }
 
-    .salesforce-list .salesforce-item:nth-child(-n+2):after {
+    .salesforce-list .salesforce-item:nth-child(-n+8):after {
         content: '';
         position: absolute;
         bottom: -1.7em;
@@ -2242,7 +2242,7 @@ section.salesforce .salesforce-list {
         border-right: 0;
     }
 
-    .salesforce-list .salesforce-item:nth-child(-n+3):after {
+    .salesforce-list .salesforce-item:nth-child(-n+9):after {
         content: '';
         position: absolute;
         bottom: -1.7em;
@@ -2258,7 +2258,7 @@ section.salesforce .salesforce-list {
         border-right: 0;
     }
 
-    .salesforce-list .salesforce-item:nth-child(-n+4):after {
+    .salesforce-list .salesforce-item:nth-child(-n+8):after {
         content: '';
         position: absolute;
         bottom: -1.7em;
