@@ -56,11 +56,13 @@
     });
 
     $('.locale .custom-select').on('change', function (e) {
-        if ($(this).val() === '0') {
-            changeLang('en');
-        }
-        if ($(this).val() === '1' && !/(faq)/g.test(window.location.pathname)) {
-            changeLang('de');
+        if(!/(faq)/g.test(window.location.pathname) && !/(salesforce)/g.test(window.location.pathname)) {
+            if ($(this).val() === '0') {
+                changeLang('en');
+            }
+            if ($(this).val() === '1') {
+                changeLang('de');
+            }
         }
     });
 
