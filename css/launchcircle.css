@@ -2190,6 +2190,62 @@ section.difference .advantage-list {
 }
 
 /* --------------------------------------
+    SALESFORCE PAGE
+-----------------------------------------*/
+
+section.salesforce .salesforce-list {
+    flex-direction: row;
+}
+
+.salesforce-list .salesforce-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3.5em;
+    border-right: 1px solid lightgray;
+}
+
+.salesforce-list .salesforce-item:nth-child(5n) {
+    border-right: 0;
+}
+
+article.advantage-item:nth-child(-n+5):after {
+    content: '';
+    position: absolute;
+    bottom: -1.7em;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.salesforce-item .icon-container img {
+    height: 3.5em;
+    margin: 0 auto 1em;
+    display: flex;
+}
+
+.salesforce-item .icon-container {
+    width: 100%;
+    padding: 0 1.5em;
+}
+
+.salesforce-item .info-container {
+    width: 100%;
+    padding-top: .3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.salesforce-item .info-container .title {
+    font-size: 1.025em;
+}
+
+.salesforce-item .info-container p {
+    font-size: .8em;
+}
+
+/* --------------------------------------
     CASE-STUDIES PAGE
 -----------------------------------------*/
 
