@@ -2205,18 +2205,84 @@ section.salesforce .salesforce-list {
     border-right: 1px solid lightgray;
 }
 
-.salesforce-list .salesforce-item:nth-child(5n) {
-    border-right: 0;
+@media screen and (max-width: 575px) {
+    .salesforce-list .salesforce-item {
+        border-right: 0;
+    }
+
+    .salesforce-list .salesforce-item:after {
+        content: '';
+        position: absolute;
+        bottom: -1.7em;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
 }
 
-article.advantage-item:nth-child(-n+5):after {
-    content: '';
-    position: absolute;
-    bottom: -1.7em;
-    left: 50%;
-    transform: translate(-50%,0);
-    width: 100%;
-    border-bottom: 1px solid lightgray;
+@media screen and (min-width: 576px) {
+    .salesforce-list .salesforce-item:nth-child(2n) {
+        border-right: 0;
+    }
+
+    .salesforce-list .salesforce-item:nth-child(-n+2):after {
+        content: '';
+        position: absolute;
+        bottom: -1.7em;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .salesforce-list .salesforce-item:nth-child(3n) {
+        border-right: 0;
+    }
+
+    .salesforce-list .salesforce-item:nth-child(-n+3):after {
+        content: '';
+        position: absolute;
+        bottom: -1.7em;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .salesforce-list .salesforce-item:nth-child(4n) {
+        border-right: 0;
+    }
+
+    .salesforce-list .salesforce-item:nth-child(-n+4):after {
+        content: '';
+        position: absolute;
+        bottom: -1.7em;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .salesforce-list .salesforce-item:nth-child(5n) {
+        border-right: 0;
+    }
+
+    .salesforce-list .salesforce-item:nth-child(-n+5):after {
+        content: '';
+        position: absolute;
+        bottom: -1.7em;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+    }
 }
 
 .salesforce-item .icon-container img {
