@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="68px" viewBox="0 0 67 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>cube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cube">
+            <g id="Layer_1">
+                <polygon id="Shape" fill="#FFFFFF" points="33.5801261 67.6927098 16.9080476 58.0548482 16.9080476 38.7807188 33.5801261 48.4185804"></polygon>
+                <polygon id="Shape" fill="#F2F2F2" points="33.5801261 29.1428571 16.9080476 38.7807188 33.5801261 48.4185804 50.2522046 38.7807188"></polygon>
+                <polygon id="Shape" fill="#D9D8D7" points="33.5801261 67.6927098 50.2508402 58.0548482 50.2508402 38.7807188 33.5801261 48.4185804"></polygon>
+                <polygon id="Shape" fill="#FFFFFF" points="17.0609426 39.9390181 0.388864097 30.3011565 0.388864097 11.027027 17.0609426 20.6648886"></polygon>
+                <polygon id="Shape" fill="#F2F2F2" points="17.0609426 0.918918919 0.388864097 10.5567805 17.0609426 20.1946421 33.7330211 10.5567805"></polygon>
+                <polygon id="Shape" fill="#D9D8D7" points="17.8272203 39.9390181 34.4979343 30.3011565 34.4979343 11.027027 17.8272203 20.6648886"></polygon>
+                <polygon id="Shape" fill="#898AEA" points="50.2508402 38.7800357 33.5801261 29.1428571 33.5801261 9.86941071 50.2508402 19.5065893"></polygon>
+                <polygon id="Shape" fill="#242D3C" points="50.2508402 0.230866071 33.5801261 9.86941071 50.2508402 19.5065893 66.9236009 9.86941071"></polygon>
+                <polygon id="Shape" fill="#16C6CC" points="50.2508402 38.7800357 66.9236009 29.1428571 66.9236009 9.86941071 50.2508402 19.5065893"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
