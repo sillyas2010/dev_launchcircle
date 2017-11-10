@@ -2210,13 +2210,13 @@ section.salesforce .salesforce-list {
         border-right: 0;
     }
 
-    .salesforce-list .salesforce-item:nth-child(-n+9):after {
+    .salesforce-list .salesforce-item:after {
         content: '';
         position: absolute;
         bottom: -1.7em;
         left: 50%;
         transform: translate(-50%,0);
-        width: 100%;
+        width: 75%;
         border-bottom: 1px solid lightgray;
     }
 }
