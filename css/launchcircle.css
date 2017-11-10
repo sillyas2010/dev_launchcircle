@@ -2221,7 +2221,7 @@ section.salesforce .salesforce-list {
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
     .salesforce-list .salesforce-item:nth-child(2n) {
         border-right: 0;
     }
@@ -2237,7 +2237,7 @@ section.salesforce .salesforce-list {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .salesforce-list .salesforce-item:nth-child(3n) {
         border-right: 0;
     }
@@ -2253,7 +2253,7 @@ section.salesforce .salesforce-list {
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .salesforce-list .salesforce-item:nth-child(4n) {
         border-right: 0;
     }
