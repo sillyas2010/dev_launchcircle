@@ -1764,6 +1764,10 @@ section.difference .advantage-list {
     background-color: #F4F8FC;
 }
 
+.card-header-wraper .card-shrinked {
+    min-height: 250px;
+}
+
 .round {
     height: 40.69px;
     width: 40.69px;
