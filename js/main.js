@@ -141,6 +141,7 @@
                         createNotify('Danke für deine Einreichung, es ist empfangen worden' +
                             ' und jemand wird dich bald erreichen.','succeed','fixed')
                     }
+                    window.location.href = '/submit';
                 }
             });
         }
