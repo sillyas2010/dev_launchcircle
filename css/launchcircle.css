@@ -747,8 +747,13 @@ header .launch-circle-info h3 {
     margin-bottom: 15px;
 }
 
-header .launch-circle-images {
+header .launch-circle-image {
     margin-top: 97px;
+}
+
+header .launch-circle-images {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navigation {
