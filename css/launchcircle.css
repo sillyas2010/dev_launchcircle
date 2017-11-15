@@ -2480,9 +2480,6 @@ footer .copyright-info {
         -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
-}
-
-@media (max-width: 980px) {
 
     .launch-circle-title h2:after {
         content: '';
@@ -2492,6 +2489,9 @@ footer .copyright-info {
         background-color: #12D4C4;
         margin: 4px 0px 4px 21px;
     }
+}
+
+@media (max-width: 980px) {
 
     .toptalent .img-block {
         min-height: inherit;
