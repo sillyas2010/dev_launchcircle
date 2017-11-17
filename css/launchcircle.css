@@ -2429,9 +2429,16 @@ footer .copyright-info {
 .bottom-ul {
     list-style-type: none;
     float: right;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-size: 12px;
+    padding-left: 0;
     padding-right: 4em;
+}
+
+@media screen and (min-width: 1400px) {
+    .bottom-ul {
+        padding-right: 0;
+    }
 }
 
 .bottom-ul li {
